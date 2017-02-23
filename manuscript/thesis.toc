@@ -1,29 +1,30 @@
 \select@language {brazil}
 \select@language {english}
 \select@language {brazil}
-\contentsline {chapter}{Lista de Figuras}{ix}{chapter*.3}
-\contentsline {chapter}{Lista de Tabelas}{x}{chapter*.4}
+\contentsline {chapter}{Lista de Figuras}{x}{chapter*.3}
+\contentsline {chapter}{Lista de Tabelas}{xii}{chapter*.4}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Metodologia}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Par\IeC {\^a}metros geom\IeC {\'e}tricos e sistemas de coordenadas}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}Background Te\IeC {\'o}rico}{6}{section.2.2}
 \contentsline {section}{\numberline {2.3}Transforma\IeC {\c c}\IeC {\~a}o de coordenadas}{9}{section.2.3}
-\contentsline {section}{\numberline {2.4}Tensores de depolariza\IeC {\c c}\IeC {\~a}o transformados $\mathaccentV {tilde}07E{\mathbf {N}}(\mathaccentV {tilde}07E{\mathbf {r}})$}{10}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Tensor de depolariza\IeC {\c c}\IeC {\~a}o $\mathaccentV {tilde}07E{\mathbf {N}}^{\dagger }$}{10}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Tensor de depolariza\IeC {\c c}\IeC {\~a}o $\mathaccentV {tilde}07E{\mathbf {N}}^{\ddagger }(\mathaccentV {tilde}07E{\mathbf {r}})$}{12}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.4}Tensores de depolariza\IeC {\c c}\IeC {\~a}o transformados $\mathaccentV {tilde}07E{\mathbf {N}}(\mathaccentV {tilde}07E{\mathbf {r}})$}{11}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Tensor de depolariza\IeC {\c c}\IeC {\~a}o $\mathaccentV {tilde}07E{\mathbf {N}}^{\dagger }$}{11}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Tensor de depolariza\IeC {\c c}\IeC {\~a}o $\mathaccentV {tilde}07E{\mathbf {N}}^{\ddagger }(\mathaccentV {tilde}07E{\mathbf {r}})$}{13}{subsection.2.4.2}
 \contentsline {section}{\numberline {2.5}Campo magn\IeC {\'e}tico interno e magnetiza\IeC {\c c}\IeC {\~a}o}{14}{section.2.5}
-\contentsline {subsubsection}{Rela\IeC {\c c}\IeC {\~a}o entre $\chi $ e o erro da magnetiza\IeC {\c c}\IeC {\~a}o}{16}{section*.11}
-\contentsline {section}{\numberline {2.6}Campo magn\IeC {\'e}tico externo e anomalia de campo-total}{17}{section.2.6}
-\contentsline {chapter}{\numberline {3}Implementa\IeC {\c c}\IeC {\~a}o computacional}{19}{chapter.3}
-\contentsline {chapter}{\numberline {4}Simula\IeC {\c c}\IeC {\~o}es Num\IeC {\'e}ricas e Discuss\IeC {\~o}es}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Modelos elipsoidais}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}Elementos do tensor de depolariza\IeC {\c c}\IeC {\~a}o}{30}{section.4.2}
-\contentsline {section}{\numberline {4.3}Compara\IeC {\c c}\IeC {\~o}es entre os modelos elipsoidais}{32}{section.4.3}
-\contentsline {section}{\numberline {4.4}Susceptibilidade}{39}{section.4.4}
-\contentsline {section}{\numberline {4.5}Anisotropia de forma}{39}{section.4.5}
-\contentsline {chapter}{\numberline {5}Conclus\IeC {\~o}es}{44}{chapter.5}
-\contentsline {chapter}{\numberline {A}Rela\IeC {\c c}\IeC {\~a}o entre as derivadas das fun\IeC {\c c}\IeC {\~o}es $f(\mathbf {r})$ e $\mathaccentV {tilde}07E{f}(\mathaccentV {tilde}07E{\mathbf {r}})$}{46}{appendix.A}
-\contentsline {chapter}{\numberline {B}Par\IeC {\^a}metro $\lambda $ e suas derivadas espaciais}{48}{appendix.B}
-\contentsline {section}{\numberline {B.1}Par\IeC {\^a}metro $\lambda $ definido para os elipsoides triaxiais}{48}{section.B.1}
-\contentsline {section}{\numberline {B.2}Par\IeC {\^a}metro $\lambda $ que define os elipsoides prolatos e oblatos}{50}{section.B.2}
-\contentsline {section}{\numberline {B.3}Derivadas espaciais do par\IeC {\^a}metro $\lambda $}{51}{section.B.3}
+\contentsline {subsubsection}{Rela\IeC {\c c}\IeC {\~a}o entre $\chi $ e o erro da magnetiza\IeC {\c c}\IeC {\~a}o}{17}{section*.11}
+\contentsline {section}{\numberline {2.6}Campo magn\IeC {\'e}tico externo e anomalia de campo-total}{18}{section.2.6}
+\contentsline {chapter}{\numberline {3}Implementa\IeC {\c c}\IeC {\~a}o computacional}{20}{chapter.3}
+\contentsline {chapter}{\numberline {4}Simula\IeC {\c c}\IeC {\~o}es Num\IeC {\'e}ricas e Discuss\IeC {\~o}es}{24}{chapter.4}
+\contentsline {section}{\numberline {4.1}Modelos elipsoidais}{24}{section.4.1}
+\contentsline {section}{\numberline {4.2}Elementos do tensor de depolariza\IeC {\c c}\IeC {\~a}o}{31}{section.4.2}
+\contentsline {section}{\numberline {4.3}Compara\IeC {\c c}\IeC {\~o}es entre os modelos elipsoidais}{33}{section.4.3}
+\contentsline {section}{\numberline {4.4}Susceptibilidade}{40}{section.4.4}
+\contentsline {section}{\numberline {4.5}Anisotropia de forma}{41}{section.4.5}
+\contentsline {chapter}{\numberline {5}Conclus\IeC {\~o}es}{45}{chapter.5}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{47}{chapter*.12}
+\contentsline {chapter}{\numberline {A}Rela\IeC {\c c}\IeC {\~a}o entre as derivadas das fun\IeC {\c c}\IeC {\~o}es $f(\mathbf {r})$ e $\mathaccentV {tilde}07E{f}(\mathaccentV {tilde}07E{\mathbf {r}})$}{52}{appendix.A}
+\contentsline {chapter}{\numberline {B}Par\IeC {\^a}metro $\lambda $ e suas derivadas espaciais}{54}{appendix.B}
+\contentsline {section}{\numberline {B.1}Par\IeC {\^a}metro $\lambda $ definido para os elipsoides triaxiais}{54}{section.B.1}
+\contentsline {section}{\numberline {B.2}Par\IeC {\^a}metro $\lambda $ que define os elipsoides prolatos e oblatos}{56}{section.B.2}
+\contentsline {section}{\numberline {B.3}Derivadas espaciais do par\IeC {\^a}metro $\lambda $}{57}{section.B.3}

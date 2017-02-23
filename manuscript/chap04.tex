@@ -47,11 +47,11 @@ A implementação computacional feita, nos permite modelar elipsoides triaxiais,
 	\label{fig:triaxial}
 \end{figure}
 
-Uma malha de de $40000$ pontos foi criada ($200x200$) para os cálculos das três componentes e da anomalia de campo total aproximada em todas as simulações.
+Uma malha de de $40000$ pontos foi criada ($200$x$200$) para os cálculos das três componentes e da anomalia de campo total aproximada em todas as simulações.
 
-Na Figura \ref{fig:prolate} temos as três componentes do campo magnético gerado por um elipsoide triaxial com os parâmetros da Tabela \ref{tab:prolato}.
+Na Figura \ref{fig:prolate} temos as três componentes do campo magnético gerado por um elipsoide triaxial com os parâmetros da Tabela 4.2.
 
-Na Figura \ref{fig:oblate} temos as três componentes do campo magnético gerado por um elipsoide triaxial com os parâmetros da Tabela \ref{tab:oblate}.
+Na Figura \ref{fig:oblate} temos as três componentes do campo magnético gerado por um elipsoide triaxial com os parâmetros da Tabela 4.3.
 \\\\\\
 
 \begin{table}[h!]
@@ -144,7 +144,7 @@ Na Figura \ref{fig:oblate} temos as três componentes do campo magnético gerado
 \begin{figure}[hbt!]
 	\centering \includegraphics[width=16cm,height=16cm]{figures/ellipsoid_prolate}
 	\caption[As componentes do campo magnético gerado por um elipsoide prolato e a anomalia de campo total aproximada.]{As componentes 
-		do campo magnético gerado por um elipsoide prolato de parâmetros conforme a tabela \ref{tab:prolato} e a anomalia de campo total aproximada. Em A) a componente Bx do campo, em B) a componente By, em C) a componente Bz e em D) a anomalia de campo total aproximada.}
+		do campo magnético gerado por um elipsoide prolato de parâmetros conforme a tabela 4.2 e a anomalia de campo total aproximada. Em A) a componente Bx do campo, em B) a componente By, em C) a componente Bz e em D) a anomalia de campo total aproximada.}
 	\label{fig:prolate}
 \end{figure}
 
@@ -167,11 +167,11 @@ Na Figura \ref{fig:oblate} temos as três componentes do campo magnético gerado
 \begin{figure}[hbt!]
 	\centering \includegraphics[width=16cm,height=16cm]{figures/ellipsoid_oblate}
 	\caption[As componentes do campo magnético gerado por um elipsoide oblato e a anomalia de campo total aproximada.]{As componentes 
-		do campo magnético gerado por um elipsoide oblato de parâmetros conforme a tabela \ref{tab:oblato} e a anomalia de campo total aproximada. Em A) a componente Bx do campo, em B) a componente By, em C) a componente Bz e em D) a anomalia de campo total aproximada.}
+		do campo magnético gerado por um elipsoide oblato de parâmetros conforme a tabela 4.3 e a anomalia de campo total aproximada. Em A) a componente Bx do campo, em B) a componente By, em C) a componente Bz e em D) a anomalia de campo total aproximada.}
 	\label{fig:oblate}
 \end{figure}
 
-Já na Figura \ref{fig:ellipsoid_triaxial_multi}, fizemos uma simulação de dois corpos elipsoidais triaxiais sendo modelados dentro da mesma malha, que pode ser feita de forma prática usando a classe elipsoidal, implementada no \textit{mesher} do \textit{Fatiando a Terra}. Novamente temos as três componentes do campo magnético gerado pelos corpos com os parâmetros da Tabela \ref{tab:ellipsoid_triaxial_multi}.
+Já na Figura \ref{fig:ellipsoid_triaxial_multi}, fizemos uma simulação de dois corpos elipsoidais triaxiais sendo modelados dentro da mesma malha, que pode ser feita de forma prática usando a classe elipsoidal, implementada no \textit{mesher} do \textit{Fatiando a Terra}. Novamente temos as três componentes do campo magnético gerado pelos corpos com os parâmetros da Tabela 4.4.
 
 \begin{table}[h!]
 	\begin{center}
@@ -261,7 +261,7 @@ Já na Figura \ref{fig:ellipsoid_triaxial_multi}, fizemos uma simulação de doi
 \begin{figure}[hbt!]
 	\centering \includegraphics[width=16cm,height=16cm]{figures/ellipsoid_triaxial_multi}
 	\caption[As componentes do campo magnético gerado por dois corpos triaxiais e a anomalia de campo total aproximada.]{As componentes 
-		do campo magnético gerado pelos elipsoides triaxiais de parâmetros conforme a tabela \ref{tab:ellipsoid_triaxial_multi} e a anomalia de campo total aproximada. Em A) a componente Bx do campo, em B) a componente By, em C) a componente Bz e em D) a anomalia de campo total aproximada.}
+		do campo magnético gerado pelos elipsoides triaxiais de parâmetros conforme a tabela 4.4 e a anomalia de campo total aproximada. Em A) a componente Bx do campo, em B) a componente By, em C) a componente Bz e em D) a anomalia de campo total aproximada.}
 	\label{fig:ellipsoid_triaxial_multi}
 \end{figure}
 
@@ -309,7 +309,7 @@ Na Figura \ref{fig:n_prolato} observamos o mesmo comportamento no caso triaxial 
 	\label{fig:n_prolato}
 \end{figure}
 
-Já Figura \ref{fig:n_oblato}realizamos a mesma relação entre os semi-eixos $a$ e $b$ do caso prolato, onde aumenta-se o valor de $a$. Lembremos que no caso do elipsoide oblato $a$ é o semi-eixo menor e $b$ o semi-eixo maior. No começo, quando os semi-eixos estão afastados, os elementos estão afastados para $b$ muito maior que $a$ e tendem à $1/3$ conforme se aproximam.
+Já na figura \ref{fig:n_oblato}realizamos a mesma relação entre os semi-eixos $a$ e $b$ do caso prolato, onde aumenta-se o valor de $a$. Lembremos que no caso do elipsoide oblato $a$ é o semi-eixo menor e $b$ o semi-eixo maior. No começo, quando os semi-eixos estão afastados, os elementos estão afastados para $b$ muito maior que $a$ e tendem à $1/3$ conforme se aproximam.
 \newpage
 
 \begin{figure}[hbt!]
@@ -326,7 +326,7 @@ Através destes gráficos é possível observar como os fatores de desmagnetiza�
 
 \section{Comparações entre os modelos elipsoidais}
 
-Testamos a implementação computacional comparando com resultados conhecidos. Na Figura \ref{fig:triaxial_sphere} comparamos um elipsoide triaxial com seus três semi-eixos muito próximos um do outro (simulando uma esfera), conforme Tabela \ref{tab:triaxial_sphere}, e comparamos com a implementação da esfera do software \textit{Fatiando a Terra}.
+Testamos a implementação computacional comparando com resultados conhecidos. Na Figura \ref{fig:triaxial_sphere} comparamos um elipsoide triaxial com seus três semi-eixos muito próximos um do outro (simulando uma esfera), conforme Tabela 4.5, e comparamos com a implementação da esfera do software \textit{Fatiando a Terra}.
 \newpage
 
 \begin{table}[h!]
@@ -379,7 +379,7 @@ Testamos a implementação computacional comparando com resultados conhecidos. N
 			Orientações k**   & $0$, $90$, $90$  & º\\
 			\hline
 		\end{tabular}
-		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros do elipsoide triaxial modelado para comparação com a esfera. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
 	\end{center}
 	\label{tab:triaxial_sphere}
 \end{table}
@@ -412,7 +412,7 @@ Testamos a implementação computacional comparando com resultados conhecidos. N
 	\label{fig:triaxial_sphere}
 \end{figure}
 
-Os resultados da comparação foram muito próximos. Confirmado a implementação do elipsoide triaxial, o usamos para comparar com a implementação do elipsoide prolato de parâmetros conforme tabelas \ref{tab:triaxial_prolate1} e \ref{tab:triaxial_prolate2}. O resultado está na Figura \ref{fig:triaxial_prolate}.
+Os resultados da comparação foram muito próximos. Confirmado a implementação do elipsoide triaxial, o usamos para comparar com a implementação do elipsoide prolato de parâmetros conforme tabelas 4.6 e 4.7. O resultado está na Figura \ref{fig:triaxial_prolate}.
 
 \begin{table}[h!]
 	\begin{center}
@@ -443,12 +443,12 @@ Os resultados da comparação foram muito próximos. Confirmado a implementaçã
 			Orientações k**   & $0$, $90$, $90$  & º\\
 			\hline
 		\end{tabular}
-		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros do elipsoide triaxial modelado para comparação com o elipsoide prolato. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
 	\end{center}
 	\label{tab:triaxial_prolate1}
 \end{table}
 
-\vspace{3cm}
+\vspace{2cm}
 
 \begin{table}[h!]
 	\begin{center}
@@ -479,7 +479,7 @@ Os resultados da comparação foram muito próximos. Confirmado a implementaçã
 			Orientações k**   & $0$, $90$, $90$  & º\\
 			\hline
 		\end{tabular}
-		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros do elipsoide prolato modelado para comparação com elipsoide triaxial. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
 	\end{center}
 	\label{tab:triaxial_prolate2}
 \end{table}
@@ -491,7 +491,7 @@ Os resultados da comparação foram muito próximos. Confirmado a implementaçã
 	\label{fig:triaxial_prolate}
 \end{figure}
 
-Também usamos a implementação do elipsoide triaxial, para comparar com a implementação do elipsoide oblato de parâmetros conforme tabelas \ref{tab:triaxial_oblate1} e \ref{tab:triaxial_oblate2}. O resultado está na Figura \ref{fig:triaxial_oblate}.
+Também usamos a implementação do elipsoide triaxial, para comparar com a implementação do elipsoide oblato de parâmetros conforme tabelas 4.8 e 4.9. O resultado está na Figura \ref{fig:triaxial_oblate}.
 
 \begin{table}[h!]
 	\begin{center}
@@ -522,7 +522,7 @@ Também usamos a implementação do elipsoide triaxial, para comparar com a impl
 			Orientações k**   & $0$, $90$, $90$ & º \\
 			\hline
 		\end{tabular}
-		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros do elipsoide triaxial modelado para comparação com o elipsoide oblato. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
 	\end{center}
 	\label{tab:triaxial_oblate1}
 \end{table}
@@ -558,7 +558,7 @@ Também usamos a implementação do elipsoide triaxial, para comparar com a impl
 			Orientações k**   & $0$, $90$, $90$ & º \\
 			\hline
 		\end{tabular}
-		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros do elipsoide oblato modelado para compração com o elipsoide triaxial. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
 	\end{center}
 	\label{tab:triaxial_oblate2}
 \end{table}
@@ -583,11 +583,25 @@ Em corpos de alta susceptibilidade, a desmagnetização é um fator muito import
 	\label{fig:test_k_triaxial}
 \end{figure}
 
+\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{lc}
+			
+			&  \\
+			& \\
+			& \\
+			& \\
+			& \\
+			
+		\end{tabular}
+	\end{center}
+\end{table}
+
 \section{Anisotropia de forma}
 
 Conforme dito na seção 4.2 existe uma relação entre os elementos do tensor de depolarização e os semi-eixos. Na Figura \ref{fig:ellipsoid_shape_iso10} mostramos como o aumento do semi-eixo maior afeta o vetor de magnetização resultante. A princípio, os três semi-eixos estão muito próximos, simulando uma esfera. Quando postos sob um campo externo, o vetor de magnetização resultante se direciona para a direção deste campo. Porém a medida que aumenta-se o semi-eixo maior, ocorre a depolarização dos demais e o vetor de magnetização resultante tende a se alinhar na direção do semi-eixo maior (neste caso o elipsoide triaxial possui um azimute de 10$º$).
 
-\vspace{4cm}
+\vspace{2cm}
 
 \begin{table}[h!]
 	\begin{center}
@@ -611,14 +625,14 @@ Conforme dito na seção 4.2 existe uma relação entre os elementos do tensor d
 			\hline
 			$J_{NRM}$*  & 100, $0^o$, $0^o$ & A/m \\
 			\hline
-			F*    & 60000, $50^o$, $20^o$ & nT\\
+			F*    & 60000, $90^o$, $20^o$ & nT\\
 			\hline
 			k1, k2, k3   & 50, 50, 50  & SI\\
 			\hline
 			Orientações k**   & $0$, $90$, $90$  & º\\
 			\hline
 		\end{tabular}
-		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros do elipsoides triaxiais modelados com o semi-eixo $a$ crescente e azimute com grande diferença na direção com relação ao campo da Terra para verificar a anisotropia de forma. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
 	\end{center}
 	\label{tab:ellipsoid_shape_iso10}
 \end{table}
@@ -630,18 +644,14 @@ Conforme dito na seção 4.2 existe uma relação entre os elementos do tensor d
 			&  \\
 			& \\
 			& \\
-			& \\
-			& \\
-			& \\ 
-			& \\
-			& \\
-			& \\
-			& \\ 
+			&  \\
 			& \\
 			& \\
 			& \\
 			& \\
 			& \\
+			& \\
+
 			
 		\end{tabular}
 	\end{center}
@@ -649,7 +659,7 @@ Conforme dito na seção 4.2 existe uma relação entre os elementos do tensor d
 
 \begin{figure}[hbt!]
 	\centering \includegraphics[width=16 cm,height=16 cm]{figures/ellipsoid_shape_iso}
-	\caption[Simulação, da mudança do vetor de magnetização resultante, de um elipsoide triaxial com o aumento do semi-eixo maior.]{Simulação, da mudança do vetor de magnetização resultante, de um elipsoide triaxial com o aumento do semi-eixo maior. O elipsoide está imerso em um campo externo constante de declinação $90^o$, possui susceptibilidade constante e direcionado com um azimute de $10^o$. Ao longo da sequência das figuras, seu semi-eixo maior aumenta de proporção em relação aos demais (variando entre 50 e 3000 m.). Nota-se a tendência do vetor de magnetização resultante (seta em vermelho) em se alinhar com o semi-eixo maior.}
+	\caption[Simulação, da mudança do vetor de magnetização resultante, de um elipsoide triaxial com o aumento do semi-eixo maior.]{Simulação, da mudança do vetor de magnetização resultante, de um elipsoide triaxial com o aumento do semi-eixo maior. O elipsoide está imerso em um campo externo constante de declinação $90^o$, possui susceptibilidade isotrópica e constante e está direcionado com um azimute de $10^o$. Ao longo da sequência das figuras, seu semi-eixo maior aumenta de proporção em relação aos demais (variando entre 50 e 3000 m.). Nota-se a tendência do vetor de magnetização resultante (seta em vermelho) em se alinhar com o semi-eixo maior.}
 	\label{fig:ellipsoid_shape_iso10}
 \end{figure}
 
@@ -669,7 +679,7 @@ Conforme dito na seção 4.2 existe uma relação entre os elementos do tensor d
 
 Para efeito de comparação realizamos o mesmo teste, porém com um azimute de 80$º$ para o elipsoide. A variação é bem menor, mas também se confirma a tendência do alinhamento do vetor de magnetização resultante para a direção do semi-eixo maior.
 
-\vspace{4cm}
+\vspace{2cm}
 
 \begin{table}[h!]
 	\begin{center}
@@ -700,7 +710,7 @@ Para efeito de comparação realizamos o mesmo teste, porém com um azimute de 8
 			Orientações k**   & $0$, $90$, $90$  & º\\
 			\hline
 		\end{tabular}
-		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros do elipsoides triaxiais modelados com o semi-eixo $a$ crescente e azimute com grande diferença na direção com relação ao campo da Terra para verificar a anisotropia de forma. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
 	\end{center}
 	\label{tab:ellipsoid_shape_iso80}
 \end{table}
