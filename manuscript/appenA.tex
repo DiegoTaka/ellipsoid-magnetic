@@ -1,0 +1,134 @@
+\chapter{Relação entre as derivadas das funções $f(\mathbf{r})$ e $\tilde{f}(\tilde{\mathbf{r}})$}
+
+Sendo $\tilde{f}(\tilde{\mathbf{r}})$ a função escalar obtida transformando
+$f(\mathbf{r})$ (Eq. \ref{eq:f}) do sistema de coordenas principal para um 
+sistema de coordenadas local, por conveniência, reescreveremos a Eq. 
+\ref{eq:coord_transformation} como:
+\begin{equation}
+\tilde{r}_{k} = v_{k1} \, r_{1} + v_{k2} \, r_{2} + v_{k3} \, r_{3} + c_{k} \: ,
+\label{eq:r-tilde-k}
+\end{equation}
+onde $\tilde{r}_{k}$, $k = 1, 2, 3$, são os elementos do vetor posição
+transformado $\tilde{\mathbf{r}}$ (Eq. \ref{eq:coord_transformation}),
+$r_{j}$, $j = 1, 2, 3$, são os elementos do vetor posição
+$\mathbf{r}$ (Eq. \ref{eq:ellipsoid_surface}),
+$v_{kj}$, $j = 1, 2, 3$, são os elementos da matriz
+$\mathbf{V}$ (Eq. \ref{eq:V_triaxial_prolate} ou \ref{eq:V_oblate}),
+e $c_{k}$ é uma constante definida pelas coordenadas
+$x_{c}$, $y_{c}$, e $z_{c}$ do centro do corpo elipsoidal.
+
+Considerando as funções $f(\mathbf{r})$ 
+(Eq. \ref{eq:f}) e $\tilde{f}(\tilde{\mathbf{r}})$
+calculadas no mesmo ponto, mas em diferentes sistemas
+de coordenas, temos:
+\begin{equation*}
+\frac{\partial f(\mathbf{r})}{\partial r_{j}} = 
+\frac{\partial \tilde{f}(\tilde{\mathbf{r}})}{\partial \tilde{r}_{1}} \,
+\frac{\partial \tilde{r}_{1}}{\partial r_{j}} +
+\frac{\partial \tilde{f}(\tilde{\mathbf{r}})}{\partial \tilde{r}_{2}} \,
+\frac{\partial \tilde{r}_{2}}{\partial r_{j}} +
+\frac{\partial \tilde{f}(\tilde{\mathbf{r}})}{\partial \tilde{r}_{3}} \,
+\frac{\partial \tilde{r}_{3}}{\partial r_{j}} \: ,
+\quad j = 1, 2, 3 \: ,
+\end{equation*}
+que, da Eq. \ref{eq:r-tilde-k}, pode ser dada por:
+\begin{equation}
+\frac{\partial f(\mathbf{r})}{\partial r_{j}} = 
+v_{j1} \, \frac{\partial \tilde{f}(\tilde{\mathbf{r}})}{\partial \tilde{r}_{1}} +
+v_{j2} \, \frac{\partial \tilde{f}(\tilde{\mathbf{r}})}{\partial \tilde{r}_{2}} +
+v_{j3} \, \frac{\partial \tilde{f}(\tilde{\mathbf{r}})}{\partial \tilde{r}_{3}} \: ,
+\quad j = 1, 2, 3 \: .
+\label{eq:df_drj}
+\end{equation}
+
+Derivando $\frac{\partial f(\mathbf{r})}{\partial r_{j}}$
+(Eq. \ref{eq:df_drj})com respeito ao $i$-ésimo elemento 
+$r_{i}$ do vetor posição $\mathbf{r}$ (Eq. \ref{eq:ellipsoid_surface}),
+obtemos:
+\begin{equation}
+\begin{split}
+\frac{\partial^{2} f(\mathbf{r})}{\partial r_{i} \, \partial r_{j}} &=
+v_{j1} \, \frac{\partial}{\partial r_{i}} 
+\left( \frac{\partial \tilde{f}(\tilde{\mathbf{r}})}{\partial \tilde{r}_{1}} \right) +
+v_{j2} \, \frac{\partial}{\partial r_{i}} 
+\left( \frac{\partial \tilde{f}(\tilde{\mathbf{r}})}{\partial \tilde{r}_{2}} \right) +
+v_{j3} \, \frac{\partial}{\partial r_{i}} 
+\left( \frac{\partial \tilde{f}(\tilde{\mathbf{r}})}{\partial \tilde{r}_{3}} \right) \\
+&= v_{j1} \, \left( 
+\frac{\partial^{2} \tilde{f}(\tilde{\mathbf{r}})}
+{\partial \tilde{r}_{1} \, \partial \tilde{r}_{1}} \, v_{i1} + 
+\frac{\partial^{2} \tilde{f}(\tilde{\mathbf{r}})}
+{\partial \tilde{r}_{2} \, \partial \tilde{r}_{1}} \, v_{i2} + 
+\frac{\partial^{2} \tilde{f}(\tilde{\mathbf{r}})}
+{\partial \tilde{r}_{3} \, \partial \tilde{r}_{1}} \, v_{i3} 
+\right) + \\
+&+ v_{j2} \, \left( 
+\frac{\partial^{2} \tilde{f}(\tilde{\mathbf{r}})}
+{\partial \tilde{r}_{1} \, \partial \tilde{r}_{2}} \, v_{i1} + 
+\frac{\partial^{2} \tilde{f}(\tilde{\mathbf{r}})}
+{\partial \tilde{r}_{2} \, \partial \tilde{r}_{2}} \, v_{i2} + 
+\frac{\partial^{2} \tilde{f}(\tilde{\mathbf{r}})}
+{\partial \tilde{r}_{3} \, \partial \tilde{r}_{2}} \, v_{i3} 
+\right) + \\
+&+ v_{j3} \, \left( 
+\frac{\partial^{2} \tilde{f}(\tilde{\mathbf{r}})}
+{\partial \tilde{r}_{1} \, \partial \tilde{r}_{3}} \, v_{i1} + 
+\frac{\partial^{2} \tilde{f}(\tilde{\mathbf{r}})}
+{\partial \tilde{r}_{2} \, \partial \tilde{r}_{3}} \, v_{i2} + 
+\frac{\partial^{2} \tilde{f}(\tilde{\mathbf{r}})}
+{\partial \tilde{r}_{3} \, \partial \tilde{r}_{3}} \, v_{i3} 
+\right) \\
+&= \left[ \begin{array}{ccc}
+v_{j1} & v_{j2} & v_{j3}
+\end{array} \right] \tilde{\mathbf{F}}(\tilde{\mathbf{r}})
+\left[ \begin{array}{c}
+v_{i1} \\ v_{i2} \\ v_{i3}
+\end{array} \right]
+\end{split} \: ,
+\label{eq:d2f-dridrj}
+\end{equation}
+onde $\tilde{\mathbf{F}}(\tilde{\mathbf{r}})$ é uma $3 \times 3$
+matriz cujo $ij$-ésimo elemento é 
+$\frac{\partial^{2} \tilde{f}(\tilde{\mathbf{r}})}
+{\partial \tilde{r}_{i} \, \partial \tilde{r}_{j}}$.
+Da Eq. \ref{eq:d2f-dridrj}, obtemos:
+\begin{equation}
+\mathbf{F}(\mathbf{r}) = \mathbf{V} \, 
+\tilde{\mathbf{F}}(\tilde{\mathbf{r}}) \, \mathbf{V}^{\top} \: ,
+\label{eq:F-V-F-tilde-VT}
+\end{equation}
+onde $\mathbf{F}(\mathbf{r})$ é uma $3 \times 3$
+matriz cujo $ij$-ésimo elemento é 
+$\frac{\partial^{2} f(\mathbf{r})}
+{\partial r_{i} \, \partial r_{j}}$ e
+$\mathbf{V}$ é definido pelas Eqs. 
+\ref{eq:V_triaxial_prolate} ou
+\ref{eq:V_oblate}, dependendo do tipo de
+elipsoide. Como pode ter notada, as matrizes $\mathbf{F}(\mathbf{r})$ e
+$\tilde{\mathbf{F}}(\tilde{\mathbf{r}})$ representam as Hessianas
+das funções $f(\mathbf{r})$ (Eq. \ref{eq:f})
+e $\tilde{f}(\tilde{\mathbf{r}})$, respectivamente.
+Além disso, o tensor de depolarização $\mathbf{N}(\mathbf{r})$
+(Eq. \ref{eq:H-M-uniform}) pode se 
+reescrito usando a matriz $\mathbf{F}(\mathbf{r})$
+como:
+\begin{equation}
+\mathbf{N}(\mathbf{r}) = - \frac{1}{4 \pi} \mathbf{F}(\mathbf{r}) \: .
+\label{eq:N-F}
+\end{equation}
+Usando apropriadamente a ortogonalidade de matrizes
+$\mathbf{V}$,podemos reescrever a Eq. \ref{eq:F-V-F-tilde-VT}
+como:
+\begin{equation}
+\tilde{\mathbf{F}}(\tilde{\mathbf{r}}) = \mathbf{V}^{\top} \, 
+\mathbf{F}(\mathbf{r}) \, \mathbf{V} \: .
+\label{eq:F-tilde-VT-F-V}
+\end{equation}
+Finalmente, multiplicando os dois lados da Eq. \ref{eq:F-tilde-VT-F-V}
+por $-\frac{1}{4 \pi}$ e usando a Eq. \ref{eq:N-F},
+nós concluímos que 
+\begin{equation}
+\tilde{\mathbf{N}}(\tilde{\mathbf{r}}) = 
+\mathbf{V}^{\top} \, \mathbf{N}(\mathbf{r}) \, \mathbf{V} \: .
+\label{eq:N-tilde-VT-N-V}
+\end{equation}

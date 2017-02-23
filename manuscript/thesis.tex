@@ -1,0 +1,67 @@
+\documentclass[msc]{on} %para dissertação de mestrada, descomentar esta linha e comentar a de baixo
+%\documentclass[dsc]{on}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+
+%pacotes utilizados
+\usepackage{enumerate} %para gerar listas numeradas
+\usepackage{graphicx}  %para figuras eps
+\usepackage{subfigure} %para figuras múltimas, com (a), (b), (c), etc.
+\newcommand{\unit}[1]{\ensuremath{\, \mathrm{#1}}}
+
+\makelosymbols
+\makeloabbreviations
+
+\begin{document}
+  \title{Modelagem Magnética 3D para corpos elipsoidais}
+  \foreigntitle{3D Magnetic Modelling for ellipsoidal bodies}
+  \author{Diego}{Takahashi Tomazella}
+  \advisor{Prof.}{Vanderlei}{Coelho de Oliveira Jr.}{D.Sc.}
+%  \coadvisor{Prof.}{Nome do Primeiro Co-orientador}{Sobrenome}{D.Sc.}
+%  \coadvisor{Prof.}{Nome do Segundo Co-orientador}{Sobrenome}{Ph.D.}
+%  \coadvisor{Prof.}{Nome do Terceiro Co-orientador}{Sobrenome}{D.Sc.}
+
+
+  \examiner{Prof.}{Vanderlei Coelho de Oliveira Junior - Orientador}{D.Sc.}
+  \examiner{Prof.}{Valéria Cristina Ferreira Barbosa}{D.Sc.}
+  \examiner{Dr.}{Wladimir Shukowsky}{D.Sc.}
+%  \examiner{Prof.}{Nome do Quarto Examinador Sobrenome}{Ph.D.}
+%  \examiner{Prof.}{Nome do Quinto Examinador Sobrenome}{Ph.D.}
+  \department{COGE}
+  \date{02}{2017}
+
+  \keyword{Métodos Potenciais}
+  \keyword{Magnetometria}
+  \keyword{Modelagem direta}
+  \keyword{Modelagem elipsoidal}
+
+  \maketitle
+
+  \frontmatter
+  \include{dedic}
+  \include{thanks}
+  \include{resumo}
+  \include{abstract}
+  \tableofcontents
+  \listoffigures
+  \listoftables
+  \printlosymbols
+  \printloabbreviations
+
+  \mainmatter
+  \include{chap01}
+  \include{chap02}
+  \include{chap03}
+  \include{chap04}
+  \include{chap05}
+%  \include{chap06}
+
+  \backmatter
+  \bibliographystyle{on-plain}
+  \bibliography{references}
+
+  \appendix
+  \include{appenA}
+  \include{appenB}
+\end{document} 

@@ -1,0 +1,214 @@
+\chapter{Parâmetro $\lambda$ e suas derivadas espaciais}
+
+Aqui, mostramos o raciocínio apresentado por \citet{webster1904}
+para análise do parâmetro $\lambda$ que define os elipsoides triaxiais, prolatos e oblatos.
+
+\section{Parâmetro $\lambda$ definido para os elipsoides triaxiais}
+
+Consideremos um elipsoide de semi-eixos $a$, $b$, $c$ orientados ao longo dos eixos
+$\tilde{x}$, $\tilde{y}$, e $\tilde{z}$, respectivamente, no seu sistema de coordenadas
+local, onde $a > b > c > 0$. Este elipsoide é definido pela seguinte equação:
+\begin{equation}
+\frac{\tilde{x}^{2}}{a^{2}} + \frac{\tilde{y}^{2}}{b^{2}} + \frac{\tilde{z}^{2}}{c^{2}} = 1 \: .
+\label{eq:reference-triaxial-ell}
+\end{equation}
+Uma superfície quádrica (e.g., elipsoide, hiperboloides de uma camada ou 
+hiperboloides de duas camadas) que é confocal à um elipsoide definido pela
+Eq. \ref{eq:reference-triaxial-ell} pode ser descrito como:
+\begin{equation}
+\frac{\tilde{x}^{2}}{a^{2} + u} + \frac{\tilde{y}^{2}}{b^{2} + u} + \frac{\tilde{z}^{2}}{c^{2} + u} = 1 \: ,
+\label{eq:quadric-confocal-triaxial-ell}
+\end{equation}
+onde $u$ é um número real. A equação \ref{eq:quadric-confocal-triaxial-ell}
+representa um elipsoide para $u$ que satisfaz a condição:
+\begin{equation}
+u + c^{2} > 0 \: .
+\label{eq:condition-triaxial-ell}
+\end{equation}
+
+Dado $a$, $b$, $c$, e um $u$ que satisfaz \ref{eq:condition-triaxial-ell}, 
+podemos usar \ref{eq:quadric-confocal-triaxial-ell} para determinar um conjunto 
+de pontos $(x, y, z)$ situado na superfície de um elipsoide que é confocal aquele
+definido pela Eq. \ref{eq:reference-triaxial-ell}. 
+Considere o problema em determinar o elipsoide que é confocal com aquele definido em
+\ref{eq:reference-triaxial-ell} e que passa por um ponto particular $(\tilde{x}, \tilde{y}, \tilde{z})$.
+Este problema consiste em determinar o número real $u$ que, dado  $a$, $b$, $c$, $\tilde{x}$, $\tilde{y}$, e $\tilde{z}$,
+satisfaz a Eq. \ref{eq:quadric-confocal-triaxial-ell} e
+a condição expressa pela Eq. \ref{eq:condition-triaxial-ell}.
+Rearranjando a Eq. \ref{eq:quadric-confocal-triaxial-ell}, obtemos a seguinte equação cúbica para $u$
+\begin{equation}
+p(u) = (a^{2} + u)(b^{2} + u)(c^{2} + u) - (b^{2} + u)(c^{2} + u) \, \tilde{x}^{2}
+- (a^{2} + u)(c^{2} + u) \, \tilde{y}^{2} - (a^{2} + u)(b^{2} + u) \, \tilde{z}^{2} \: .
+\label{eq:cubic-equation-triaxial-ell}
+\end{equation}
+Esta equação cúbica mostra que:
+\begin{equation}
+u = \begin{cases}
+d \to \infty \: &, \quad p(u) > 0 \\
+-c^{2} \: &, \quad p(u) < 0 \\
+-b^{2} \: &, \quad p(u) > 0 \\
+-a^{2} \: &, \quad p(u) < 0
+\end{cases} \: .
+\label{eq:cubic-equation-signals-triaxial-ell}
+\end{equation}
+Note que, de acordo com \ref{eq:cubic-equation-signals-triaxial-ell},
+a menor, a intermediária e a maior raiz da equação cúbica
+$p(u)$ (Eq. \ref{eq:cubic-equation-triaxial-ell}) estão 
+localizadas, respectivamente, nos intervalos $[ -a^{2} \, , -b^{2} ]$,
+$[ -b^{2} \, , -c^{2} ]$ and $[ -c^{2} \, , \infty [$.
+Lembremos que estamos procurando um $u$ que satisfaz a condição
+expressa pela Eq. \ref{eq:condition-triaxial-ell}. 
+Consequentemente, de acordo com a análise de sinal mostrada na Eq.
+\ref{eq:cubic-equation-signals-triaxial-ell}, estamos interessados na 
+maior raiz $\lambda$ da equação cúbica $p(u)$ (Eq.
+\ref{eq:cubic-equation-triaxial-ell}).
+
+Da Eq. \ref{eq:cubic-equation-triaxial-ell}, obtemos uma mais simples
+dada por:
+\begin{equation}
+p(u) =  u^{u} + p_{2} \, u^{2} + p_{1} \, u + p_{0} \: ,
+\label{eq:cubic-equation-triaxial-ell-simpler}
+\end{equation}
+onde
+\begin{equation}
+p_{2} = a^{2} + b^{2} + c^{2} - \tilde{x}^{2} - \tilde{y}^{2} - \tilde{z}^{2} \: ,
+\label{eq:p2-triaxial-ell}
+\end{equation}
+\begin{equation}
+p_{1} = b^{2} \, c^{2} + a^{2} \, c^{2} + a^{2} \, b^{2} 
+- (b^{2} + c^{2}) \, \tilde{x}^{2}
+- (a^{2} + c^{2}) \, \tilde{y}^{2} 
+- (a^{2} + b^{2}) \, \tilde{z}^{2}
+\label{eq:p1-triaxial-ell}
+\end{equation}
+e
+\begin{equation}
+p_{0} =  a^{2} \, b^{2} \, c^{2} - b^{2} \, c^{2} \, 
+\tilde{x}^{2} - a^{2} \, c^{2} \, \tilde{y}^{2} - a^{2} \, 
+b^{2} \, \tilde{z}^{2} \: .
+\label{eq:p0-triaxial-ell}
+\end{equation}
+Finalmente, das Eqs. \ref{eq:p2-triaxial-ell}, 
+\ref{eq:p1-triaxial-ell} e \ref{eq:p0-triaxial-ell},
+a maior raiz $\lambda$ de $p(u)$ 
+(Eq. \ref{eq:cubic-equation-triaxial-ell-simpler}) pode ser
+calculada como mostra \citep{weisstein2017}:
+\begin{equation}
+\lambda = 2 \, \sqrt{-Q} \, \cos \left( \frac{\theta}{3}\right) - \frac{p_{2}}{3} \: ,
+\label{eq:lambda-triaxial-ell}
+\end{equation}
+onde
+\begin{equation}
+\theta = \cos^{-1} \left( \frac{R}{\sqrt{Q^{3}}} \right) \: ,
+\label{eq:theta-triaxial-ell}
+\end{equation}
+\begin{equation}
+Q = \frac{3 \, p_{1} - p_{2}^{2}}{9}
+\label{eq:Q-triaxial-ell}
+\end{equation}
+e
+\begin{equation}
+R = \frac{9 \, p_{1} \, p_{2} - 27 \, p_{0} - 2 \, p_{2}^{3}}{54} \: .
+\label{eq:R-triaxial-ell}
+\end{equation}
+
+\section{Parâmetro $\lambda$ que define os elipsoides prolatos e oblatos}
+
+Vamos agora considerar um elipsoide prolato de semi-eixos $a$, $b$, 
+$c$ orientados ao longo dos eixos $\tilde{x}$, $\tilde{y}$, e 
+$\tilde{z}$, respectivamente, de seu sistema de coordenadas local, onde $a > b = c > 0$.
+Neste caso, a equação que define a superfície do elipsoide é obtida substituindo
+$c = b$ na Eq. \ref{eq:reference-triaxial-ell}. Consequentemente, a equação que define a
+respectiva superfície quádrica confocal é dada por:
+\begin{equation}
+\frac{\tilde{x}^{2}}{a^{2} + u} + \frac{\tilde{y}^{2} + \tilde{z}^{2}}{b^{2} + u} = 1
+\label{eq:quadric-confocal-prolate-ell}
+\end{equation}
+e a nova condição que a variável $u$ precisa satisfazer para que a
+Eq. \ref{eq:quadric-confocal-prolate-ell} represente um elipsoide é:
+\begin{equation}
+u + b^{2} > 0 \: .
+\label{eq:condition-prolate-ell}
+\end{equation}
+
+Similarmente ao caso do elipsoide triaxial apresentado na subseção anterior,
+estamos interessados em determinar o número real $u$ que, dado $a$, $b$, $\tilde{x}$, $\tilde{y}$,
+e $\tilde{z}$, satisfaz a Eq. \ref{eq:quadric-confocal-prolate-ell} e a condição expressa por
+Eq. \ref{eq:condition-prolate-ell}. Da Eq. \ref{eq:quadric-confocal-prolate-ell}, obtemos a
+seguinte equação quádrica para $u$:
+\begin{equation}
+p(u) = (a^{2} + u)(b^{2} + u) - (b^{2} + u) \, \tilde{x}^{2}
+- (a^{2} + u) \, (\tilde{y}^{2} + \tilde{z}^{2}) \: .
+\label{eq:quadratic-equation-prolate-ell}
+\end{equation}
+Esta equação mostra que:
+\begin{equation}
+u = \begin{cases}
+d \to \infty \: &, \quad f(\rho) > 0 \\
+-b^{2} \: &, \quad f(\rho) < 0 \\
+-a^{2} \: &, \quad f(\rho) > 0
+\end{cases}
+\label{eq:quadratic-equation-signals-prolate-ell}
+\end{equation}
+e, consequentemente, que duas raízes se situam nos intervalos $[ -a^{2} \, , -b^{2} ]$ 
+e $[ -b^{2} \, , \infty [$. Assim, de acordo com a condição estabelecida pela
+Eq. \ref{eq:condition-prolate-ell} e a análise de sinais mostrada na Eq. \ref{eq:quadratic-equation-signals-prolate-ell},
+estamos interessados na maior raiz $\lambda$ da equação quádrica $p(u)$ (Eq. \ref{eq:quadratic-equation-prolate-ell}).
+
+Manipulando corretamente a Eq. \ref{eq:quadratic-equation-prolate-ell}, obtemos uma mais simples dada por:
+\begin{equation}
+p(u) =  u^{2} + p_{1} \, u + p_{0} \: ,
+\label{eq:quadratic-equation-prolate-ell-simpler}
+\end{equation}
+onde
+\begin{equation}
+p_{1} = a^{2} + b^{2} - \tilde{x}^{2} - \tilde{y}^{2} - \tilde{z}^{2}
+\label{eq:p1-prolate-ell}
+\end{equation}
+e
+\begin{equation}
+p_{0} =  a^{2} \, b^{2} 
+- b^{2} \, \tilde{x}^{2} 
+- a^{2} \left( \tilde{y}^{2} + \tilde{z}^{2} \right) \: .
+\label{eq:p0-prolate-ell}
+\end{equation}
+Finalmente, usando as Eqs. \ref{eq:p1-prolate-ell} e
+\ref{eq:p0-prolate-ell}, a maior raiz $\lambda$ de $p(u)$ 
+(Eq. \ref{eq:quadratic-equation-prolate-ell-simpler}) pode ser 
+facilmente calculada como:
+\begin{equation}
+\lambda = \frac{-p_{1} + \sqrt{p_{1}^{2} - 4 \, p_{0}}}{2} \: .
+\label{eq:lambda-prolate-ell}
+\end{equation}
+
+Para o caso do elipsoide oblato, o procedimento para determinar o parâmetro
+$\lambda$ é muito similar para os elipsoides prolatos. Os semi-eixos $a$, $b$, $c$
+do elipsoide oblato são definidos de forma que $b = c > a > 0$ e a condição que a variável $u$
+deve satisfazer é $u + a^{2} > 0$. Neste caso, as duas raízes que resultam da equação quádrica situam-se
+nos intervalos $[ -b^{2} \, , -a^{2} ]$ e $[ -a^{2} \, , \infty [$. Consequentemente, continuamos interessados 
+na maior raiz da equação quádrica para a variável $u$, que também é calculada usando a Eq. \ref{eq:lambda-prolate-ell}.
+
+\section{Derivadas espaciais do parâmetro $\lambda$}
+
+A modelagem magnética dos elipsoides triaxiais, prolatos e oblatos necessitam além do parâmetro
+$\lambda$ definidos pelas Eqs. \ref{eq:lambda-triaxial-ell} e \ref{eq:lambda-prolate-ell}, das suas derivadas
+com respeito as coordenadas espaciais $\tilde{x}$, $\tilde{y}$, and $\tilde{z}$.
+Felizmente, as derivadas espaciais do parâmetro $\lambda$ podem ser calculadas de forma bastante
+similares para todos os tipos de elipsoides.
+
+Vamos considerar um elipsoide triaxial primeiro. Neste caso, as derivas espaciais de $\lambda$
+são dadas por:
+\begin{equation}
+\frac{\partial \lambda}{\partial \tilde{r}_{j}} =
+\frac{\frac{2 \, \tilde{r}_{j}}{\left( e_{j}^{2} + \lambda \right)}}{
+	\left( \frac{\tilde{x}}{a^{2} + \lambda}\right)^{2} +
+	\left( \frac{\tilde{y}}{b^{2} + \lambda}\right)^{2} + 
+	\left( \frac{\tilde{z}}{c^{2} + \lambda}\right)^{2}} \: , \quad j = 1, 2, 3 \: ,
+\label{eq:dlambda}
+\end{equation}
+onde 
+$\tilde{r}_{1} = \tilde{x}$, $\tilde{r}_{2} = \tilde{y}$, $\tilde{r}_{3} = \tilde{z}$,
+$e_{1} = a$, $e_{2} = b$, and $e_{3} = c$.
+Esta equação pode ser determinada diretamente da equação \ref{eq:quadric-confocal-triaxial-ell}.
+As derivadas espaciais de $\lambda$ no caso dos elipsoides prolatos e oblatos podem ser calculados usando
+a Eq. \ref{eq:dlambda} para o o caso particular em que $b = c$.

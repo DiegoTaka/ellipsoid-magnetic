@@ -1,0 +1,53 @@
+\chapter{Introdução}
+
+
+Baseado na teoria matemática da indução magnética desenvolvida por
+\citet{poisson1824}, \citet{maxwell1873}, afirmou que se $U$ 
+é o potencial gravitacional produzido por um corpo de 
+densidade $\rho$ e forma geométrica arbitrária num ponto $(x, y, z)$,
+então, $-\frac{\partial U}{\partial x}$ é o potencial escalar magnético que seria
+produzido por este mesmo corpo, no mesmo ponto, se sua magnetização for 
+uniforme ao longo do eixo $x$ com intensidade $\rho$.
+\citet{maxwell1873}, generalizou essa ideia como uma forma de
+determinar o potencial magnético escalar produzido por um corpo 
+magnetizado uniformemente em qualquer direção. Presumindo que 
+esta magnetização uniforme seria devida à indução e proporcional ao campo magnético resultante (intensidade) dentro do corpo, Maxwell postulou que este campo também deveria ser uniforme e paralelo à magnetização, uma vez que este é proporcional ao gradiente do potencial magnético escalar dentro do corpo.
+Como consequência, o potencial gravitacional $U$ nos pontos dentro do
+corpo deve ser descrito por uma função quadrática das coordenadas espaciais.
+Aparentemente, \citet{maxwell1873} foi o primeiro a postular que elipsoides
+são os únicos corpos finitos que possuem um potencial gravitacional que
+satisfaz essa propriedade e que, portanto, são os únicos que podem ser
+magnetizados uniformemente na presença de um campo magnético uniforme.
+
+Esta propriedade pode ser estendida para outros corpos cuja forma se
+deriva de um elipsoide (e.g., esferas, cilindros elípticos). Por outro lado, todos
+os demais corpos não podem ser magnetizados uniformemente na presença de um
+campo indutor uniforme \citep{jahren1963, schlomann1965, clark1999}.
+Uma consequência importante proveniente da uniformidade do campo magnético interno em elipsoides, 
+é que estes corpos são os únicos que possuem solução 
+verdadeiramente analítica para a desmagnetização \citet{clark1986}.
+A desmagnetização (campo criado em resposta ao campo indutor sobre o corpo) contribui para o decréscimo da magnetização resultante e o seu cálculo é dependente apenas da forma do corpo (i.e. dos seus semi-eixos) por componentes chamados de fatores de desmagnetização. A desmagnetização dá origem a anisotropia magnética de forma, ou seja, à direções preferenciais para um corpo se magnetizar. Ao magnetizar um corpo, forças magnetoestáticas produzem uma certa concentração de carga em sua superfície que criam um polo magnético para certa direção \citep{hrouda1982, tauxe2003rudiments}.
+Há outros dois tipos de anisotropia magnética: a anisotropia magnetocristalina, originada da geometria interna e da composição química dos cristais, que cria direções preferenciais de magnetização, pois seus eixos possuem diferentes propriedades magnéticas. Isso ocorre, porque o momento de energia magnética tende a se alinhar na direção ao longo do eixo que minimiza a energia magnética. Uma outra forma é a anisotropia de \textit{stress}, que ocorre quando as propriedades magnéticas são alteradas devido à uma tensão aplicada no grão magnético, num fenômeno conhecido como efeito magnetostrictivo (o equivalente magnético do efeito piezo-elétrico) \citep{hrouda1982, tauxe2003rudiments, thompson1986}.
+
+É de conhecimento geral, que a desmagnetização pode ser 
+negligenciada se um corpo possui uma susceptibilidade menor que 0.1 SI
+\citep{austin2014, clark2014, clark1986, emerson1985, eskola1980, guo1998, guo2001, purss2005, hillan2013}.
+Entretanto, negligenciar a desmagnetização em situações geológicas em que os corpos possuem 
+alta susceptibilidade ($>$ 0.1 SI), como formações ferríferas bandadas por exemplo, podem alterar drasticamente
+os resultados obtidos de métodos magnéticos.
+
+Devido a flexibilidade  de parametrização, elipsoides podem assumir uma grande variedade de formas, assim podem ser 
+usados para representar diferentes corpos geológicos, como por exemplo, desde corpos esféricos (três semi-eixos 
+de valores similares) ou corpos mineralizados em formato de $pipe$ (um semi-eixo mais alongado).
+\citet{farrar1979}, demonstrou a importância do modelo elipsoidal, levando
+em consideração a desmagnetização e determinando direções de 
+perfuração confiáveis no campo de Tennant Creek, Austrália.
+Posteriormente, \citet{hoschke1991} mostrou a eficiência do
+modelo elipsoidal, localizando e definindo corpos mineralizados de ferro no campo de Tennant Creek.
+\citet{clark2000}, fornece uma discussão sobre a influência da desmagnetização na interpretação magnética do depósito de cobre-ouro de Osborne, Austrália. Este depósito é hospedado por corpos mineralizados de ferro de alta susceptibilidade. De acordo com \citet{clark2000}, negligenciar o efeito de desmagnetização levaria à um erro de $\approx 55^{\circ}$ na interpretação da inclinação.
+Baseado na modelagem magnética e em medidas das propriedades da rocha, \citet{austin2014}, mostrou que, ao contrário de interpretações anteriores, a magnetização do depósito de óxido de ferro-cobre-ouro (IOCG) em Candelaria, Chile não é dominada pela componente da indução. Na verdade, o depósito tem uma fraca magnetização remanente e é fortemente afetada pela desmagnetização.
+
+Estes exemplos mostram a importância prática da desmagnetização para a correta interpretação dos dados magnéticos produzidos por corpos geológicos de alta susceptibilidade.
+Além disso, mostram a importância do modelo elipsoidal para produzir modelos geológicos confiáveis de corpos mineralizados, o que pode significar em uma redução significativa dos custos associados com perfuração.
+
+Uma vasta literatura sobre a modelagem magnética de corpos elipsoidais foi desenvolvida ao longo dos anos, por brilhantes pesquisadores. No entanto, o interesse sobre o assunto ainda não se esgotou, evidenciado por diversos trabalhos recentes publicados neste campo. Além disso, falta para a comunidade de geociências uma ferramenta de fácil uso para simular o campo magnético produzido por elipsoides uniformemente magnetizados. Tal ferramenta pode ser útil tanto como para ensino, como para geofísica de exploração. Para preencher esta lacuna, provemos aqui uma série de rotinas para modelar o campo magnético produzido por elipsoides. As rotinas são escritas em linguagem Python como parte do \textit{Fatiando a Terra} \citep{uieda-proc-scipy-2013}, que é uma biblioteca livre de modelagem e inversão em geofísica. Tentamos usar as melhores práticas de integração contínua, documentação, teste de unicidade, e controle de versão para prover um código confiável e fácil de usar. Esperamos que os aspectos teóricos e práticos apresentados aqui, sejam úteis para toda a comunidade de geocientistas.

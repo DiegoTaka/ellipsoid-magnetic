@@ -1,0 +1,26 @@
+\BOOKMARK [0][-]{chapter*.3}{Lista de Figuras}{}% 1
+\BOOKMARK [0][-]{chapter*.4}{Lista de Tabelas}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introdu\347\343o}{}% 3
+\BOOKMARK [0][-]{chapter.2}{Metodologia}{}% 4
+\BOOKMARK [1][-]{section.2.1}{Par\342metros geom\351tricos e sistemas de coordenadas}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.2}{Background Te\363rico}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.3}{Transforma\347\343o de coordenadas}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.4}{Tensores de depolariza\347\343o transformados \(\)}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.4.1}{Tensor de depolariza\347\343o }{section.2.4}% 9
+\BOOKMARK [2][-]{subsection.2.4.2}{Tensor de depolariza\347\343o \(\)}{section.2.4}% 10
+\BOOKMARK [1][-]{section.2.5}{Campo magn\351tico interno e magnetiza\347\343o}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.6}{Campo magn\351tico externo e anomalia de campo-total}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter.3}{Implementa\347\343o computacional}{}% 13
+\BOOKMARK [0][-]{chapter.4}{Simula\347\365es Num\351ricas e Discuss\365es}{}% 14
+\BOOKMARK [1][-]{section.4.1}{Modelos elipsoidais}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.2}{Elementos do tensor de depolariza\347\343o}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.3}{Compara\347\365es entre os modelos elipsoidais}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.4}{Susceptibilidade}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.5}{Anisotropia de forma}{chapter.4}% 19
+\BOOKMARK [0][-]{chapter.5}{Conclus\365es}{}% 20
+\BOOKMARK [0][-]{chapter*.12}{Refer\352ncias Bibliogr\341ficas}{}% 21
+\BOOKMARK [0][-]{appendix.A}{Rela\347\343o entre as derivadas das fun\347\365es f\(r\) e \(\)}{}% 22
+\BOOKMARK [0][-]{appendix.B}{Par\342metro \040e suas derivadas espaciais}{}% 23
+\BOOKMARK [1][-]{section.B.1}{Par\342metro \040definido para os elipsoides triaxiais}{appendix.B}% 24
+\BOOKMARK [1][-]{section.B.2}{Par\342metro \040que define os elipsoides prolatos e oblatos}{appendix.B}% 25
+\BOOKMARK [1][-]{section.B.3}{Derivadas espaciais do par\342metro }{appendix.B}% 26

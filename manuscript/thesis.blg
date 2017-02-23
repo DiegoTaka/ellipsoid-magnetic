@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: dedic.aux
+A level-1 auxiliary file: thanks.aux
+A level-1 auxiliary file: resumo.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: chap01.aux
+A level-1 auxiliary file: chap02.aux
+A level-1 auxiliary file: chap03.aux
+A level-1 auxiliary file: chap04.aux
+A level-1 auxiliary file: chap05.aux
+The style file: on-plain.bst
+A level-1 auxiliary file: appenA.aux
+A level-1 auxiliary file: appenB.aux
+Database file #1: references.bib
+Warning--I didn't find a database entry for "demmel1997"
+Warning--I didn't find a database entry for "golub2013"
+`address' is a missing field, not a string, for entry allmendinger2012
+while executing---line 1455 of file on-plain.bst
+`address' is a missing field, not a string, for entry blakely1996
+while executing---line 1455 of file on-plain.bst
+Warning--there's a number but no volume in clark2000
+Warning--there's a number but no volume in clark1999
+`address' is a missing field, not a string, for entry dubois1896
+while executing---line 1455 of file on-plain.bst
+`address' is a missing field, not a string, for entry dunlop1997
+while executing---line 1455 of file on-plain.bst
+Warning--empty address in hillan2013
+Warning--empty publisher in hillan2013
+`address' is a missing field, not a string, for entry kellogg1929
+while executing---line 1455 of file on-plain.bst
+`address' is a missing field, not a string, for entry maxwell1873
+while executing---line 1455 of file on-plain.bst
+`address' is a missing field, not a string, for entry peirce1902
+while executing---line 1455 of file on-plain.bst
+`address' is a missing field, not a string, for entry reitz1992
+while executing---line 1455 of file on-plain.bst
+`address' is a missing field, not a string, for entry searle1982
+while executing---line 1455 of file on-plain.bst
+`address' is a missing field, not a string, for entry sttraton2007
+while executing---line 1455 of file on-plain.bst
+`address' is a missing field, not a string, for entry thompson1986
+while executing---line 1455 of file on-plain.bst
+Warning--empty month in uieda-proc-scipy-2013
+`address' is a missing field, not a string, for entry webster1904
+while executing---line 1455 of file on-plain.bst
+(There were 12 error messages)

@@ -1,0 +1,18 @@
+\chapter{Conclusões}
+
+A modelagem direta do campo magnético gerado por fontes elipsoidais se mostrou satisfatória para os testes conduzidos neste trabalho. As componentes do campo magnético e a anomalia de campo total aproximada foram calculadas conforme o esperado para as três implementações deste trabalho: para os elipsoides triaxiais, prolatos e oblatos.
+
+Para validação do nosso código realizamos algumas simulações. Colocando os valores dos semi-eixos próximos uns dos outros aproximamos o elipsoide para uma esfera e encontramos valores perto da indução magnética causada por uma esfera verdadeira.
+Alongando o semi-eixo maior aproximamos o elipsoide para uma forma de \textit{pipe} e comparamos com um elipsoide prolato. Novamente os resultados encontrados foram próximos, demonstrando a flexibilidade da forma geométrica do elipsoide. 
+Na comparação com um elipsoide oblato, que possui algumas diferenças na parametrização dos ângulos, aproximamos tanto o elipsoide triaxial, quanto o oblato, para uma esfera, a fim de facilitar comparações. Os resultados foram muito próximos também.
+
+Os elementos dos fatores de desmagnetização se comportaram conforme o esperado para todos os tipos de elipsoide, afastados uns dos outros quando os semi-eixos tem valores diferentes e todos tendendo a $1/3$ quando próximos, indicando que a depolarização ocorre de forma homogênea neste caso. Como esperado na teoria a soma dos elementos é igual a 1.
+
+Para o teste de susceptibilidade foi calculado a mudança de direção do vetor de magnetização resultante conforme a intensidade da susceptibilidade é aumentada. E de fato, assim como é conhecido na literatura, foi verificado que a mudança de direção começa a ser relevante a partir de uma susceptibilidade maior que 0.1 no SI.
+
+Em outro teste que foi conduzido, verificamos a mudança de direção do vetor de magnetização, com a tendência de se alinhar ao semi-eixo maior do elipsoide conforme este aumentava, mesmo com uma susceptibilidade ($k_1$, $k_2$ e $k_3$) constante. Isto, se deve ao fato que o sei-eixo maior sofrerá menor desmagnetização que os demais, o que é chamado de anisotropia de susceptibilidade de forma.
+
+A implementação também se mostrou eficaz para modelar, de forma prática, múltiplos corpos de uma única vez, utilizando a classe elipsoidal. Por esta implementação fazer parte do software \textit{Fatiando a Terra}, é também beneficiado por ter à disposição as ferramentas já nele implementadas, e também sua estrutura que permite acessibilidade e maior difusão na comunidade científica. 
+
+Futuramente este código poderá ser utilizado para modelar situações mais complexas e também situações geológicas reais. Devido a particularidade do corpo elipsoidal em ter solução analítica para a desmagnetização, estudos mais profundos sobre a susceptibilidade magnética e a relação desta com o erro da modelagem magnética podem ser feitos. O código também poderá servir para estudos de inversão magnética, podendo-se estimar diversos parâmetros como o vetor de magnetização, semi-eixos e as orientações angulares do corpo elipsoidal.
+
