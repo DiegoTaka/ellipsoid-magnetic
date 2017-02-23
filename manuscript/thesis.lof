@@ -5,23 +5,23 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Figura que mostra as orienta\IeC {\c c}\IeC {\~o}es de um elipsoide dado um sistema de coordenadas principal ($x$, $y$e $z$) e um sistema local ($\mathaccentV {tilde}07E{x}$, $\mathaccentV {tilde}07E{y}$, $\mathaccentV {tilde}07E{z}$.)}}{7}{figure.2.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Cookbook para gerar um modelo elipsoidal triaxial e calcular a anomalia de campo total.}}{20}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Fun\IeC {\c c}\IeC {\~a}o que calcula a anomalia de campo total aproximada de um elipsoide triaxial.}}{21}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Soma dos fatores de desmagnetiza\IeC {\c c}\IeC {\~a}o. No SI a soma dever\IeC {\'a} ser igual \IeC {\`a} 1 (um).}}{22}{figure.3.3}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Cookbook para gerar um modelo elipsoidal triaxial e calcular a anomalia de campo total.}}{21}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Fun\IeC {\c c}\IeC {\~a}o que calcula a anomalia de campo total aproximada de um elipsoide triaxial.}}{22}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Soma dos fatores de desmagnetiza\IeC {\c c}\IeC {\~a}o. No SI a soma dever\IeC {\'a} ser igual \IeC {\`a} 1 (um).}}{23}{figure.3.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces As componentes do campo magn\IeC {\'e}tico gerado por um elipsoide triaxial e a anomalia de campo total aproximada.}}{24}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces As componentes do campo magn\IeC {\'e}tico gerado por um elipsoide prolato e a anomalia de campo total aproximada.}}{26}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces As componentes do campo magn\IeC {\'e}tico gerado por um elipsoide oblato e a anomalia de campo total aproximada.}}{27}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces As componentes do campo magn\IeC {\'e}tico gerado por dois corpos triaxiais e a anomalia de campo total aproximada.}}{29}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Teste dos fatores de desmagnetiza\IeC {\c c}\IeC {\~a}o para um elipsoide triaxial.}}{30}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Teste dos fatores de desmagnetiza\IeC {\c c}\IeC {\~a}o para um elipsoide prolato.}}{31}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Teste dos fatores de desmagnetiza\IeC {\c c}\IeC {\~a}o para um elipsoide oblato.}}{32}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o da anomalia de campo total aproximada entre um elipsoide triaxial com tr\IeC {\^e}s semi-eixos muito pr\IeC {\'o}ximos, simulando uma esfera, e uma esfera.}}{34}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o da anomalia de campo total aproximada entre um elipsoide triaxial com um dos semi-eixos mais alongado que o restante e um elipsoide prolato.}}{36}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o da anomalia de campo total aproximada entre um elipsoide triaxial com tr\IeC {\^e}s semi-eixos muito pr\IeC {\'o}ximos e um elipsoide oblato.}}{38}{figure.4.10}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Teste do efeito da susceptibilidade na desmagnetiza\IeC {\c c}\IeC {\~a}o de um elipsoide imerso em um campo externo constante de inclina\IeC {\c c}\IeC {\~a}o $30^{o}$ e declina\IeC {\c c}\IeC {\~a}o $-15^{o}$.}}{39}{figure.4.11}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Simula\IeC {\c c}\IeC {\~a}o, da mudan\IeC {\c c}a do vetor de magnetiza\IeC {\c c}\IeC {\~a}o resultante, de um elipsoide triaxial com o aumento do semi-eixo maior.}}{41}{figure.4.12}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Simula\IeC {\c c}\IeC {\~a}o, da mudan\IeC {\c c}a do vetor de magnetiza\IeC {\c c}\IeC {\~a}o resultante, de um elipsoide triaxial com o aumento do semi-eixo maior.}}{43}{figure.4.13}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces As componentes do campo magn\IeC {\'e}tico gerado por um elipsoide triaxial e a anomalia de campo total aproximada.}}{25}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces As componentes do campo magn\IeC {\'e}tico gerado por um elipsoide prolato e a anomalia de campo total aproximada.}}{27}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces As componentes do campo magn\IeC {\'e}tico gerado por um elipsoide oblato e a anomalia de campo total aproximada.}}{28}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces As componentes do campo magn\IeC {\'e}tico gerado por dois corpos triaxiais e a anomalia de campo total aproximada.}}{30}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Teste dos fatores de desmagnetiza\IeC {\c c}\IeC {\~a}o para um elipsoide triaxial.}}{31}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Teste dos fatores de desmagnetiza\IeC {\c c}\IeC {\~a}o para um elipsoide prolato.}}{32}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Teste dos fatores de desmagnetiza\IeC {\c c}\IeC {\~a}o para um elipsoide oblato.}}{33}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o da anomalia de campo total aproximada entre um elipsoide triaxial com tr\IeC {\^e}s semi-eixos muito pr\IeC {\'o}ximos, simulando uma esfera, e uma esfera.}}{35}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o da anomalia de campo total aproximada entre um elipsoide triaxial com um dos semi-eixos mais alongado que o restante e um elipsoide prolato.}}{37}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o da anomalia de campo total aproximada entre um elipsoide triaxial com tr\IeC {\^e}s semi-eixos muito pr\IeC {\'o}ximos e um elipsoide oblato.}}{39}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Teste do efeito da susceptibilidade na desmagnetiza\IeC {\c c}\IeC {\~a}o de um elipsoide imerso em um campo externo constante de inclina\IeC {\c c}\IeC {\~a}o $30^{o}$ e declina\IeC {\c c}\IeC {\~a}o $-15^{o}$.}}{40}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Simula\IeC {\c c}\IeC {\~a}o, da mudan\IeC {\c c}a do vetor de magnetiza\IeC {\c c}\IeC {\~a}o resultante, de um elipsoide triaxial com o aumento do semi-eixo maior.}}{42}{figure.4.12}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Simula\IeC {\c c}\IeC {\~a}o, da mudan\IeC {\c c}a do vetor de magnetiza\IeC {\c c}\IeC {\~a}o resultante, de um elipsoide triaxial com o aumento do semi-eixo maior.}}{44}{figure.4.13}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

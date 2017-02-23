@@ -124,20 +124,6 @@ $\tilde{\mathbf{r}} = [\begin{array}{ccc} \tilde{x} &
 $\mathbf{r}$ e $\mathbf{r}_{c}$
 são definidas na Eq. \ref{eq:ellipsoid_surface} e a matriz $\mathbf{V}$ \ref{eq:V_triaxial_prolate}
 é definida de acordo do tipo de elipsoide. Na sequência deste trabalho, referiremos a grandezas no sistema de coordenadas local, pelo símbolo "$\sim$"
-%Similarly, we may properly use the orthogonality of 
-%matrix $\mathbf{V}$ to transform a generic 
-%linear system $\mathbf{M} \mathbf{p} = \mathbf{d}$,
-%referred to the main coordinate system, into a new
-%linear system 
-%$\tilde{\mathbf{M}} \, \tilde{\mathbf{p}} = \tilde{\mathbf{d}}$,
-%referred to a local coordinate system, 
-%as follows:
-%\begin{equation}
-%\underbrace{\mathbf{V}^{\top} \mathbf{M} \mathbf{V}}_{\tilde{\mathbf{M}}} \,
-%\underbrace{\mathbf{V}^{\top} \mathbf{p}}_{\tilde{\mathbf{p}}} = 
-%\underbrace{\mathbf{V}^{\top} \mathbf{d}}_{\tilde{\mathbf{d}}} \: .
-%\label{eq:matrix-transformation}
-%\end{equation}
 
 \begin{figure}[hbt!]
 	\centering \includegraphics[width=12 cm,height=14.5 cm]{figures/structural_orientation_angles}
@@ -230,7 +216,7 @@ Usando a magnetização $\mathbf{M}$ definida pela Eq. \ref{eq:M-KH}, o campo ma
 onde $\mathbf{N}(\mathbf{r})$ é uma matriz simétrica cujo
 $ij$-elemento $n_{ij}(\mathbf{r})$ é dado por:
 \begin{equation}
-n_{ij}(\mathbf{r}) = - 
+n_{ij}(\mathbf{r}) = 
 \frac{1}{4\pi} \frac{\partial^{2} \, f(\mathbf{r})}
 {\partial r_{i} \, \partial r_{j}} 
 \: , \quad i = 1, 2, 3 \: , 
@@ -302,7 +288,7 @@ onde o sobrescrito "$\sim$" representa grandezas referidas ao respectivo sistema
 Na Eq. \ref{eq:H-tilde}, o tensor de depolarização transformado $\tilde{\mathbf{N}}(\tilde{\mathbf{r}})$ é calculado como uma função do tensor de depolarização original $\mathbf{N}(\mathbf{r})$ (Eq. \ref{eq:H-M-uniform}). Neste caso, os elementos de $\tilde{\mathbf{N}}(\tilde{\mathbf{r}})$ são calculados como função das derivadas segundas da função $f(\mathbf{r})$ (Eq. \ref{eq:f}), que é definida no  sistema de coordenadas principal. Pode ser mostrado (Apêndice A), entretanto, que os elementos $\tilde{n}_{ij}(\tilde{\mathbf{r}})$ de
 $\tilde{\mathbf{N}}(\tilde{\mathbf{r}})$ também podem ser calculados como:
 \begin{equation}
-\tilde{n}_{ij}(\tilde{\mathbf{r}}) = - 
+\tilde{n}_{ij}(\tilde{\mathbf{r}}) = 
 \frac{1}{4\pi} \frac{\partial^{2} \, \tilde{f}(\tilde{\mathbf{r}})}
 {\partial \tilde{r}_{i} \, \partial \tilde{r}_{j}} 
 \: , \quad i = 1, 2, 3 \: , \quad j = 1, 2, 3 \: ,
@@ -427,7 +413,13 @@ obtidos resolvendo a Eq. \ref{eq:n-tilde-dagger-ii} são dados por:
 \right] \: ,
 \label{eq:n-tilde-dagger-11-oblate}
 \end{equation}
-onde $\tilde{n}^{\dagger}_{22}$ e $\tilde{n}^{\dagger}_{33}$ 
+e
+\begin{equation}
+\tilde{n}^{\dagger}_{22} = 
+\frac{1}{2} \left(1 - \tilde{n}^{\dagger}_{11}\right) ,
+\label{eq:n-tilde-dagger-22-oblate}
+\end{equation}
+onde $\tilde{n}^{\dagger}_{22}=\tilde{n}^{\dagger}_{33}$ e
 são calculados de acordo com a Eq.
 \ref{eq:n-tilde-dagger-22-prolate}, mas com $\tilde{n}^{\dagger}_{11}$ 
 definido na Equação \ref{eq:n-tilde-dagger-11-oblate}, 
@@ -437,7 +429,7 @@ pode ser encontrada, por exemplo, em \citet{stoner1945}.  Essas fórmulas
 também podem ser encontradas em \citet{emerson1985}, mas sem nenhuma prova matemática.
 A única diferença, entretanto, é que \citet{emerson1985} trocou o termo $\cos^{-1}$
 por um termo $\tan^{-1}$, de acordo com a identidade trigonométrica
-$\tan^{-1}x = \cos^{-1}(1/\sqrt{x^{2} + 1})$, $x > 0$.
+$\tan^{-1}x = \cos^{-1}(1/\sqrt{x^{2} + 1})$, $x > 0$. Pode swer mstrado que estes fatores de desmagnetização satisfazem as condições $\tilde{n}^{\dagger}_{11} + 2 \tilde{n}^{\dagger}_{22} = 1$ e $\tilde{n}^{\dagger}_{11} > \tilde{n}^{\dagger}_{22}$
 
 \subsection{Tensor de depolarização $\tilde{\mathbf{N}}^{\ddagger}(\tilde{\mathbf{r}})$}
 
