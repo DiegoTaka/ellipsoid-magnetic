@@ -2,16 +2,15 @@
 
 \section{Parâmetros geométricos e sistemas de coordenadas}
 
-Seja $(x, y, z)$ um ponto referido à um sistema de coordenadas cartesiano com eixos $x$, $y$ e $z$ com direções para, respectivamente, Norte, Leste e para baixo. Por conveniência, nós denominamos este sistema de coordenadas como \textit{sistema de coordenadas principal}.
-Considerando um corpo elipsoidal com centro nos pontos $(x_{c}, y_{c}, z_{c})$, semi-eixos definidos por constantes positivas $a$, $b$, $c$, 
-onde $a > b > c$, e orientações definidas por três ângulos $\varepsilon$, $\zeta$, e $\eta$ conforme Figura \ref{fig:structural_orientation_angles}. Os ângulos $\varepsilon$, $\zeta$, e $\eta$ são chamados \textit{strike}, \textit{dip} e \textit{rake}, respectivamente, e são comumente usados para definir a orientação de estruturas geológicas\citep{clark1986, allmendinger2012}. 
+Seja $(x, y, z)$ um ponto referido à um sistema de coordenadas Cartesianas com eixo $x$ apontado para o norte, $y$ para leste e $z$ para baixo. Por conveniência, este sistema de coordenadas foi denominado \textit{sistema de coordenadas principal}.
+Considerando um corpo elipsoidal com centro no ponto $(x_{c}, y_{c}, z_{c})$, semi-eixos definidos por constantes positivas $a$, $b$, $c$ e orientações definidas por três ângulos $\varepsilon$, $\zeta$, e $\eta$ (Figura \ref{fig:structural_orientation_angles}). Os ângulos $\varepsilon$, $\zeta$, e $\eta$ são chamados \textit{strike}, \textit{dip} e \textit{rake}, respectivamente, e são comumente usados para definir a orientação de estruturas geológicas\citep{clark1986, allmendinger2012}. 
 
-Os pontos $(x, y, z)$, que descrevem a superfície deste corpo elipsoidal, satisfazem a seguinte equação:
+Os pontos localizados sobre a superfície deste corpo elipsoidal satisfazem a seguinte equação:
 \begin{equation}
 (\mathbf{r} - \mathbf{r}_c)^T \mathbf{A} (\mathbf{r} - \mathbf{r}_c) = 1 \: ,
 \label{eq:ellipsoid_surface}
 \end{equation}
-onde $\mathbf{r} = [\begin{array}{ccc} x & y & z \end{array} ]^{\top}$,
+em que $\mathbf{r} = [\begin{array}{ccc} x & y & z \end{array} ]^{\top}$,
 $\mathbf{r}_{c} = [\begin{array}{ccc} x_{c} & y_{c} & z_{c} \end{array} ]^{\top}$,
 $\mathbf{A}$ é uma matriz positiva definida dada por:
 \begin{equation}
@@ -23,7 +22,7 @@ a^{-2} & 0 & 0 \\
 \end{array} \right] \mathbf{V}^{\top} \: ,
 \label{eq:A}
 \end{equation}
-e $\mathbf{V}$ é uma matriz ortogonal cujas colunas são definidas por vetores unitários $\mathbf{v}_{1}$, $\mathbf{v}_{2}$, e $\mathbf{v}_{3}$ (Fig. \ref{fig:structural_orientation_angles}b), respectivamente. Estes vetores unitários são comumente descritos em termos dos ângulos de orientações auxiliares $\alpha$, $\gamma$, e $\delta$, que não são usados pela comunidade geocientífica. Entretanto podemos defini-los a partir de $\varepsilon$, $\zeta$, e $\eta$ (Fig. \ref{fig:structural_orientation_angles}a) como dado por \citep{clark1986}:
+e $\mathbf{V}$ é uma matriz ortogonal cujas colunas são definidas por vetores unitários $\mathbf{v}_{1}$, $\mathbf{v}_{2}$, e $\mathbf{v}_{3}$ (Fig. \ref{fig:structural_orientation_angles}b), respectivamente. Estes vetores unitários são comumente descritos em termos de ângulos auxiliares $\alpha$, $\gamma$, e $\delta$, que não são usados pela comunidade geocientífica. Entretanto podemos defini-los a partir de $\varepsilon$, $\zeta$, e $\eta$ como dado por \citep{clark1986}:
 
 \begin{equation}
 \alpha = \varepsilon - \cos^{-1} \left[ \frac{\cos \eta}
@@ -39,7 +38,7 @@ e
 \delta = \sin^{-1} \left( \sin \zeta \, \sin \eta \right) \: ,
 \label{eq:delta}
 \end{equation}
-onde $-90^{\circ} \leq \gamma \leq 90^{\circ}$ e $0 \leq \delta \leq 90^{\circ}$. Assim, dados os ângulos de orientações $\varepsilon$, $\zeta$, e $\eta$ (Fig. \ref{fig:structural_orientation_angles}a e Eqs. \ref{eq:alpha}, \ref{eq:gamma}, e
+em que $-90^{\circ} \leq \gamma \leq 90^{\circ}$ e $0 \leq \delta \leq 90^{\circ}$. Assim, dados os ângulos $\varepsilon$, $\zeta$, e $\eta$ (Fig. \ref{fig:structural_orientation_angles}a e Eqs. \ref{eq:alpha}, \ref{eq:gamma}, e
 \ref{eq:delta}), podemos definir os vetores unitários
 $\mathbf{v}_{1}$, $\mathbf{v}_{2}$, e $\mathbf{v}_{3}$
 (Fig. \ref{fig:structural_orientation_angles}b) de acordo com o tipo de elipsoide.
@@ -69,22 +68,12 @@ Para elipsoides triaxiais (i.e., $a > b > c$), estes vetores unitários são dad
 \end{array} \right] \: .
 \label{eq:v3_triaxial_prolate}
 \end{equation}
-Para elipsoides triaxiais (i.e., $a > b > c$), a matriz ortogonal
-$\mathbf{V}$ (Eq. \ref{eq:V_triaxial_prolate}) é calculada usando as Eqs.
-\ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate}, e
-\ref{eq:v3_triaxial_prolate}:
-\begin{equation}
-\mathbf{V} = \left[ \begin{array}{ccc}
-\mathbf{v}_{1} & \mathbf{v}_{2} & \mathbf{v}_{3}
-\end{array} \right] \: .
-\label{eq:V_triaxial_prolate}
-\end{equation}
-Similarmente, a matriz $\mathbf{V}$ para elipsoides prolatos (i.e., $a > b = c$) é calculada de acordo com a Eq. \ref{eq:V_triaxial_prolate} usando as Eqs.
+Similarmente, os vetores unitários $\mathbf{v}_{1}$, $\mathbf{v}_{2}$ e $\mathbf{v}_{3}$ para elipsoides prolatos (i.e., $a > b = c$) são calculados de acordo com as Eqs.
 \ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate}, e
 \ref{eq:v3_triaxial_prolate}, mas com $\gamma = 0^{\circ}$ 
 \citep{emerson1985}.
 
-Finalmente, a matriz $\mathbf{V}$ (Eq. \ref{eq:V_triaxial_prolate}) para elipsoides oblatos (i.e., $a < b = c$) é calculada como dado por \citep{emerson1985}:
+Finalmente, os vetores unitários $\mathbf{v}_{1}$, $\mathbf{v}_{2}$ e $\mathbf{v}_{3}$ para elipsoides oblatos (i.e., $a < b = c$) são calculados da seguinte forma:
 \begin{equation}
 \mathbf{v}_{1} = \left[\begin{array}{c} 
 -\cos\alpha \; \sin\gamma \; \sin\delta + \sin\alpha \; \cos\gamma \\               
@@ -110,20 +99,30 @@ Finalmente, a matriz $\mathbf{V}$ (Eq. \ref{eq:V_triaxial_prolate}) para elipsoi
 \label{eq:v3_oblate}
 \end{equation}
 
-A modelagem magnética de um corpo elipsoidal é comumente feita em um sistema de coordenadas Cartesiana particular, que está alinhada com os semi-eixos, e sua origem coincide com o centro do corpo (Fig. \ref{fig:structural_orientation_angles}b). Por conveniência, denominaremos este sistema de coordenas como \textit{sistema de coordenadas local}.
+Dessa forma, a matrix $\mathbf{V}$ fica definida como:
+\begin{equation}
+\mathbf{V} = \left[ \begin{array}{ccc}
+\mathbf{v}_{1} & \mathbf{v}_{2} & \mathbf{v}_{3}
+\end{array} \right] \: .
+\label{eq:V_triaxial_prolate}
+\end{equation}
+em que $\mathbf{v}_{1}$, $\mathbf{v}_{2}$ e $\mathbf{v}_{3}$ são calculados com as Eqs.
+\ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate}, e \ref{eq:v3_triaxial_prolate} dependendo do tipo de elipsoide:
+
+A modelagem magnética de um corpo elipsoidal é comumente feita em um sistema de coordenadas Cartesianas particular, alinhado com semi-eixos e sua coincidente com o seu centro (Fig. \ref{fig:structural_orientation_angles}b). Por conveniência, este sistema de coordenas foi denominado \textit{sistema de coordenadas local}.
 A relação entre as coordenas Cartesianas $(\tilde{x}, \tilde{y}, \tilde{z})$
 de um ponto no sistema de coordenadas local e as coordenadas Cartesianas $(x, y, z)$ do mesmo ponto no sistema principal é dada por:
 \begin{equation}
 \tilde{\mathbf{r}} = \mathbf{V}^{\top} \left( \mathbf{r} - \mathbf{r}_{c} \right) \: ,
 \label{eq:coord_transformation}
 \end{equation}
-onde 
+em que 
 $\tilde{\mathbf{r}} = [\begin{array}{ccc} \tilde{x} & 
 \tilde{y} & 
 \tilde{z} \end{array} ]^{\top}$,
 $\mathbf{r}$ e $\mathbf{r}_{c}$
 são definidas na Eq. \ref{eq:ellipsoid_surface} e a matriz $\mathbf{V}$ \ref{eq:V_triaxial_prolate}
-é definida de acordo do tipo de elipsoide. Na sequência deste trabalho, referiremos a grandezas no sistema de coordenadas local pelo símbolo "$\sim$".
+é definida de acordo do tipo de elipsoide. Ao longo deste trabalho, as grandezas referidas ao sistema de coordenadas local são representadas utilizando-se símbolo "$\sim$".
 
 \begin{figure}[hbt!]
 	\centering \includegraphics[width=12 cm,height=14.5 cm]{figures/structural_orientation_angles}
