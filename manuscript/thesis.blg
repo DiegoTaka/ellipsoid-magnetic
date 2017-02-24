@@ -12,17 +12,19 @@ The style file: on-plain.bst
 A level-1 auxiliary file: appenA.aux
 A level-1 auxiliary file: appenB.aux
 Database file #1: references.bib
-Warning--I didn't find a database entry for "demmel1997"
-Warning--I didn't find a database entry for "golub2013"
 `address' is a missing field, not a string, for entry allmendinger2012
 while executing---line 1455 of file on-plain.bst
 `address' is a missing field, not a string, for entry blakely1996
 while executing---line 1455 of file on-plain.bst
 Warning--there's a number but no volume in clark2000
 Warning--there's a number but no volume in clark1999
+`address' is a missing field, not a string, for entry demmel1997
+while executing---line 1455 of file on-plain.bst
 `address' is a missing field, not a string, for entry dubois1896
 while executing---line 1455 of file on-plain.bst
 `address' is a missing field, not a string, for entry dunlop1997
+while executing---line 1455 of file on-plain.bst
+`address' is a missing field, not a string, for entry golub2013
 while executing---line 1455 of file on-plain.bst
 Warning--empty address in hillan2013
 Warning--empty publisher in hillan2013
@@ -43,4 +45,4 @@ while executing---line 1455 of file on-plain.bst
 Warning--empty month in uieda-proc-scipy-2013
 `address' is a missing field, not a string, for entry webster1904
 while executing---line 1455 of file on-plain.bst
-(There were 12 error messages)
+(There were 14 error messages)

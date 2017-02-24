@@ -1,4 +1,4 @@
-\begin{thebibliography}{51}
+\begin{thebibliography}{53}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -56,6 +56,11 @@
   and total magnetisations of magnetic sources--a review}, \emph{Exploration
   Geophysics}, v.~45, n.~4, \penalty0 pp.~271--304.
 
+\bibitem[\MakeUppercase{Demmel}(1997)Demmel]{demmel1997}
+\MakeUppercase{Demmel, J.~W.}, 1997, \emph{Applied Numerical Linear Algebra}.
+\newblock SIAM.
+\newblock ISBN: 0898713897.
+
 \bibitem[\MakeUppercase{Dirichlet}(1839)Dirichlet]{dirichlet1839}
 \MakeUppercase{Dirichlet, L. P.~G.}, 1839, \enquote{Sur un nouvelle methode
   pour la determination des integrales multiples}, \emph{Journal de
@@ -103,6 +108,13 @@
   \penalty0 pp.~293--309.
 \newblock ISSN: 2156-2202.
 \newblock \doi{10.1029/JZ068i001p00293}.
+
+\bibitem[\MakeUppercase{Golub} e \MakeUppercase{Loan}(2013)Golub e
+  Loan]{golub2013}
+\MakeUppercase{Golub, G.~H., Loan, C. F.~V.}, 2013, \emph{Matrix Computations
+  (Johns Hopkins Studies in the Mathematical Sciences)}.
+\newblock Johns Hopkins University Press.
+\newblock ISBN: 978-1-4214-0794-4.
 
 \bibitem[\MakeUppercase{Guo}\emph{ et~al.}(1998)Guo, Dentith, Li, e
   Powell]{guo1998}

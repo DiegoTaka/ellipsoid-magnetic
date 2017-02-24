@@ -4,7 +4,7 @@
 
 Seja $(x, y, z)$ um ponto referido à um sistema de coordenadas cartesiano com eixos $x$, $y$ e $z$ com direções para, respectivamente, Norte, Leste e para baixo. Por conveniência, nós denominamos este sistema de coordenadas como \textit{sistema de coordenadas principal}.
 Considerando um corpo elipsoidal com centro nos pontos $(x_{c}, y_{c}, z_{c})$, semi-eixos definidos por constantes positivas $a$, $b$, $c$, 
-onde $a > b > c$, e orientações definidas por três ângulos $\varepsilon$, $\zeta$, e $\eta$ conforme Figura \ref{fig:structural_orientation_angles}. Os ângulos $\varepsilon$, $\zeta$, e $\eta$ são chamados \textit{strike}, \textit{dip} e \textit{rake}, respectivamente, e são comumente usados para definir linhas de orientação em geologia estrutural\citep{clark1986, allmendinger2012}. 
+onde $a > b > c$, e orientações definidas por três ângulos $\varepsilon$, $\zeta$, e $\eta$ conforme Figura \ref{fig:structural_orientation_angles}. Os ângulos $\varepsilon$, $\zeta$, e $\eta$ são chamados \textit{strike}, \textit{dip} e \textit{rake}, respectivamente, e são comumente usados para definir a orientação de estruturas geológicas\citep{clark1986, allmendinger2012}. 
 
 Os pontos $(x, y, z)$, que descrevem a superfície deste corpo elipsoidal, satisfazem a seguinte equação:
 \begin{equation}
@@ -232,7 +232,7 @@ f(\mathbf{r}) = \iiint_{\vartheta}
 \end{equation}
 Note que a função escalar $f(\mathbf{r})$ (Eq. \ref{eq:f}) é proporcional ao potencial gravitacional que seria produzido pelo corpo elipsoidal de volume $\vartheta$ se tivesse uma densidade uniforme igual à inversa da constante gravitacional. Pode ser mostrado que os elementos $n_{ij}(\mathbf{r})$ são finitos tanto se $\mathbf{r}$ é um ponto dentro ou fora do volume $\vartheta$ \citep{peirce1902, webster1904}. A matriz $\mathbf{N}(\mathbf{r})$ (Eq. \ref{eq:H-M-uniform}) é chamada de \textit{tensor de depolarização} \citep{soliverez1981, soliverez2008}.
 
-A parte seguinte deste dissertação é dedicada a descrever o campo magnético $\mathbf{H}(\mathbf{r})$ (Eq. \ref{eq:H-M-uniform}) nos pontos localizados tanto dentro como fora do volume $\vartheta$ do corpo elipsoidal. Entretanto, o desenvolvimento matemático são convenientemente feitos no sistema de coordenadas local (Fig. \ref{fig:structural_orientation_angles}b) relacionado ao corpo elipsoidal.
+A parte seguinte deste dissertação é dedicada a descrever o campo magnético $\mathbf{H}(\mathbf{r})$ (Eq. \ref{eq:H-M-uniform}) nos pontos localizados tanto dentro como fora do volume $\vartheta$ do corpo elipsoidal. Entretanto, os desenvolvimentos matemáticos são convenientemente feitos no sistema de coordenadas local (Fig. \ref{fig:structural_orientation_angles}b) relacionado ao corpo elipsoidal.
 
 \section{Transformação de coordenadas}
 
@@ -269,7 +269,7 @@ Esta função representa o potencial gravitacional que seria produzido pelo corp
 \end{equation}
 onde $R(u)$ é definido pela Eq. \ref{eq:R} e o parâmetro $\lambda$ é definido de acordo com o tipo de elipsoide como uma função das coordenadas espaciais $\tilde{x}$, $\tilde{y}$, e $\tilde{z}$ (ver Apêndice B). Para leitores interessados em informações adicionais sobre o parâmetro $\lambda$, recomendamos \citet[p.~234]{webster1904}, \citet[p.~184]{kellogg1929} e \citet{clark1986}.
 
-A segunda importante transformação de coordenada é definida com respeito a Eq. \ref{eq:H-M-uniform}. Usando apropriadamente a ortogonalidade de matriz $\mathbf{V}$ (Eqs. \ref{eq:V_triaxial_prolate} e \ref{eq:V_oblate}),
+A segunda importante transformação de coordenada é definida com respeito a Eq. \ref{eq:H-M-uniform}. Usando apropriadamente a ortogonalidade de matriz $\mathbf{V}$ (Eqs. \ref{eq:V_triaxial_prolate}),
 o campo magnético $\mathbf{H}(\mathbf{r})$ (Eq. \ref{eq:H-M-uniform}) pode ser transformado do sistema de coordenadas principal para o sistema de coordenadas local usando:
 \begin{equation}
 \underbrace{\mathbf{V}^{\top} \mathbf{H}(\mathbf{r})}_{\tilde{\mathbf{H}}(\tilde{\mathbf{r}})} = 
@@ -436,7 +436,7 @@ Os elementos $\tilde{n}^{\ddagger}_{ij}(\tilde{\mathbf{r}})$,
 $i = 1, 2, 3$, $j = 1, 2, 3$, do tensor de depolarização transformado 
 $\tilde{\mathbf{N}}^{\ddagger}(\tilde{\mathbf{r}})$ usados para calcular
 o campo magnético $\Delta \tilde{\mathbf{H}}(\tilde{\mathbf{r}})$ 
-(Eq. \ref{eq:delta-H-tilde}) e
+(Eq. \ref{eq:delta-H}) e
 a anomalia de campo total $\Delta \tilde{T}(\tilde{\mathbf{r}})$
 (Eqs. \ref{eq:delta-T-tilde} e \ref{eq:delta-T-tilde-approx}) 
 são calculadas de acordo com a Eq. \ref{eq:nij-tilde}, com 
@@ -540,7 +540,7 @@ g_{2} =  \frac{1}{\left( a^{2} - b^{2} \right)^{\frac{3}{2}}}
 \end{equation}
 onde $g_{3} = g_{2}$.
 Estas fórmulas podem ser obtidas manipulando apropriadamente aquelas
-apresentadas por \citep{emerson1985}.
+apresentadas por \cite{emerson1985}.
 
 
 \subparagraph*{Elipsoides oblatos}
@@ -766,7 +766,7 @@ $\| \delta \mathbf{\Lambda}^{-1} \|$ como:
 \label{eq:norm-perturbed-inverse-Lambda}
 \end{equation}
 onde $\tilde{n}^{\dagger}_{max}$ é o fator de desmagnetização
-associado oa menor semi-eixo do elipsoide.
+associado ao menor semi-eixo do elipsoide.
 Para um elipsoide triaxial, 
 $\tilde{n}^{\dagger}_{max} \equiv \tilde{n}^{\dagger}_{33}$
 (Eq. \ref{eq:n-tilde-dagger-33-triaxial}). Para um elipsoide prolato,
@@ -822,7 +822,7 @@ onde ${\mathbf{N}}^{\ddagger}({\mathbf{r}})$ é dado por:
 \label{eq:n-p}
 \end{equation}
 
-O $\Delta {\mathbf{H}}({\mathbf{r}})$ pode ser interpretado como um corpo uniformemente magnetizado localizado na crosta terrestre, enquanto o campo uniforme ${\mathbf{H}}_{0}$ pode ser interpretado como a componente principal do campo geomagnético da área de estudo, que é comumente assumido ser produzido na parte líquida do núcleo da Terra. A equação \ref{eq:delta-H-tilde} nos dá o campo magnético (em \unit{A \, m^{-1}}) produzido por um elipsoide. Entretanto, na geofísica, a maneira mais usual de representar a indução magnética é  em  \unit{nT}. Esta conversão pode ser facilmente feita multiplicando a Eq. \ref{eq:delta-H-tilde} por $k_{m}~=~10^{9}~\mu_{0}$, onde $\mu_{0}$ representa a constante magnética (em \unit{H \, m^{-1}}).
+O $\Delta {\mathbf{H}}({\mathbf{r}})$ pode ser interpretado como um corpo uniformemente magnetizado localizado na crosta terrestre, enquanto o campo uniforme ${\mathbf{H}}_{0}$ pode ser interpretado como a componente principal do campo geomagnético da área de estudo, que é comumente assumido ser produzido na parte líquida do núcleo da Terra. A equação \ref{eq:delta-H} nos dá o campo magnético (em \unit{A \, m^{-1}}) produzido por um elipsoide. Entretanto, na geofísica, a maneira mais usual de representar a indução magnética é  em  \unit{nT}. Esta conversão pode ser facilmente feita multiplicando a Eq. \ref{eq:delta-H} por $k_{m}~=~10^{9}~\mu_{0}$, onde $\mu_{0}$ representa a constante magnética (em \unit{H \, m^{-1}}).
 
 Para aplicações geofísicas, é preferível calcular a anomalia de campo total produzida por fontes magnéticas. Esta quantidade escalar é definida como \citep{blakely1996}:
 \begin{equation}
