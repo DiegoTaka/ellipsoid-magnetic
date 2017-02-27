@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.22)  24 FEB 2017 19:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.28)  26 FEB 2017 23:00
 entering extended mode
 **./thesis.tex
 (thesis.tex
-LaTeX2e <2016/02/01>
-Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 (on.cls
 Document Class: on 2011/02/08\ v2.2\ ON Dissertations and Thesis
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls"
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk12.clo"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk12.clo"
 File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,8 +23,7 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip43
 \bibsep=\skip44
@@ -39,74 +38,86 @@ LaTeX Info: Redefining \_ on input line 43.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2016/01/08 3.9n The Babel package
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.
+sty"
+Package: babel 2015/08/03 3.9m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\bblop
+ts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
 Language: english 2012/08/20 v3.3p English support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2016/01/08 3.9n Babel common definitions
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.
+def"
+File: babel.def 2015/08/03 3.9m Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel-portuges\portuges.ldf"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\babel-portuges\portuges.ldf"
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.st
+y"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
+icx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyva
+l.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
+ics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.
+sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graph
+ics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdf
+tex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\inf
+warerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltx
+cmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count90
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx
+.sty"
 Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.st
+y"
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen106
 \extrarowheight=\dimen107
@@ -121,8 +132,7 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@delta=\dimen112
 \TX@cols=\count91
 \TX@ftn=\toks16
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\eqparbox\eqparbox.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\eqparbox\eqparbox.sty"
 Package: eqparbox 2013/03/15 v4.0 Create equal-widthed boxes
 \eqp@tempdima=\skip47
 \eqp@tempdimb=\skip48
@@ -138,18 +148,22 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 \@envbody=\toks17
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geome
+try.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifp
+df.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifv
+tex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxe
+tex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count92
@@ -165,26 +179,28 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen120
 \Gm@dimlist=\toks18
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geome
+try.cfg"))
 \@coadvisor=\count95
 \@examiner=\count96
 \c@keywords=\count97
 \bibindent=\dimen121
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.
+sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu
+"
+File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -254,94 +270,50 @@ File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00FD (decimal 253)
    defining Unicode char U+00FE (decimal 254)
    defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0100 (decimal 256)
-   defining Unicode char U+0101 (decimal 257)
    defining Unicode char U+0102 (decimal 258)
    defining Unicode char U+0103 (decimal 259)
    defining Unicode char U+0104 (decimal 260)
    defining Unicode char U+0105 (decimal 261)
    defining Unicode char U+0106 (decimal 262)
    defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+0108 (decimal 264)
-   defining Unicode char U+0109 (decimal 265)
-   defining Unicode char U+010A (decimal 266)
-   defining Unicode char U+010B (decimal 267)
    defining Unicode char U+010C (decimal 268)
    defining Unicode char U+010D (decimal 269)
    defining Unicode char U+010E (decimal 270)
    defining Unicode char U+010F (decimal 271)
    defining Unicode char U+0110 (decimal 272)
    defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0112 (decimal 274)
-   defining Unicode char U+0113 (decimal 275)
-   defining Unicode char U+0114 (decimal 276)
-   defining Unicode char U+0115 (decimal 277)
-   defining Unicode char U+0116 (decimal 278)
-   defining Unicode char U+0117 (decimal 279)
    defining Unicode char U+0118 (decimal 280)
    defining Unicode char U+0119 (decimal 281)
    defining Unicode char U+011A (decimal 282)
    defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011C (decimal 284)
-   defining Unicode char U+011D (decimal 285)
    defining Unicode char U+011E (decimal 286)
    defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0120 (decimal 288)
-   defining Unicode char U+0121 (decimal 289)
-   defining Unicode char U+0122 (decimal 290)
-   defining Unicode char U+0123 (decimal 291)
-   defining Unicode char U+0124 (decimal 292)
-   defining Unicode char U+0125 (decimal 293)
-   defining Unicode char U+0128 (decimal 296)
-   defining Unicode char U+0129 (decimal 297)
-   defining Unicode char U+012A (decimal 298)
-   defining Unicode char U+012B (decimal 299)
-   defining Unicode char U+012C (decimal 300)
-   defining Unicode char U+012D (decimal 301)
-   defining Unicode char U+012E (decimal 302)
-   defining Unicode char U+012F (decimal 303)
    defining Unicode char U+0130 (decimal 304)
    defining Unicode char U+0131 (decimal 305)
    defining Unicode char U+0132 (decimal 306)
    defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0134 (decimal 308)
-   defining Unicode char U+0135 (decimal 309)
-   defining Unicode char U+0136 (decimal 310)
-   defining Unicode char U+0137 (decimal 311)
    defining Unicode char U+0139 (decimal 313)
    defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013B (decimal 315)
-   defining Unicode char U+013C (decimal 316)
    defining Unicode char U+013D (decimal 317)
    defining Unicode char U+013E (decimal 318)
    defining Unicode char U+0141 (decimal 321)
    defining Unicode char U+0142 (decimal 322)
    defining Unicode char U+0143 (decimal 323)
    defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0145 (decimal 325)
-   defining Unicode char U+0146 (decimal 326)
    defining Unicode char U+0147 (decimal 327)
    defining Unicode char U+0148 (decimal 328)
    defining Unicode char U+014A (decimal 330)
    defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+014C (decimal 332)
-   defining Unicode char U+014D (decimal 333)
-   defining Unicode char U+014E (decimal 334)
-   defining Unicode char U+014F (decimal 335)
    defining Unicode char U+0150 (decimal 336)
    defining Unicode char U+0151 (decimal 337)
    defining Unicode char U+0152 (decimal 338)
    defining Unicode char U+0153 (decimal 339)
    defining Unicode char U+0154 (decimal 340)
    defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0156 (decimal 342)
-   defining Unicode char U+0157 (decimal 343)
    defining Unicode char U+0158 (decimal 344)
    defining Unicode char U+0159 (decimal 345)
    defining Unicode char U+015A (decimal 346)
    defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015C (decimal 348)
-   defining Unicode char U+015D (decimal 349)
    defining Unicode char U+015E (decimal 350)
    defining Unicode char U+015F (decimal 351)
    defining Unicode char U+0160 (decimal 352)
@@ -350,18 +322,10 @@ File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+0163 (decimal 355)
    defining Unicode char U+0164 (decimal 356)
    defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+0168 (decimal 360)
-   defining Unicode char U+0169 (decimal 361)
-   defining Unicode char U+016A (decimal 362)
-   defining Unicode char U+016B (decimal 363)
-   defining Unicode char U+016C (decimal 364)
-   defining Unicode char U+016D (decimal 365)
    defining Unicode char U+016E (decimal 366)
    defining Unicode char U+016F (decimal 367)
    defining Unicode char U+0170 (decimal 368)
    defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0172 (decimal 370)
-   defining Unicode char U+0173 (decimal 371)
    defining Unicode char U+0174 (decimal 372)
    defining Unicode char U+0175 (decimal 373)
    defining Unicode char U+0176 (decimal 374)
@@ -373,31 +337,10 @@ File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+017C (decimal 380)
    defining Unicode char U+017D (decimal 381)
    defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+01CD (decimal 461)
-   defining Unicode char U+01CE (decimal 462)
-   defining Unicode char U+01CF (decimal 463)
-   defining Unicode char U+01D0 (decimal 464)
-   defining Unicode char U+01D1 (decimal 465)
-   defining Unicode char U+01D2 (decimal 466)
-   defining Unicode char U+01D3 (decimal 467)
-   defining Unicode char U+01D4 (decimal 468)
-   defining Unicode char U+01E2 (decimal 482)
-   defining Unicode char U+01E3 (decimal 483)
-   defining Unicode char U+01E6 (decimal 486)
-   defining Unicode char U+01E7 (decimal 487)
-   defining Unicode char U+01E8 (decimal 488)
-   defining Unicode char U+01E9 (decimal 489)
-   defining Unicode char U+01EA (decimal 490)
-   defining Unicode char U+01EB (decimal 491)
-   defining Unicode char U+01F0 (decimal 496)
-   defining Unicode char U+01F4 (decimal 500)
-   defining Unicode char U+01F5 (decimal 501)
    defining Unicode char U+0218 (decimal 536)
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+01E02 (decimal 7682)
-   defining Unicode char U+01E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
@@ -416,8 +359,9 @@ File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.df
+u"
+File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -457,8 +401,9 @@ File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.df
+u"
+File: omsenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -481,24 +426,30 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmat
+h.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstex
+t.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen
+.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks21
 \ex@=\dimen122
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy
+.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen123
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn
+.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count98
@@ -539,24 +490,29 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssy
+mb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfo
+nts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyper
+ref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hob
+sub-hyperref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hob
+sub-generic.sty"
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -595,24 +551,28 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxho
+ok.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopt
+ions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen131
 \Hy@linkcounter=\count110
 \Hy@pagecounter=\count111
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1en
+c.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count112
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyper
+ref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -623,8 +583,7 @@ Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count113
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -649,23 +608,26 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdft
+ex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count118
 \c@bookmark@seq@number=\count119
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerun
+filecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip53
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\enumerat
+e.sty"
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks26
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip54
 \subfigcapskip=\skip55
@@ -729,16 +691,6 @@ Package lastpage Info: Please have a look at the pageslts package at
 \MPnumerator=\count128
 \makeMPintoPDFobject=\count129
 \everyMPtoPDFconversion=\toks28
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-)
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -777,10 +729,13 @@ G,.JBIG2,.JB2,.eps]
 
 \AtBeginShipoutBox=\box31
 Package hyperref Info: Link coloring OFF on input line 16.
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\namer
+ef.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\get
+titlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count130
@@ -788,8 +743,7 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
 LaTeX Info: Redefining \nameref on input line 16.
-
-(thesis.out) (thesis.out)
+ (thesis.out) (thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
 
@@ -827,12 +781,15 @@ Underfull \hbox (badness 7740) in paragraph at lines 40--40
  []
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 40.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.
+fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.
+fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package babel Info: Redefining portuges shorthand "|
@@ -959,9 +916,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 47.
  (thesis.lof
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 21.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 21.
 
 [10
 
@@ -1042,7 +999,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 108.
  [5]
-<figures/structural_orientation_angles.png, id=460, 227.6505pt x 256.0767pt>
+<figures/structural_orientation_angles.png, id=483, 227.6505pt x 256.0767pt>
 File: figures/structural_orientation_angles.png Graphic file (type png)
 
 <use figures/structural_orientation_angles.png>
@@ -1052,226 +1009,238 @@ t line 128.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 133.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 171.
+(babel)             in language  on input line 160.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 171.
+(babel)             in language  on input line 160.
  [6]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 203.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 176.
- [7 <./figures/structural_orientation_angles.png>]
+(babel)             in language  on input line 203.
+ [7]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 233.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 239.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 239.
  [8]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 294.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 258.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 294.
  [9]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 300.
+(babel)             in language  on input line 295.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 300.
+(hyperref)                removing `math shift' on input line 295.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 300.
+(hyperref)                removing `math shift' on input line 295.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 302.
+(babel)             in language  on input line 297.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 302.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 302.
+(hyperref)                removing `math shift' on input line 297.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\dagger' on input line 302.
+(hyperref)                removing `superscript' on input line 297.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 302.
+(hyperref)                removing `\dagger' on input line 297.
 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 306.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 306.
-[10]
-Overfull \hbox (3.8707pt too wide) detected at line 345
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 297.
+
+
+Overfull \hbox (3.8707pt too wide) detected at line 340
 [][] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12  [] [] \OT1/cmr/m/n/12 + []\OML/cmm/m/i
 t/12 E\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 
   []
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 362.
+(babel)             in language  on input line 349.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 362.
-[11]
+(babel)             in language  on input line 349.
+[10]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 431.
+(babel)             in language  on input line 423.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 431.
- [12]
+(babel)             in language  on input line 423.
+ [11]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 432.
+(babel)             in language  on input line 424.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 432.
+(hyperref)                removing `math shift' on input line 424.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 432.
+(hyperref)                removing `superscript' on input line 424.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ddagger' on input line 432.
+(hyperref)                removing `\ddagger' on input line 424.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 432.
+(hyperref)                removing `math shift' on input line 424.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 526.
+(babel)             in language  on input line 498.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 526.
-[13]
+(babel)             in language  on input line 498.
+[12]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 574.
+(babel)             in language  on input line 560.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 593.
+(babel)             in language  on input line 585.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 593.
+(babel)             in language  on input line 585.
+ [13]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 645.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 645.
  [14]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 650.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 650.
- [15]
 
-LaTeX Warning: Reference `eq:M-remanence' on page 16 undefined on input line 65
-3.
+LaTeX Warning: Reference `eq:M-remanence' on page 15 undefined on input line 64
+8.
 
 
-LaTeX Warning: Reference `fig:orientation-angles' on page 16 undefined on input
- line 654.
-
-
-LaTeX Warning: Reference `eq:Lambda' on page 16 undefined on input line 655.
+LaTeX Warning: Reference `fig:orientation-angles' on page 15 undefined on input
+ line 649.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 709.
+(babel)             in language  on input line 704.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 709.
-[16]
+(babel)             in language  on input line 704.
+[15]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 785.
+(babel)             in language  on input line 780.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 785.
- [17]
+(babel)             in language  on input line 780.
+ [16]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 808.
+(babel)             in language  on input line 802.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 827.
+(babel)             in language  on input line 820.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 827.
+(babel)             in language  on input line 820.
+ [17])
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 54.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 54.
  [18]
-
-LaTeX Warning: Reference `eq:delta-H-tilde' on page 19 undefined on input line 
-836.
-
-)
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 54.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 54.
- [19]
+ [19 <./figures/structural_orientation_angles.png>]
 \openout2 = `chap03.aux'.
 
- (chap03.tex
+
+(chap03.tex
 Cap\'{\i }tulo 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-<figures/Cookbook_Triaxial.png, id=891, 573.64313pt x 529.98pt>
-File: figures/Cookbook_Triaxial.png Graphic file (type png)
 
-<use figures/Cookbook_Triaxial.png>
-Package pdftex.def Info: figures/Cookbook_Triaxial.png used on input line 11.
-(pdftex.def)             Requested size: 455.25633pt x 455.24825pt.
-
-Overfull \hbox (28.46498pt too wide) in paragraph at lines 11--12
- [][] 
- []
-
-
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 16.
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 10.
 
 
 
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 20.
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 11.
 
 
 
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 21.
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 11.
 
-
-
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 21.
-
-
-<figures/func_triaxial.png, id=893, 774.64406pt x 615.0478pt>
-File: figures/func_triaxial.png Graphic file (type png)
-
-<use figures/func_triaxial.png>
-Package pdftex.def Info: figures/func_triaxial.png used on input line 28.
-(pdftex.def)             Requested size: 455.2512pt x 455.25026pt.
-
-Overfull \hbox (28.45985pt too wide) in paragraph at lines 28--29
- [][] 
- []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 16.
 [20
 
 
 
-]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 37.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 37.
- [21 <./figures/Cookbook_Triaxial.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 46.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 46.
- [22 <./figures/func_triaxial.png>]
-<figures/test_n_soma.pdf, id=919, 1073.19745pt x 713.1675pt>
+] <figures/Cookbook_Triaxial.png, id=932, 574.39594pt x 532.99126pt>
+File: figures/Cookbook_Triaxial.png Graphic file (type png)
+
+<use figures/Cookbook_Triaxial.png>
+Package pdftex.def Info: figures/Cookbook_Triaxial.png used on input line 20.
+(pdftex.def)             Requested size: 455.25778pt x 455.25682pt.
+
+Overfull \hbox (28.46643pt too wide) in paragraph at lines 20--21
+ [][] 
+ []
+
+<figures/anomaly_exemplo.pdf, id=935, 578.16pt x 431.81326pt>
+File: figures/anomaly_exemplo.pdf Graphic file (type pdf)
+
+<use figures/anomaly_exemplo.pdf>
+Package pdftex.def Info: figures/anomaly_exemplo.pdf used on input line 26.
+(pdftex.def)             Requested size: 455.24165pt x 341.45158pt.
+
+Overfull \hbox (28.4503pt too wide) in paragraph at lines 26--27
+ [][] 
+ []
+
+<figures/func_triaxial.png, id=940, 774.64406pt x 615.0478pt>
+File: figures/func_triaxial.png Graphic file (type png)
+
+<use figures/func_triaxial.png>
+Package pdftex.def Info: figures/func_triaxial.png used on input line 32.
+(pdftex.def)             Requested size: 455.2512pt x 455.25026pt.
+
+Overfull \hbox (28.45985pt too wide) in paragraph at lines 32--33
+ [][] 
+ []
+
+<figures/test_n_soma.pdf, id=957, 1073.19745pt x 713.1675pt>
 File: figures/test_n_soma.pdf Graphic file (type pdf)
 
 <use figures/test_n_soma.pdf>
-Package pdftex.def Info: figures/test_n_soma.pdf used on input line 50.
+Package pdftex.def Info: figures/test_n_soma.pdf used on input line 46.
 (pdftex.def)             Requested size: 426.78227pt x 284.52196pt.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 55.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 55.
- [23 <./figures/test_n_soma.pdf>]
+ [21]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 55.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 55.
+ [22 <./figures/Cookbook_Triaxial.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 55.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 55.
+
+[23 <./figures/anomaly_exemplo.pdf>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 55.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 55.
+ [24 <./figures/func_triaxial.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 55.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 55.
+
+[25 <./figures/test_n_soma.pdf>]
 \openout2 = `chap04.aux'.
 
  (chap04.tex
@@ -1280,7 +1249,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 5.
-<figures/ellipsoid_triaxial.pdf, id=970, 1136.27882pt x 1002.62115pt>
+<figures/ellipsoid_triaxial.pdf, id=1073, 1136.27882pt x 1002.62115pt>
 File: figures/ellipsoid_triaxial.pdf Graphic file (type pdf)
 
 <use figures/ellipsoid_triaxial.pdf>
@@ -1295,7 +1264,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 51.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 51.
-[24
+[26
 
 
 
@@ -1323,7 +1292,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/ellipsoid_prolate.pdf, id=980, 1136.27882pt x 1002.62115pt>
+<figures/ellipsoid_prolate.pdf, id=1082, 1136.27882pt x 1002.62115pt>
 File: figures/ellipsoid_prolate.pdf Graphic file (type pdf)
 
 <use figures/ellipsoid_prolate.pdf>
@@ -1337,7 +1306,7 @@ Overfull \hbox (28.45767pt too wide) in paragraph at lines 145--147
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/ellipsoid_oblate.pdf, id=981, 1138.67007pt x 998.12785pt>
+<figures/ellipsoid_oblate.pdf, id=1083, 1138.67007pt x 998.12785pt>
 File: figures/ellipsoid_oblate.pdf Graphic file (type pdf)
 
 <use figures/ellipsoid_oblate.pdf>
@@ -1352,23 +1321,23 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 175.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 175.
-[25 <./figures/ellipsoid_triaxial.pdf>]
+[27 <./figures/ellipsoid_triaxial.pdf>]
 
-LaTeX Warning: Text page 26 contains only floats.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 175.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 175.
-[26]
-
-LaTeX Warning: Text page 27 contains only floats.
+LaTeX Warning: Text page 28 contains only floats.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 175.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 175.
-[27 <./figures/ellipsoid_prolate.pdf>]
+[28]
+
+LaTeX Warning: Text page 29 contains only floats.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 175.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 175.
+[29 <./figures/ellipsoid_prolate.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1378,7 +1347,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/ellipsoid_triaxial_multi.pdf, id=1091, 1136.75864pt x 1000.0616pt>
+<figures/ellipsoid_triaxial_multi.pdf, id=1193, 1136.75864pt x 1000.0616pt>
 File: figures/ellipsoid_triaxial_multi.pdf Graphic file (type pdf)
 
 <use figures/ellipsoid_triaxial_multi.pdf>
@@ -1399,24 +1368,24 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 287.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 287.
-[28 <./figures/ellipsoid_oblate.pdf>]
+[30 <./figures/ellipsoid_oblate.pdf>]
 
-LaTeX Warning: Text page 29 contains only floats.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 287.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 287.
-[29]
-
-LaTeX Warning: Text page 30 contains only floats.
+LaTeX Warning: Text page 31 contains only floats.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 287.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 287.
-[30 <./figures/ellipsoid_triaxial_multi.pdf>]
-<figures/test_n_triaxial.pdf, id=1203, 1073.18176pt x 713.00282pt>
+[31]
+
+LaTeX Warning: Text page 32 contains only floats.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 287.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 287.
+[32 <./figures/ellipsoid_triaxial_multi.pdf>]
+<figures/test_n_triaxial.pdf, id=1305, 1073.18176pt x 713.00282pt>
 File: figures/test_n_triaxial.pdf Graphic file (type pdf)
 
 <use figures/test_n_triaxial.pdf>
@@ -1426,8 +1395,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 301.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 301.
- [31 <./figures/test_n_triaxial.pdf>]
-<figures/test_n_prolate.pdf, id=1247, 1073.21312pt x 715.175pt>
+ [33 <./figures/test_n_triaxial.pdf>]
+<figures/test_n_prolate.pdf, id=1349, 1073.21312pt x 715.175pt>
 File: figures/test_n_prolate.pdf Graphic file (type pdf)
 
 <use figures/test_n_prolate.pdf>
@@ -1437,8 +1406,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 313.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 313.
- [32 <./figures/test_n_prolate.pdf>]
-<figures/test_n_oblate.pdf, id=1291, 1073.1896pt x 715.01031pt>
+ [34 <./figures/test_n_prolate.pdf>]
+<figures/test_n_oblate.pdf, id=1393, 1073.1896pt x 715.01031pt>
 File: figures/test_n_oblate.pdf Graphic file (type pdf)
 
 <use figures/test_n_oblate.pdf>
@@ -1450,8 +1419,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 330.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 330.
- [33 <./figures/test_n_oblate.pdf>]
-<figures/ellipsoid_triaxial_sphere.pdf, id=1333, 701.12pt x 1003.64334pt>
+ [35 <./figures/test_n_oblate.pdf>]
+<figures/ellipsoid_triaxial_sphere.pdf, id=1435, 701.12pt x 1003.64334pt>
 File: figures/ellipsoid_triaxial_sphere.pdf Graphic file (type pdf)
 
 <use figures/ellipsoid_triaxial_sphere.pdf>
@@ -1462,9 +1431,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 416.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 416.
- [34]
+ [36]
 
-LaTeX Warning: Text page 35 contains only floats.
+LaTeX Warning: Text page 37 contains only floats.
 
 
 Overfull \vbox (7.00876pt too high) has occurred while \output is active []
@@ -1474,8 +1443,8 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 416.
 
-[35 <./figures/ellipsoid_triaxial_sphere.pdf>]
-<figures/ellipsoid_triaxial_prolate.pdf, id=1388, 683.08386pt x 1003.47867pt>
+[37 <./figures/ellipsoid_triaxial_sphere.pdf>]
+<figures/ellipsoid_triaxial_prolate.pdf, id=1491, 683.08386pt x 1003.47867pt>
 File: figures/ellipsoid_triaxial_prolate.pdf Graphic file (type pdf)
 
 <use figures/ellipsoid_triaxial_prolate.pdf>
@@ -1486,16 +1455,16 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 495.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 495.
- [36]
+ [38]
 
-LaTeX Warning: Text page 37 contains only floats.
+LaTeX Warning: Text page 39 contains only floats.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 495.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 495.
-[37 <./figures/ellipsoid_triaxial_prolate.pdf>]
-<figures/ellipsoid_triaxial_oblate.pdf, id=1444, 695.8503pt x 1003.47867pt>
+[39 <./figures/ellipsoid_triaxial_prolate.pdf>]
+<figures/ellipsoid_triaxial_oblate.pdf, id=1546, 695.8503pt x 1003.47867pt>
 File: figures/ellipsoid_triaxial_oblate.pdf Graphic file (type pdf)
 
 <use figures/ellipsoid_triaxial_oblate.pdf>
@@ -1508,9 +1477,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 576.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 576.
- [38]
+ [40]
 
-LaTeX Warning: Text page 39 contains only floats.
+LaTeX Warning: Text page 41 contains only floats.
 
 
 Overfull \vbox (7.02853pt too high) has occurred while \output is active []
@@ -1520,8 +1489,8 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 576.
 
-[39 <./figures/ellipsoid_triaxial_oblate.pdf>]
-<figures/test_k_triaxial.pdf, id=1500, 1075.72409pt x 715.175pt>
+[41 <./figures/ellipsoid_triaxial_oblate.pdf>]
+<figures/test_k_triaxial.pdf, id=1602, 1075.72409pt x 715.175pt>
 File: figures/test_k_triaxial.pdf Graphic file (type pdf)
 
 <use figures/test_k_triaxial.pdf>
@@ -1538,8 +1507,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 603.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 603.
-[40 <./figures/test_k_triaxial.pdf>]
-<figures/ellipsoid_shape_iso.pdf, id=1531, 1115.73184pt x 1148.51276pt>
+[42 <./figures/test_k_triaxial.pdf>]
+<figures/ellipsoid_shape_iso.pdf, id=1634, 1115.73184pt x 1148.51276pt>
 File: figures/ellipsoid_shape_iso.pdf Graphic file (type pdf)
 
 <use figures/ellipsoid_shape_iso.pdf>
@@ -1562,16 +1531,16 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 681.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 681.
-[41]
+[43]
 
-LaTeX Warning: Text page 42 contains only floats.
+LaTeX Warning: Text page 44 contains only floats.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 681.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 681.
-[42 <./figures/ellipsoid_shape_iso.pdf>]
-<figures/ellipsoid_shape_iso2.pdf, id=1627, 1121.79514pt x 1148.51276pt>
+[44 <./figures/ellipsoid_shape_iso.pdf>]
+<figures/ellipsoid_shape_iso2.pdf, id=1729, 1121.79514pt x 1148.51276pt>
 File: figures/ellipsoid_shape_iso2.pdf Graphic file (type pdf)
 
 <use figures/ellipsoid_shape_iso2.pdf>
@@ -1588,12 +1557,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 56.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 56.
- [43]
+ [45]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 56.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 56.
- [44 <./figures/ellipsoid_shape_iso2.pdf>]
+ [46 <./figures/ellipsoid_shape_iso2.pdf>]
 \openout2 = `chap05.aux'.
 
  (chap05.tex
@@ -1604,7 +1573,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 15.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 15.
-[45
+[47
 
 
 
@@ -1613,7 +1582,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 57.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 57.
- [46] (thesis.bbl
+ [48] (thesis.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 
@@ -1623,7 +1592,8 @@ Underfull \hbox (badness 1810) in paragraph at lines 18--25
  []
 
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 70.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+("C:\Users\diego_000\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omlcmr.fd
+"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
@@ -1632,7 +1602,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 72.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 72.
- [47
+ [49
 
 
 
@@ -1641,23 +1611,22 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 140.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 140.
- [48]
+ [50]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 212.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 212.
- [49]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 288.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 288.
-
-[50])
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 65.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 65.
  [51]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 288.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 288.
+ [52])
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 65.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 65.
+ [53]
 \openout2 = `appenA.aux'.
 
  (appenA.tex
@@ -1681,25 +1650,25 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
 
-LaTeX Warning: Reference `eq:V_oblate' on page 52 undefined on input line 16.
+LaTeX Warning: Reference `eq:V_oblate' on page 54 undefined on input line 16.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 89.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 89.
-[52
+[54
 
 
 ]
 
-LaTeX Warning: Reference `eq:V_oblate' on page 53 undefined on input line 106.
+LaTeX Warning: Reference `eq:V_oblate' on page 55 undefined on input line 106.
 
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 65.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 65.
- [53]
+ [55]
 \openout2 = `appenB.aux'.
 
  (appenB.tex
@@ -1736,7 +1705,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 39.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 39.
-[54
+[56
 
 
 
@@ -1745,7 +1714,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 113.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 113.
- [55]
+ [57]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 115.
 
@@ -1765,7 +1734,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 167.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 167.
-[56]
+[58]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 191.
 
@@ -1786,7 +1755,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 66.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 66.
- [57] 
+ [59] 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 67.
@@ -1805,30 +1774,35 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 8912 strings out of 493622
- 126124 string characters out of 3143632
- 253960 words of memory out of 3000000
- 11760 multiletter control sequences out of 15000+200000
+ 8737 strings out of 493634
+ 126644 string characters out of 3133607
+ 257348 words of memory out of 3000000
+ 11576 multiletter control sequences out of 15000+200000
  18812 words of font info for 72 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 35i,21n,34p,1299b,548s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (70 pages, 2709535 bytes).
+ 35i,21n,34p,1945b,548s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/diego_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><C:/Users/diego_000/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/diego_000/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/diego_000/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/
+diego_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+6.pfb><C:/Users/diego_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb><C:/Users/diego_000/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/diego_000/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/diego_000/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/
+diego_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
+.pfb><C:/Users/diego_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><C:/Users/diego_000/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/diego_000/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/diego_000/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/User
+s/diego_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+tt12.pfb>
+Output written on thesis.pdf (72 pages, 2798038 bytes).
 PDF statistics:
- 1980 PDF objects out of 2073 (max. 8388607)
- 290 named destinations out of 1000 (max. 500000)
- 304 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2082 PDF objects out of 2487 (max. 8388607)
+ 294 named destinations out of 1000 (max. 500000)
+ 309 words of extra memory for PDF output out of 10000 (max. 10000000)
 

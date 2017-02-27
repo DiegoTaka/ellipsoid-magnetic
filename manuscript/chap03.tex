@@ -1,53 +1,49 @@
 \chapter{Implementação computacional}
 
-A implementação computacional do programa foi feita com base na linguagem livre Python, utilizando as vantagens e facilidades que os pacotes dela provém.  
-O algoritmo deste trabalho será distribuído livremente sob a licença BSD 3-clause como parte do \textit{Fatiando a Terra} \citet{uieda-proc-scipy-2013}, que é uma biblioteca Python livre, usada para modelagem e inversão em geofísica. As documentações e instruções para instalação da versão mais atual do \textit{Fatiando a Terra} podem ser encontrados em http://www.fatiando.org.
-Os códigos e documentações sobre instalação e uso do programa podem ser encontrados no Github pelo link: https://github.com/DiegoTaka/ellipsoid-magnetic
-O uso do programa é bastante facilitado e consiste em apenas colocar os parâmetros necessários para gerar o corpo elipsoidal como mostra a Figura \ref{fig:Cookbook_Triaxial}.
+A implementação computacional das rotinas desenvolvidas nesta dissertação foi feita em linguagem livre Python, que é gratuita, bem documentada e roda em praticamente todos os sistemas operacionais e vem sendo amplamente utilizada pela comunidade científica.  
+As rotinas desenvolvidas ao longo deste trabalho foram baseadas no pacote \textit{Fatiando a Terra} \citet{uieda-proc-scipy-2013}, que é livre, de código aberto e desenvolvido para modelagem e inversão em geofísica. A documentação e as instruções para instalação da versão mais atual do \textit{Fatiando a Terra} podem ser encontrados em http://www.fatiando.org.
+As rotinas desenvolvidas aqui estão livremente disponibilizadas no Github pelo link: https://github.com/DiegoTaka/ellipsoid-magnetic.
 
-Como mostrado neste exemplo, é necessário importar outras ferramentas do próprio \textit{Fatiando a Terra} antes de criar o modelo elipsoidal desejado.
+A Figura \ref{fig:Cookbook_Triaxial} exemplifica como calcular a anomalia de campo total $\Delta T (\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde-approx}) gerada por um elipsoide triaxial.
+
+Como mostrado neste exemplo, é necessário importar outros módulos do \textit{Fatiando a Terra} antes de criar o modelo elipsoidal desejado.
+A parte \textit{``The local-geomagnetic field"} define a intensidade ($nT$), inclinação e declinação $(º)$ do campo geomagnético local.
+A variável \textit{``model"} contém um objeto da classe \textit{``EllipsoidTriaxial"}, que foi desenvolvida neste trabalho como parte do subpacote \textit{``mesher"} do Fatiando a Terra. Esta variável contém os parâmetros que definem o modelo de elipsoide triaxial. . Os parâmetros são, respectivamente: posição $x_c$, $y_c$ e $z_c$ ($m$) do centro do corpo, semi-eixos $a$, $b$ e $c$ ($m$), orientações de \textit{strike, dip e rake} $(º)$ e um dicionário denominado \textit{``props"}, que contém a propriedade física do  modelo. O item \textit{``remanence"} a intensidade ($A/m$), inclinação e declinação $(º)$ do vetor de magnetização remanente $\mathbf{M}_{R}$ (Eq. \ref{eq:M-p-remanence}). O item \textit{`k'} contém as suscetibilidades principais $k1$, $k2$ e $k3$ (Eq. \ref{eq:K}) e as orientações \textit{strike}, \textit{dip} e \textit{rake} utilizadas para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$ e $\mathbf{u}_{3}$ que formam as colunas da matriz ortogonal $\mathbf{U}$ (Eq. \ref{eq:K}). Os vetores foram calculados utilizando-se as Eqs. \ref{eq:v1_triaxial_prolate},
+\ref{eq:v2_triaxial_prolate}, \ref{eq:v3_triaxial_prolate}.
+As linhas seguintes definem as coordenadas dos pontos $(x, y, z)$ em que será calculada a anomalia de campo total produzida pelo modelo elipsoidal.
+Para tanto, utilizou-se o subpacote \textit{``gridder"} do Fatiando a Terra. Neste exemplos, os pontos estão distribuídos em uma grade regular de 200 x 200 (definida pela variável \textit{``shape"}), sobre um plano horizontal em $z = 0 m$. Os pontos são calculados sobre uma área que varia de -5000 até 5000 metros ao longo das direções $x$ e $y$, tal como definido pela variável \textit{``area"}.
+As coordenadas são armazenadas nos \textit{``numpy arrays" ``xp", ``yp" e ``zp"}. Em seguida, a anomalia de campo total é calculada utilizando-se a rotina \textit{``tf\underline{ }c"}. Esta função está contida no módulo \textit{``ellipsoid\underline{ }triaxial"}, que foi desenvolvido neste trabalho como parte do subpacote \textit{``gravmag"} do Fatiando a Terra. As linhas finais do exemplo mostrado na Fig. \ref{fig:Cookbook_Triaxial} são para plotar a anomalia de campo total produzida pelo modelo elipsoidal utilizando-se o módulo \textit{``mpl"}, que está contido no subpacote \textit{``vis"} do Fatiando a Terra.
+
+A Fig. \ref{fig:anomaly_exemplo} mostra o resultado produzido pelo código da Fig. \ref{fig:Cookbook_Triaxial}. A Fig. \ref{fig:func_triaxial} mostra o código fonte da rotina \textit{$``tf_c"$} (Fig. \ref{fig:Cookbook_Triaxial}) utilizada para calcular a anomalia de campo total mostrada na Fig. \ref{fig:anomaly_exemplo}.
 
 \begin{figure}[hbt!]
 	\centering \includegraphics[width=16 cm,height=16 cm]{figures/Cookbook_Triaxial}
-	\caption[Cookbook para gerar um modelo elipsoidal triaxial e calcular a anomalia de campo total.]{Cookbook para gerar um modelo elipsoidal triaxial e calcular a anomalia de campo total aproximada.}
+	\caption[Exemplo de \textit{script} para gerar um modelo elipsoidal triaxial e calcular a anomalia de campo total $\Delta T (\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde-approx}).]{Exemplo de \textit{script} para gerar um modelo elipsoidal triaxial e calcular a anomalia de campo total $\Delta T (\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde-approx}).}
 	\label{fig:Cookbook_Triaxial}
 \end{figure}
 
-Em \textit{''The regional field''} é necessário colocar o campo regional (intensidade ($nT$), inclinação e declinação $(º)$).
+\begin{figure}[hbt!]
+	\centering \includegraphics[width=16 cm,height=12 cm]{figures/anomaly_exemplo}
+	\caption[Anomalia de campo total $\Delta T (\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde-approx}) produzida pelo código da Fig. \ref{fig:Cookbook_Triaxial}.]{Anomalia de campo total $\Delta T (\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde-approx}) produzida pelo código da Fig. \ref{fig:Cookbook_Triaxial}.}
+	\label{fig:anomaly_exemplo}
+\end{figure}
 
-Em \textit{''bounds''} o tamanho do \textit{grid} onde será feito os cálculos.
-
-Em \textit{''model''} é criado o modelo através da classe \textit{''ellipsoid triaxial''}. Os parâmetros são, respectivamente: posição $x$, $y$ e $z$ ($m$) do centro do corpo, semi-eixos $a$, $b$ e $c$ ($m$), orientações de $azimute$, $\beta$ e $\gamma$ $(º)$. 
-Dentro do dicionário \textit{'remanence'} a intensidade ($A/m$), inclinação e declinação $(º)$ do vetor de magnetização remanente. Já dentro do dicionário \textit{'k'} os valores de $k1$, $k2$ e $k3$ de susceptibilidade (SI) e as orientações de azimute, inclinação $(º)$ e \textit{tilt} que formam os vetores de susceptibilidade.
-Em  \textit{''shape''} é dado quantos pontos serão calculados dentro da área escolhida na malha criada em $xp$, $yp$ e $zp$.
-Em \textit{''tf''} é calculado a anomalia de campo total aproximada dados os parâmetros e modelo elipsoidal criado.
-Abaixo é dado a \textit{plotagem} da figura.
-
-As classes elipsoidais criadas no \textit{''mesher''} são separadas para cada um dos casos de elipsoide. Neles são guardados os parâmetros geométricos do objeto e suas propriedades físicas. A classe elipsoidal também inclui a função para o cálculo da matriz de transformação de coordenadas. Na documentação também são inclusos testes automáticos para verificar a integridade das classes e funções. Já na biblioteca \textit{''gravmag''} é onde se encontra as funções que de fato calculam o campo magnético e a anomalia total aproximada como exemplificada na Figura \ref{fig:func_triaxial}, do modelo criado no \textit{''mesher''}.
 \begin{figure}[hbt!]
 	\centering \includegraphics[width=16 cm,height=16 cm]{figures/func_triaxial}
-	\caption[Função que calcula a anomalia de campo total aproximada de um elipsoide triaxial.]{Função que calcula a anomalia de campo total aproximada de um elipsoide triaxial.}
+	\caption[Código fonte da rotina \textit{``tf\underline{ }c"} utilizada para calcular a anomalia de campo total $\Delta T (\mathbf{r})$ (Eq.\ref{eq:delta-T-tilde-approx}) produzida pelo modelo elipsoidal definido na Fig. \ref{fig:Cookbook_Triaxial}. Esta rotina utiliza outra rotinas que também foram desenvolvidas neste trabalho como parte do módulo elipsoide\underline{ }triaxial (Fig. \ref{fig:Cookbook_Triaxial}).]{Código fonte da rotina \textit{``tf\underline{ }c"} utilizada para calcular a anomalia de campo total $\Delta T (\mathbf{r})$ (Eq.\ref{eq:delta-T-tilde-approx}) produzida pelo modelo elipsoidal definido na Fig. \ref{fig:Cookbook_Triaxial}. Esta rotina utiliza outra rotinas que também foram desenvolvidas neste trabalho como parte do módulo elipsoide\underline{ }triaxial (Fig. \ref{fig:Cookbook_Triaxial}).}
 	\label{fig:func_triaxial}
 \end{figure}
 
-Os cálculos de $b1$, $b2$, $b3$ e $V$ estão descritos na seção de metodologia deste trabalho.
+As rotinas também contam com classes que separam os três tipos de elipsoides tratados neste trabalho.
 
 É importante ressaltar que diversos cálculos são feitos com auxílio de bibliotecas do \textit{Python} como o \textit{Scipy} \citet{scipy}, \textit{Matplotlib} \citet{matplotlib} e do pacote \textit{NumPy} \citet{numpy}.
 
-Uma nota a respeito das funções \textit{scipy.special.ellipkinc} e \textit{scipy.special.ellipeinc} do pacote SciPy para o cálculo das integrais elípticas normais incompletas de Legendre de primeiro e segundo tipo: a variável $k$ das funções $F(\kappa, \phi)$ e $E(\kappa, \phi)$ já deve ser elevada ao quadrado quando utilizada como argumento, uma vez que, no pacote Scipy, sua implementação não é feita com a fórmula comumente encontrada, onde geralmente se usa $k^2$:
-\begin{equation}
-F(\kappa, \phi) = \int_{0}^{\phi}{\dfrac{d\theta}{\sqrt{1-k^{2}sin^{2}\theta}}} \quad 0\le\theta\le\pi/2
-\label{eq:integral_elip1}
-\end{equation}
-e
-\begin{equation}
-E(\kappa, \phi) = \int_{0}^{\phi}{\sqrt{1-k^{2}sin^{2}\theta}} \quad d\theta
-\label{eq:integral_elip2}
-\end{equation}
+Uma nota a respeito das funções \textit{scipy.special.ellipkinc} e \textit{scipy.special.ellipeinc} do pacote SciPy para o cálculo das integrais elípticas normais incompletas de Legendre de primeiro e segundo tipo: a variável $\kappa$ das funções $F(\kappa, \phi)$ e $E(\kappa, \phi)$ já deve ser elevada ao quadrado.
 
-Uma forme eficiente de testar se essas integrais estão corretas é verificar se a soma dos fatores de desmagnetização é igual à 1 (um), independente do tamanho dos eixos do elipsoide, como mostra a Figura \ref{fig:teste_n_soma}
+Tal como definido anteriormente, a soma dos fatores de desmagnetização deve ser igual à 1 (um), independente do tamanho dos eixos e do tipo de elipsoide. Para verificar esta propriedade, foi gerado 200 elipsoides triaxiais com semi-eixos $a = a_0 +u, \, b = b_0+u$ e $c = c_0+u$, em que $a_0=500$ m, $b_0=100$ m, $c_0=50$ m e $500  \le u \le 30000$ m. A Fig. \ref{fig:teste_n_soma} mostra a soma dos fatores de desmagnetização $\tilde{n}^{\dagger}_{11}$, $\tilde{n}^{\dagger}_{22}$ e $\tilde{n}^{\dagger}_{33}$ calculados pelas Eqs. \ref{eq:n-tilde-dagger-11-triaxial}, \ref{eq:n-tilde-dagger-22-triaxial} e \ref{eq:n-tilde-dagger-33-triaxial} para este conjunto de elipsoides e serve como validação de parte das rotinas apresentadas neste trabalho.
+
 \begin{figure}[hbt!]
 	\centering \includegraphics[width=15 cm,height=10 cm]{figures/test_n_soma}
-	\caption[Soma dos fatores de desmagnetização. No SI a soma deverá ser igual à 1 (um).]{Soma dos fatores de desmagnetização. No SI a soma deverá ser igual à 1 (um). O fator $u$ são números reais crescentes, que soma, simultaneamente, todos os semi-eixos.}
+	\caption[Validação dos fatores de desmagnetização. Foi gerado 200 elipsoides triaxiais com semi-eixos $a = a_0 +u, \, b = b_0+u$ e $c = c_0+u$, em que $a_0=500$ m, $b_0=100$ m, $c_0=50$ m e $500  \le u \le 30000$ m. A figura mostra a soma dos fatores de desmagnetização $\tilde{n}^{\dagger}_{11}$, $\tilde{n}^{\dagger}_{22}$ e $\tilde{n}^{\dagger}_{33}$ calculados pelas Eqs. \ref{eq:n-tilde-dagger-11-triaxial}, \ref{eq:n-tilde-dagger-22-triaxial} e \ref{eq:n-tilde-dagger-33-triaxial} e deve ser igual à 1 (um), independente do tamanho dos eixos e do tipo de elipsoide.]{Validação dos fatores de desmagnetização. Foi gerado 200 elipsoides triaxiais com semi-eixos $a = a_0 +u, \, b = b_0+u$ e $c = c_0+u$, em que $a_0=500$ m, $b_0=100$ m, $c_0=50$ m e $500  \le u \le 30000$ m. A figura mostra a soma dos fatores de desmagnetização $\tilde{n}^{\dagger}_{11}$, $\tilde{n}^{\dagger}_{22}$ e $\tilde{n}^{\dagger}_{33}$ calculados pelas Eqs. \ref{eq:n-tilde-dagger-11-triaxial}, \ref{eq:n-tilde-dagger-22-triaxial} e \ref{eq:n-tilde-dagger-33-triaxial} e deve ser igual à 1 (um), independente do tamanho dos eixos e do tipo de elipsoide.}
 	\label{fig:teste_n_soma}
 \end{figure}

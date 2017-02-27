@@ -12,6 +12,10 @@ The style file: on-plain.bst
 A level-1 auxiliary file: appenA.aux
 A level-1 auxiliary file: appenB.aux
 Database file #1: references.bib
+Repeated entry---line 711 of file references.bib
+ : @book{reitz1992
+ :                ,
+I'm skipping whatever remains of this entry
 `address' is a missing field, not a string, for entry allmendinger2012
 while executing---line 1455 of file on-plain.bst
 `address' is a missing field, not a string, for entry blakely1996
@@ -45,4 +49,4 @@ while executing---line 1455 of file on-plain.bst
 Warning--empty month in uieda-proc-scipy-2013
 `address' is a missing field, not a string, for entry webster1904
 while executing---line 1455 of file on-plain.bst
-(There were 14 error messages)
+(There were 15 error messages)
