@@ -6,6 +6,7 @@ from __future__ import division
 import numpy as np
 from scipy import linalg
 
+from ..constants import SI2MGAL, G, CM, T2NT, SI2EOTVOS, PERM_FREE_SPACE
 from .. import utils
 
 import scipy.special
@@ -33,7 +34,7 @@ def bx_c(xp,yp,zp,inten,inc,dec,ellipsoids):
         raise ValueError("Input arrays xp, yp, and zp must have same shape!")
     size = len(xp)
     res = np.zeros(size, dtype=np.float)
-    ctemag = 1.
+    ctemag = 100.
     
     for ellipsoid in ellipsoids:
         b1,b2,b3,V,N1,N2,N3,JRD_ang = ellipsoid_def (xp,yp,zp,inten,inc,dec,ellipsoid)
@@ -65,7 +66,7 @@ def by_c(xp,yp,zp,inten,inc,dec,ellipsoids):
         raise ValueError("Input arrays xp, yp, and zp must have same shape!")
     size = len(xp)
     res = np.zeros(size, dtype=np.float)
-    ctemag = 1.
+    ctemag = 100.
     
     for ellipsoid in ellipsoids:
         b1,b2,b3,V,N1,N2,N3,JRD_ang = ellipsoid_def (xp,yp,zp,inten,inc,dec,ellipsoid)
@@ -97,7 +98,7 @@ def bz_c(xp,yp,zp,inten,inc,dec,ellipsoids):
         raise ValueError("Input arrays xp, yp, and zp must have same shape!")
     size = len(xp)
     res = np.zeros(size, dtype=np.float)
-    ctemag = 1.
+    ctemag = 100.
     
     for ellipsoid in ellipsoids:
         b1,b2,b3,V,N1,N2,N3,JRD_ang = ellipsoid_def (xp,yp,zp,inten,inc,dec,ellipsoid)
@@ -129,17 +130,17 @@ def tf_c(xp,yp,zp,inten,inc,dec,ellipsoids):
         raise ValueError("Input arrays xp, yp, and zp must have same shape!")
     size = len(xp)
     res = np.zeros(size, dtype=np.float)
-    ctemag = 1.
+    ctemag = 100.
     
     for ellipsoid in ellipsoids:
         b1,b2,b3,V,N1,N2,N3,JRD_ang = ellipsoid_def (xp,yp,zp,inten,inc,dec,ellipsoid)
-        bx = b1*V[0,0]+b2*V[0,1]+b3*V[0,2]
-        by = b1*V[1,0]+b2*V[1,1]+b3*V[1,2]
-        bz = b1*V[2,0]+b2*V[2,1]+b3*V[2,2]
+        bx = (b1*V[0,0]+b2*V[0,1]+b3*V[0,2])*ctemag
+        by = (b1*V[1,0]+b2*V[1,1]+b3*V[1,2])*ctemag
+        bz = (b1*V[2,0]+b2*V[2,1]+b3*V[2,2])*ctemag
         tf = bx*np.cos(np.deg2rad(inc))*np.cos(np.deg2rad(dec)) + by*np.cos\
         (np.deg2rad(inc))*np.sin(np.deg2rad(dec)) + bz*np.sin(np.deg2rad(inc))
         res += tf
-    res = res*ctemag
+    res = res
     return res,N1,N2,N3,JRD_ang
     
 def ellipsoid_def (xp,yp,zp,inten,inc,dec,ellipsoid):
@@ -155,7 +156,8 @@ def ellipsoid_def (xp,yp,zp,inten,inc,dec,ellipsoid):
 
     axis = ellipsoid.axis
     center = ellipsoid.center
-    V = ellipsoid.V()
+    alpha, delta, gamma = structural_angles(ellipsoid.strike, ellipsoid.dip, ellipsoid.rake)
+    V = ellipsoid.V(angles = [alpha, delta, gamma])
     
     # Remanence values
     intensity_rem = ellipsoid.props['remanence'][0]
@@ -209,7 +211,75 @@ def ellipsoid_def (xp,yp,zp,inten,inc,dec,ellipsoid):
     B2 = B2_e (m21,m22,m23,JRD,axis[0],axis[1],axis[2])
     B3 = B3_e (m31,m32,m33,JRD,axis[0],axis[1],axis[2])
     return B1,B2,B3,V,N1,N2,N3,JRD_ang
-        
+
+def structural_angles(strike, dip, rake):
+    '''
+    Calculates the orientation angles alpha, gamma
+    and delta (Clark et al., 1986)
+    as functions of the geological angles strike, dip and
+    rake (Clark et al., 1986; Allmendinger et al., 2012).
+    The function implements the formulas presented by
+    Clark et al. (1986).
+
+    Parameters:
+
+    *strike: float
+             strike direction (in degrees).
+    *dip: float
+          true dip (in degrees).
+    *rake: float
+           angle between the strike and the semi-axis a
+           of the body (in degrees).
+
+    Returns:
+
+    *alpha, gamma, delta: float, float, float
+            orientation angles (in radians) defined according
+            to Clark et al. (1986).
+
+    References:
+
+    Clark, D., Saul, S., and Emerson, D.: Magnetic and gravity anomalies
+    of a triaxial ellipsoid, Exploration Geophysics, 17, 189-200, 1986.
+
+    Allmendinger, R., Cardozo, N., and Fisher, D. M.:
+    Structural geology algorithms : vectors and tensors,
+    Cambridge University Press, 2012.
+    '''
+
+    strike_r = np.deg2rad(strike)
+    cos_dip = np.cos(np.deg2rad(dip))
+    sin_dip = np.sin(np.deg2rad(dip))
+    cos_rake = np.cos(np.deg2rad(rake))
+    sin_rake = np.sin(np.deg2rad(rake))
+
+    aux = sin_dip*sin_rake
+    aux1 = cos_rake/np.sqrt(1 - aux*aux)
+    aux2 = sin_dip*cos_rake
+
+    if aux1 > 1.:
+        aux1 = 1.
+    if aux1 < -1.:
+        aux1 = -1.
+
+    alpha = strike_r - np.arccos(aux1)
+    if aux2 != 0:
+        gamma = -np.arctan(cos_dip/aux2)
+    else:
+        if cos_dip >= 0:
+            gamma = np.pi/2
+        if cos_dip <= 0:
+            gamma = -np.pi/2
+    delta = np.arcsin(aux)
+
+    assert delta <= np.pi/2, 'delta must be lower than \
+or equalt to 90 degrees'
+
+    assert (gamma >= -np.pi/2) and (gamma <= np.pi/2), 'gamma must lie between \
+-90 and 90 degrees.'
+
+    return alpha, gamma, delta
+	
 def x_e (xp,yp,zp,center,V):
         '''
         Calculates the new coordinates with origin at the center 
@@ -273,19 +343,6 @@ def N_desmagT (axis,F2,E2):
             Major, intermediate and minor demagnetization factors, respectively.        
         '''
         
-       #N1 = ((4.*np.pi*axis[0]*axis[1]*axis[2])/((axis[0]**2-axis[1]**2)*\
-       #(axis[0]**2-axis[2]**2)**0.5)) * (F2-E2)
-       #
-       #N2 = (((4.*np.pi*axis[0]*axis[1]*axis[2])*\
-       #(axis[0]**2-axis[2]**2)**0.5)/((axis[0]**2-axis[1]**2)*\
-       #(axis[1]**2-axis[2]**2))) * (E2-((axis[1]**2-axis[2]**2)\
-       #/(axis[0]**2-axis[2]**2)) * F2-((axis[2]*(axis[0]**2-axis[1]**2))\
-       #/(axis[0]*axis[1]*(axis[0]**2-axis[2]**2)**0.5)))
-       #
-       #N3 = ((4.*np.pi*axis[0]*axis[1]*axis[2])/((axis[1]**2-axis[2]**2)*\
-       #(axis[0]**2-axis[2]**2)**0.5)) * (((axis[1]*(axis[0]**2-axis[2]**2)**0.5)\
-       #/(axis[0]*axis[2]))-E2)
-       
         N1 = ((axis[0]*axis[1]*axis[2])/((axis[0]**2-axis[1]**2)*\
         (axis[0]**2-axis[2]**2)**0.5)) * (F2-E2)
         
@@ -298,6 +355,7 @@ def N_desmagT (axis,F2,E2):
         N3 = ((axis[0]*axis[1]*axis[2])/((axis[1]**2-axis[2]**2)*\
         (axis[0]**2-axis[2]**2)**0.5)) * (((axis[1]*(axis[0]**2-axis[2]**2)**0.5)\
         /(axis[0]*axis[2]))-E2)
+
         return N1, N2, N3
 
 def k_matrix (U,V,K):
@@ -552,7 +610,7 @@ def jrd_cartesiano (inten,inc,dec,ellipsoids):
         JRD_ang.append(utils.vec2ang(JRD_carte[i]))
     return JRD_ang
     
-def F_e (intT,lt,mt,nt,V):
+def F_e (inten,lt,mt,nt,V):
     '''
     Change the magnetization vetor of the Earth's field 
     to the body coordinates.
@@ -571,7 +629,8 @@ def F_e (intT,lt,mt,nt,V):
     * Ft: array
     The magnetization vetor of the Earth's field to the body coordinates.    
     '''
-    
+	
+    intT= inten/(4*np.pi*100)
     Ft = intT*np.array([[(lt*V[0,0]+mt*V[1,0]+nt*V[2,0])], \
     [(lt*V[0,1]+mt*V[1,1]+nt*V[2,1])], [(lt*V[0,2]+mt*V[1,2]+nt*V[2,2])]])
     return Ft
@@ -650,7 +709,7 @@ def B1_e (m11,m12,m13,J,a,b,c):
         by n-ellipsoids in the body coordinates.    
     '''
     
-    B1 = 2*np.pi*a*b*c*(m11*J[0]+m12*J[1]+m13*J[2])*(100)
+    B1 = 2*np.pi*a*b*c*(m11*J[0]+m12*J[1]+m13*J[2])
     return B1
 
 def B2_e (m21,m22,m23,J,a,b,c):
@@ -674,7 +733,7 @@ def B2_e (m21,m22,m23,J,a,b,c):
         by n-ellipsoids in the body coordinates.    
     '''
     
-    B2 = 2*np.pi*a*b*c*(m21*J[0]+m22*J[1]+m23*J[2])*(100)
+    B2 = 2*np.pi*a*b*c*(m21*J[0]+m22*J[1]+m23*J[2])
     return B2
     
 def B3_e (m31,m32,m33,J,a,b,c):
@@ -698,5 +757,5 @@ def B3_e (m31,m32,m33,J,a,b,c):
         by n-ellipsoids in the body coordinates.    
     '''
     
-    B3 = 2*np.pi*a*b*c*(m31*J[0]+m32*J[1]+m33*J[2])*(100)
+    B3 = 2*np.pi*a*b*c*(m31*J[0]+m32*J[1]+m33*J[2])
     return B3
