@@ -17,14 +17,14 @@
 \contentsline {chapter}{\numberline {3}Implementa\IeC {\c c}\IeC {\~a}o computacional}{20}{chapter.3}
 \contentsline {chapter}{\numberline {4}Simula\IeC {\c c}\IeC {\~o}es Num\IeC {\'e}ricas e Discuss\IeC {\~o}es}{26}{chapter.4}
 \contentsline {section}{\numberline {4.1}Modelos elipsoidais}{26}{section.4.1}
-\contentsline {section}{\numberline {4.2}Elementos do tensor de depolariza\IeC {\c c}\IeC {\~a}o}{33}{section.4.2}
-\contentsline {section}{\numberline {4.3}Compara\IeC {\c c}\IeC {\~o}es entre os modelos elipsoidais}{35}{section.4.3}
-\contentsline {section}{\numberline {4.4}Susceptibilidade}{42}{section.4.4}
-\contentsline {section}{\numberline {4.5}Anisotropia de forma}{43}{section.4.5}
-\contentsline {chapter}{\numberline {5}Conclus\IeC {\~o}es}{47}{chapter.5}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{49}{chapter*.12}
-\contentsline {chapter}{\numberline {A}Rela\IeC {\c c}\IeC {\~a}o entre as derivadas das fun\IeC {\c c}\IeC {\~o}es $f(\mathbf {r})$ e $\mathaccentV {tilde}07E{f}(\mathaccentV {tilde}07E{\mathbf {r}})$}{54}{appendix.A}
-\contentsline {chapter}{\numberline {B}Par\IeC {\^a}metro $\lambda $ e suas derivadas espaciais}{56}{appendix.B}
-\contentsline {section}{\numberline {B.1}Par\IeC {\^a}metro $\lambda $ definido para os elipsoides triaxiais}{56}{section.B.1}
-\contentsline {section}{\numberline {B.2}Par\IeC {\^a}metro $\lambda $ que define os elipsoides prolatos e oblatos}{58}{section.B.2}
-\contentsline {section}{\numberline {B.3}Derivadas espaciais do par\IeC {\^a}metro $\lambda $}{59}{section.B.3}
+\contentsline {section}{\numberline {4.2}Elementos do tensor de depolariza\IeC {\c c}\IeC {\~a}o}{28}{section.4.2}
+\contentsline {section}{\numberline {4.3}Compara\IeC {\c c}\IeC {\~o}es entre os modelos elipsoidais}{32}{section.4.3}
+\contentsline {section}{\numberline {4.4}Susceptibilidade}{37}{section.4.4}
+\contentsline {section}{\numberline {4.5}Anisotropia de forma}{39}{section.4.5}
+\contentsline {chapter}{\numberline {5}Conclus\IeC {\~o}es}{48}{chapter.5}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{50}{chapter*.12}
+\contentsline {chapter}{\numberline {A}Rela\IeC {\c c}\IeC {\~a}o entre as derivadas das fun\IeC {\c c}\IeC {\~o}es $f(\mathbf {r})$ e $\mathaccentV {tilde}07E{f}(\mathaccentV {tilde}07E{\mathbf {r}})$}{55}{appendix.A}
+\contentsline {chapter}{\numberline {B}Par\IeC {\^a}metro $\lambda $ e suas derivadas espaciais}{57}{appendix.B}
+\contentsline {section}{\numberline {B.1}Par\IeC {\^a}metro $\lambda $ definido para os elipsoides triaxiais}{57}{section.B.1}
+\contentsline {section}{\numberline {B.2}Par\IeC {\^a}metro $\lambda $ que define os elipsoides prolatos e oblatos}{59}{section.B.2}
+\contentsline {section}{\numberline {B.3}Derivadas espaciais do par\IeC {\^a}metro $\lambda $}{60}{section.B.3}

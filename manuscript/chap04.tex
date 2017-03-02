@@ -1,10 +1,10 @@
 \chapter{Simulações Numéricas e Discussões}
 
-Diversas simulações com o código foram aplicadas, com o intuito de confirmar a resposta obtida pelo código, verificar a  as aplicações e levantar discussões à cerca do modelo elipsoidal.
-
 \section{Modelos elipsoidais}
 
-A implementação computacional feita, nos permite modelar elipsoides triaxiais, prolatos e oblatos para calcular o campo magnético gerado por estes corpos e a anomalia de campo total aproximada (Eqs. \ref{eq:delta-H} e \ref{eq:delta-T-tilde-approx}). Na Figura \ref{fig:triaxial} temos a resposta do campo magnético gerado por um elipsoide triaxial com parâmetros conforme dado na Tabela \ref{tab:triaxial}.
+As Figuras \ref{fig:triaxial}A), \ref{fig:triaxial}B), \ref{fig:triaxial}C) e \ref{fig:triaxial}D) mostram, respectivamente, as componentes $x$, $y$ e $z$ da indução magnética $\Delta \mathbf{B}(\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde}) e a
+anomalia de campo total $\Delta T (\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde-approx}) produzidas pelo elipsoide triaxial definido de acordo com os parâmetros da Tabela \ref{tab:triaxial}.
+Os dados foram calculados em uma malha de $200 \times 200$ pontos (total de 40000 pontos) localizada no plano horizontal $z = 0$ m.
 
 \begin{table}[h]
 	\begin{center}
@@ -12,46 +12,45 @@ A implementação computacional feita, nos permite modelar elipsoides triaxiais,
 			\hline
 			\textbf{Parâmetro}  & \textbf{Valor}  & \textbf{Unidade} \\
 			\hline 
-			a, b, c   & 150, 100, 75 & m\\
+			$a$, $b$, $c$   & 150, 100, 75 & m\\
 			\hline
-			Azimute   & $0$ & º\\
+			\textit{strike}   & $0$ & º\\
 			\hline
-			$\delta$ & $0$ & º\\
+			\textit{dip} & $0$ & º\\
 			\hline
-			$\gamma$ & $0$  & º\\
+			\textit{rake} & $0$  & º\\
 			\hline
-			xc   & 0  & m\\
+			$x_{c}$   & 0  & m\\
 			\hline          
-			yc   & 0  & m\\
+			$y_{c}$   & 0  & m\\
 			\hline                
-			zc   & 1000 & m\\
+			$z_{c}$   & 1000 & m\\
 			\hline
-			$J_{NRM}$*  & 100, $25^o$, $40^o$  & A/m\\
+			$\mathbf{M}_{R}$*  & 100, $25^o$, $40^o$  & $A/m$, $^{\circ}$, $^{\circ}$\\
 			\hline
-			F*    & 60000, $50^o$, $20^o$ & nT\\
+			$B_0$*    & 60000, $50^o$, $20^o$ & $nT$, $^{\circ}$, $^{\circ}$\\
 			\hline
-			k1, k2, k3   & 0.1, 0.1, 0.1  & SI\\
+			$k_{1}$, $k_{2}$, $k_{3}$   & 0.1, 0.1, 0.1  & SI, SI, SI\\
 			\hline
-			Orientações k**   & $0$, $90$, $90$  & º\\
+			Orientação das colunas da matriz $\mathbf{U}$**   & $0$, $90$, $90$  & º, º, º\\
 			\hline
 		\end{tabular}
-		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de \textit{strike} , \textit{dip}  e \textit{rake} , respectivamente, para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$, $\mathbf{u}_{3}$ por meio das Eqs. \ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate} e \ref{eq:v3_triaxial_prolate}.}
 	\end{center}
 	\label{tab:triaxial}
 \end{table}
 
 \begin{figure}[hbt!]
 	\centering \includegraphics[width=16cm,height=16cm]{figures/ellipsoid_triaxial}
-	\caption[As componentes do campo magnético gerado por um elipsoide triaxial e a anomalia de campo total aproximada.]{As componentes 
-		do campo magnético gerado por um elipsoide triaxial de parâmetros conforme a tabela \ref{tab:triaxial} e a anomalia de campo total aproximada. Em A) a componente Bx do campo, em B) a componente By, em C) a componente Bz e em D) a anomalia de campo total aproximada.}
+	\caption[Campo gerado pelo elipsoide triaxial definido na Tabela \ref{tab:triaxial}. A), B) e C) Componentes $x$, $y$ e $z$, respectivamente, da indução magnética $\Delta \mathbf{B}(\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde}). D) Anomalia de campo total $\Delta T (\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde-approx}). Todos os valores estão em nT.]{Campo gerado pelo elipsoide triaxial definido na Tabela \ref{tab:triaxial}. A), B) e C) Componentes $x$, $y$ e $z$, respectivamente, da indução magnética $\Delta \mathbf{B}(\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde}). D) Anomalia de campo total $\Delta T (\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde-approx}). Todos os valores estão em nT.}
 	\label{fig:triaxial}
 \end{figure}
 
-Uma malha de de $40000$ pontos foi criada ($200$x$200$) para os cálculos das três componentes e da anomalia de campo total aproximada em todas as simulações.
+As Figuras \ref{fig:prolate}A), \ref{fig:prolate}B), \ref{fig:prolate}C) e \ref{fig:prolate}D) mostram, respectivamente, as componentes $x$, $y$ e $z$ da indução magnética $\Delta \mathbf{B}(\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde}) e a
+anomalia de campo total $\Delta T (\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde-approx}) produzidas pelo elipsoide prolato definido de acordo com os parâmetros da Tabela 4.2.
 
-Na Figura \ref{fig:prolate} temos as três componentes do campo magnético gerado por um elipsoide triaxial com os parâmetros da Tabela 4.2.
-
-Na Figura \ref{fig:oblate} temos as três componentes do campo magnético gerado por um elipsoide triaxial com os parâmetros da Tabela 4.3.
+As Figuras \ref{fig:oblate}A), \ref{fig:oblate}B), \ref{fig:oblate}C) e \ref{fig:oblate}D) mostram, respectivamente, as componentes $x$, $y$ e $z$ da indução magnética $\Delta \mathbf{B}(\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde}) e a
+anomalia de campo total $\Delta T (\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde-approx}) produzidas pelo elipsoide prolato definido de acordo com os parâmetros da Tabela 4.3.
 \\\\\\
 
 \begin{table}[h!]
@@ -60,31 +59,31 @@ Na Figura \ref{fig:oblate} temos as três componentes do campo magnético gerado
 			\hline
 			\textbf{Parâmetro}  & \textbf{Valor}  & \textbf{Unidade} \\
 			\hline 
-			a,b   & 200, 100 & m\\
+			$a$, $b$   & 200, 100 & m\\
 			\hline
-			Azimute   & $45$ & º\\
+			\textit{strike}   & $45$ & º\\
 			\hline
-			$\delta$    & $0$ & º\\
+			\textit{dip}    & $0$ & º\\
 			\hline
-			$\gamma$   & $0$  & º\\
+			\textit{rake}   & $0$  & º\\
 			\hline
-			xc   & 0  & m\\
+			$x_c$   & 0  & m\\
 			\hline          
-			yc   & 0  & m\\
+			$y_c$   & 0  & m\\
 			\hline                
-			zc   & 1000  & m\\
+			$z_c$   & 1000  & m\\
 			\hline
-			$J_{NRM}$*  & 100, $90^o$, $0^o$ & A/m\\
+			$\mathbf{M}_{R}$*  & 100, $90$, $0$ & $A/m$, $^{\circ}$, $^{\circ}$\\
 			\hline
-			F*    & 60000, $50^o$, $20^o$ & nT\\
+			$B_0$*    & 60000, $50$, $20$ & $nT$, $^{\circ}$, $^{\circ}$\\
 			\hline
-			k1, k2, k3   & 0.1, 0.1, 0.1  & SI\\
+			$k_{1}$, $k_{2}$, $k_{3}$   & 0.1, 0.1, 0.1  & SI, SI, SI\\
 			\hline
-			Orientações k**   & $0$, $90$, $90$  & º\\
+			Orientação das colunas da matriz $\mathbf{U}$**   & $0$, $90$, $90$  & º, º, º\\
 			\hline
 			
 		\end{tabular}
-		\caption{Parâmetros do elipsoide prolato modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de \textit{strike} , \textit{dip}  e \textit{rake} , respectivamente, para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$, $\mathbf{u}_{3}$ por meio das Eqs. \ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate} e \ref{eq:v3_triaxial_prolate}.}
 	\end{center}
 	\label{tab:prolato}
 \end{table}
@@ -113,30 +112,30 @@ Na Figura \ref{fig:oblate} temos as três componentes do campo magnético gerado
 			\hline
 			\textbf{Parâmetro}  & \textbf{Valor} & \textbf{Unidade} \\
 			\hline 
-			a, b  & 100, 200 & m \\
+			$a$, $b$  & 100, 200 & m \\
 			\hline
-			Azimute   & $45$ & º\\
+			\textit{strike}   & $45$ & º\\
 			\hline
-			$\delta$    & $0$ & º\\
+			\textit{dip}    & $0$ & º\\
 			\hline
-			$\gamma$   & $0$  & º\\
+			\textit{rake}   & $0$  & º\\
 			\hline
-			xc   & 0  & m\\
+			$x_c $  & 0  & m\\
 			\hline          
-			yc   & 0  & m\\
+			$y_c$   & 0  & m\\
 			\hline                
-			zc   & 1000  & m\\
+			$z_c$   & 1000  & m\\
 			\hline
-			$J_{NRM}$*  & 100, $90^o$, $0^o$  & A/m\\
+			$\mathbf{M}_{R}$*  & 100, $90$, $0$  & $A/m$, $^{\circ}$, $^{\circ}$\\
 			\hline
-			F*    & 60000, $50^o$, $20^o$ & nT\\
+			$B_0$*    & 60000, $50$, $20$ & $nT$, $^{\circ}$, $^{\circ}$\\
 			\hline
-			k1, k2, k3   & 0.1, 0.1, 0.1  & SI\\
+			$k_{1}$, $k_{2}$, $k_{3}$   & 0.1, 0.1, 0.1  & SI, SI, SI\\
 			\hline
-			Orientações k**   & $0$, $90$, $90$  & º\\
+			Orientação das colunas da matriz $\mathbf{U}$**   & $0$, $90$, $90$  & º, º, º\\
 			\hline
 		\end{tabular}
-		\caption{Parâmetros do elipsoide oblato modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de \textit{strike} , \textit{dip}  e \textit{rake} , respectivamente, para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$, $\mathbf{u}_{3}$ por meio das Eqs. \ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate} e \ref{eq:v3_triaxial_prolate}.}
 	\end{center}
 	\label{tab:oblate}
 \end{table}
@@ -171,7 +170,8 @@ Na Figura \ref{fig:oblate} temos as três componentes do campo magnético gerado
 	\label{fig:oblate}
 \end{figure}
 
-Já na Figura \ref{fig:ellipsoid_triaxial_multi}, fizemos uma simulação de dois corpos elipsoidais triaxiais sendo modelados dentro da mesma malha, que pode ser feita de forma prática usando a classe elipsoidal, implementada no \textit{mesher} do \textit{Fatiando a Terra}. Novamente temos as três componentes do campo magnético gerado pelos corpos com os parâmetros da Tabela 4.4.
+As Figuras \ref{fig:ellipsoid_triaxial_multi}A), \ref{fig:ellipsoid_triaxial_multi}B), \ref{fig:ellipsoid_triaxial_multi}C) e \ref{fig:ellipsoid_triaxial_multi}D) mostram, respectivamente, as componentes $x$, $y$ e $z$ da indução magnética $\Delta \mathbf{B}(\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde}) e a
+anomalia de campo total $\Delta T (\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde-approx}) produzidas por dois elipsoides triaxiais definidos de acordo com os parâmetros da Tabela 4.4.
 
 \begin{table}[h!]
 	\begin{center}
@@ -191,50 +191,50 @@ Já na Figura \ref{fig:ellipsoid_triaxial_multi}, fizemos uma simulação de doi
 			\hline
 			\textbf{Parâmetro}  & \textbf{Valor}  & \textbf{Unidade}\\
 			\hline 
-			a, b, c   & 150, 100, 75 & m\\
+			$a$, $b$, $c$   & 150, 100, 75 & m\\
 			\hline
-			Azimute   & $0$ & º\\
+			\textit{strike}   & $0$ & º\\
 			\hline
-			$\delta$    & $0$ & º\\
+			\textit{dip}    & $0$ & º\\
 			\hline
-			$\gamma$   & $0$  & º\\
+			\textit{rake}   & $0$  & º\\
 			\hline
-			xc   & -2500  & m\\
+			$x_c$   & -2500  & m\\
 			\hline          
-			yc   & -2500  & m\\
+			$y_c$   & -2500  & m\\
 			\hline                
-			zc   & 1000  & m\\
+			$z_c$  & 1000  & m\\
 			\hline
-			$J_{NRM}$*  & 100, $25^o$, $40^o$  & A/m\\
+			$\mathbf{M}_{R}$*  & 100, $25^o$, $40^o$  & $A/m$, $^{\circ}$, $^{\circ}$\\
 			\hline
-			k1, k2, k3   & 0.1, 0.1, 0.1  & SI\\
+			$k_1$, $k_2$, $k_3$   & 0.1, 0.1, 0.1  & SI, SI, SI\\
 			\hline
-			Orientações k**   & $0$, $90$, $90$  & º\\
+			Orientação das colunas da matriz $\mathbf{U}$**   & $0$, $90$, $90$  & º, º, º\\
 			\hline 
 			a$_2$, b$_2$, c$_2$   & 200, 120, 60 & m\\
 			\hline
-			Azimute$_2$   & $0$ & º\\
+			\textit{strike}$_2$   & $0$ & º\\
 			\hline
-			$\delta_2$    & $0$ & º\\
+			\textit{dip}$_2$    & $0$ & º\\
 			\hline
-			$\gamma_2$   & $0$  & º\\
+			\textit{rake}$_2$   & $0$  & º\\
 			\hline
-			xc$_2$   & 2500  & m\\
+			$x_{c2}$   & 2500  & m\\
 			\hline          
-			yc$_2$   & 2500  & m\\
+			$y_{c2}$   & 2500  & m\\
 			\hline                
-			zc$_2$   & 1000  & m\\
+			$z_{c2}$   & 1000  & m\\
 			\hline
-			$J_{2NRM}$*  & 75, $25^o$, $40^o$  & A/m\\
+			$\mathbf{M}_{R2}$*  & 75, $25^o$, $40^o$  & $A/m$, $^{\circ}$, $^{\circ}$\\
 			\hline
-			k1$_2$, k2$_2$, k3$_2$   & 0.1, 0.1, 0.1  & SI\\
+			$k_12$, $k_22$, $k_32$   & 0.1, 0.1, 0.1  & SI, SI, SI\\
 			\hline
-			Orientações k$_2$**   & $0$, $90$, $90$  & º\\
+			Orientação das colunas da matriz $\mathbf{U}_2$**   & $0$, $90$, $90$  & º, º, º\\
 			\hline
-			F*    & 60000, $50^o$, $20^o$ & nT\\
+			$B_0$*    & 60000, $50^o$, $20^o$ & $nT$, $^{\circ}$, $^{\circ}$\\
 			\hline			
 		\end{tabular}
-		\caption{Parâmetros dos dois elipsoides triaxiais modelados. O segundo elipsoide é mostrada na tabela pela índice $_2$ nos parâmetros. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros dos elipsoides triaxiais modelados. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de \textit{strike} , \textit{dip}  e \textit{rake} , respectivamente, para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$, $\mathbf{u}_{3}$ por meio das Eqs. \ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate} e \ref{eq:v3_triaxial_prolate}.}
 	\end{center}
 	\label{tab:ellipsoid_triaxial_multi}
 \end{table}
@@ -263,6 +263,13 @@ Já na Figura \ref{fig:ellipsoid_triaxial_multi}, fizemos uma simulação de doi
 	\caption[As componentes do campo magnético gerado por dois corpos triaxiais e a anomalia de campo total aproximada.]{As componentes 
 		do campo magnético gerado pelos elipsoides triaxiais de parâmetros conforme a tabela 4.4 e a anomalia de campo total aproximada. Em A) a componente Bx do campo, em B) a componente By, em C) a componente Bz e em D) a anomalia de campo total aproximada.}
 	\label{fig:ellipsoid_triaxial_multi}
+\end{figure}
+
+
+\begin{figure}[hbt!]
+	\centering \includegraphics[width=16 cm,height=20 cm]{figures/mag_fields_0}
+	\caption[As componentes do campo magnético gerado por dois corpos triaxiais e a anomalia de campo total aproximada.]{\textit{Scripts} utilizados para gerar os resultados mostrados na Figuras \ref{fig:triaxial}, \ref{fig:prolate}, \ref{fig:oblate} e \ref{fig:ellipsoid_triaxial_multi}. A descrição do código é similar àquela mostrada na Figura \ref{fig:Cookbook_Triaxial}.}
+	\label{fig:mag_fields_0}
 \end{figure}
 
 \begin{table}[h!]
@@ -379,7 +386,7 @@ Testamos a implementação computacional comparando com resultados conhecidos. N
 			Orientações k**   & $0$, $90$, $90$  & º\\
 			\hline
 		\end{tabular}
-		\caption{Parâmetros do elipsoide triaxial modelado para comparação com a esfera. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de \textit{strike} , \textit{dip}  e \textit{rake} , respectivamente, para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$, $\mathbf{u}_{3}$ por meio das Eqs. \ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate} e \ref{eq:v3_triaxial_prolate}.}
 	\end{center}
 	\label{tab:triaxial_sphere}
 \end{table}
@@ -443,7 +450,7 @@ Os resultados da comparação foram muito próximos. Confirmado a implementaçã
 			Orientações k**   & $0$, $90$, $90$  & º\\
 			\hline
 		\end{tabular}
-		\caption{Parâmetros do elipsoide triaxial modelado para comparação com o elipsoide prolato. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de \textit{strike} , \textit{dip}  e \textit{rake} , respectivamente, para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$, $\mathbf{u}_{3}$ por meio das Eqs. \ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate} e \ref{eq:v3_triaxial_prolate}.}
 	\end{center}
 	\label{tab:triaxial_prolate1}
 \end{table}
@@ -479,7 +486,7 @@ Os resultados da comparação foram muito próximos. Confirmado a implementaçã
 			Orientações k**   & $0$, $90$, $90$  & º\\
 			\hline
 		\end{tabular}
-		\caption{Parâmetros do elipsoide prolato modelado para comparação com elipsoide triaxial. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de \textit{strike} , \textit{dip}  e \textit{rake} , respectivamente, para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$, $\mathbf{u}_{3}$ por meio das Eqs. \ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate} e \ref{eq:v3_triaxial_prolate}.}
 	\end{center}
 	\label{tab:triaxial_prolate2}
 \end{table}
@@ -522,7 +529,7 @@ Também usamos a implementação do elipsoide triaxial, para comparar com a impl
 			Orientações k**   & $0$, $90$, $90$ & º \\
 			\hline
 		\end{tabular}
-		\caption{Parâmetros do elipsoide triaxial modelado para comparação com o elipsoide oblato. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de \textit{strike} , \textit{dip}  e \textit{rake} , respectivamente, para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$, $\mathbf{u}_{3}$ por meio das Eqs. \ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate} e \ref{eq:v3_triaxial_prolate}.}
 	\end{center}
 	\label{tab:triaxial_oblate1}
 \end{table}
@@ -558,7 +565,7 @@ Também usamos a implementação do elipsoide triaxial, para comparar com a impl
 			Orientações k**   & $0$, $90$, $90$ & º \\
 			\hline
 		\end{tabular}
-		\caption{Parâmetros do elipsoide oblato modelado para compração com o elipsoide triaxial. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de \textit{strike} , \textit{dip}  e \textit{rake} , respectivamente, para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$, $\mathbf{u}_{3}$ por meio das Eqs. \ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate} e \ref{eq:v3_triaxial_prolate}.}
 	\end{center}
 	\label{tab:triaxial_oblate2}
 \end{table}
@@ -632,7 +639,7 @@ Conforme dito na seção 4.2 existe uma relação entre os elementos do tensor d
 			Orientações k**   & $0$, $90$, $90$  & º\\
 			\hline
 		\end{tabular}
-		\caption{Parâmetros do elipsoides triaxiais modelados com o semi-eixo $a$ crescente e azimute com grande diferença na direção com relação ao campo da Terra para verificar a anisotropia de forma. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de \textit{strike} , \textit{dip}  e \textit{rake} , respectivamente, para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$, $\mathbf{u}_{3}$ por meio das Eqs. \ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate} e \ref{eq:v3_triaxial_prolate}.}
 	\end{center}
 	\label{tab:ellipsoid_shape_iso10}
 \end{table}
@@ -710,7 +717,7 @@ Para efeito de comparação realizamos o mesmo teste, porém com um azimute de 8
 			Orientações k**   & $0$, $90$, $90$  & º\\
 			\hline
 		\end{tabular}
-		\caption{Parâmetros do elipsoides triaxiais modelados com o semi-eixo $a$ crescente e azimute com grande diferença na direção com relação ao campo da Terra para verificar a anisotropia de forma. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de azimute, $\delta$ e $\gamma$, respectivamente, para as orientações da susceptibilidade.}
+		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulo de \textit{strike} , \textit{dip}  e \textit{rake} , respectivamente, para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$, $\mathbf{u}_{3}$ por meio das Eqs. \ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate} e \ref{eq:v3_triaxial_prolate}.}
 	\end{center}
 	\label{tab:ellipsoid_shape_iso80}
 \end{table}

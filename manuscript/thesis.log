@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.28)  26 FEB 2017 23:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.28)  2 MAR 2017 14:33
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -916,9 +916,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 47.
  (thesis.lof
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 19.
 
 [10
 
@@ -935,9 +935,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 48.
  (thesis.lot
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 17.
+(babel)             in language  on input line 16.
  [12
 
 ])
@@ -999,7 +999,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 108.
  [5]
-<figures/structural_orientation_angles.png, id=483, 227.6505pt x 256.0767pt>
+<figures/structural_orientation_angles.png, id=523, 227.6505pt x 256.0767pt>
 File: figures/structural_orientation_angles.png Graphic file (type png)
 
 <use figures/structural_orientation_angles.png>
@@ -1174,18 +1174,18 @@ Package babel Info: Redefining portuges shorthand "|
 
 
 
-] <figures/Cookbook_Triaxial.png, id=932, 574.39594pt x 532.99126pt>
+] <figures/Cookbook_Triaxial.png, id=971, 559.33969pt x 527.72156pt>
 File: figures/Cookbook_Triaxial.png Graphic file (type png)
 
 <use figures/Cookbook_Triaxial.png>
 Package pdftex.def Info: figures/Cookbook_Triaxial.png used on input line 20.
-(pdftex.def)             Requested size: 455.25778pt x 455.25682pt.
+(pdftex.def)             Requested size: 455.26465pt x 483.69795pt.
 
-Overfull \hbox (28.46643pt too wide) in paragraph at lines 20--21
+Overfull \hbox (28.4733pt too wide) in paragraph at lines 20--21
  [][] 
  []
 
-<figures/anomaly_exemplo.pdf, id=935, 578.16pt x 431.81326pt>
+<figures/anomaly_exemplo.pdf, id=974, 578.16pt x 431.81326pt>
 File: figures/anomaly_exemplo.pdf Graphic file (type pdf)
 
 <use figures/anomaly_exemplo.pdf>
@@ -1196,18 +1196,18 @@ Overfull \hbox (28.4503pt too wide) in paragraph at lines 26--27
  [][] 
  []
 
-<figures/func_triaxial.png, id=940, 774.64406pt x 615.0478pt>
+<figures/func_triaxial.png, id=979, 787.44188pt x 615.80063pt>
 File: figures/func_triaxial.png Graphic file (type png)
 
 <use figures/func_triaxial.png>
 Package pdftex.def Info: figures/func_triaxial.png used on input line 32.
-(pdftex.def)             Requested size: 455.2512pt x 455.25026pt.
+(pdftex.def)             Requested size: 455.23872pt x 483.70523pt.
 
-Overfull \hbox (28.45985pt too wide) in paragraph at lines 32--33
+Overfull \hbox (28.44737pt too wide) in paragraph at lines 32--33
  [][] 
  []
 
-<figures/test_n_soma.pdf, id=959, 1073.19745pt x 713.1675pt>
+<figures/test_n_soma.pdf, id=998, 1073.19745pt x 713.1675pt>
 File: figures/test_n_soma.pdf Graphic file (type pdf)
 
 <use figures/test_n_soma.pdf>
@@ -1248,38 +1248,38 @@ Cap\'{\i }tulo 4.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 5.
-<figures/ellipsoid_triaxial.pdf, id=1075, 1136.27882pt x 1002.62115pt>
+(babel)             in language  on input line 3.
+<figures/ellipsoid_triaxial.pdf, id=1122, 1134.72725pt x 1004.8269pt>
 File: figures/ellipsoid_triaxial.pdf Graphic file (type pdf)
 
 <use figures/ellipsoid_triaxial.pdf>
 Package pdftex.def Info: figures/ellipsoid_triaxial.pdf used on input line 44.
-(pdftex.def)             Requested size: 455.24902pt x 455.24483pt.
+(pdftex.def)             Requested size: 455.2334pt x 455.23442pt.
 
-Overfull \hbox (28.45767pt too wide) in paragraph at lines 44--46
+Overfull \hbox (28.44205pt too wide) in paragraph at lines 44--45
  [][] 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 51.
+(babel)             in language  on input line 52.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 51.
+(babel)             in language  on input line 52.
 [26
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 52--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 52--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 52--55
 
  []
 
@@ -1292,28 +1292,28 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/ellipsoid_prolate.pdf, id=1084, 1136.27882pt x 1002.62115pt>
+<figures/ellipsoid_prolate.pdf, id=1157, 1134.62248pt x 1004.88338pt>
 File: figures/ellipsoid_prolate.pdf Graphic file (type pdf)
 
 <use figures/ellipsoid_prolate.pdf>
-Package pdftex.def Info: figures/ellipsoid_prolate.pdf used on input line 145.
-(pdftex.def)             Requested size: 455.24902pt x 455.24483pt.
+Package pdftex.def Info: figures/ellipsoid_prolate.pdf used on input line 144.
+(pdftex.def)             Requested size: 455.2433pt x 455.24466pt.
 
-Overfull \hbox (28.45767pt too wide) in paragraph at lines 145--147
+Overfull \hbox (28.45195pt too wide) in paragraph at lines 144--146
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/ellipsoid_oblate.pdf, id=1085, 1138.67007pt x 998.12785pt>
+<figures/ellipsoid_oblate.pdf, id=1158, 1138.31352pt x 1000.93584pt>
 File: figures/ellipsoid_oblate.pdf Graphic file (type pdf)
 
 <use figures/ellipsoid_oblate.pdf>
-Package pdftex.def Info: figures/ellipsoid_oblate.pdf used on input line 168.
-(pdftex.def)             Requested size: 455.23409pt x 455.23022pt.
+Package pdftex.def Info: figures/ellipsoid_oblate.pdf used on input line 167.
+(pdftex.def)             Requested size: 455.24788pt x 455.24324pt.
 
-Overfull \hbox (28.44273pt too wide) in paragraph at lines 168--170
+Overfull \hbox (28.45653pt too wide) in paragraph at lines 167--169
  [][] 
  []
 
@@ -1323,22 +1323,6 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 175.
 [27 <./figures/ellipsoid_triaxial.pdf>]
 
-LaTeX Warning: Text page 28 contains only floats.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 175.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 175.
-[28]
-
-LaTeX Warning: Text page 29 contains only floats.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 175.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 175.
-[29 <./figures/ellipsoid_prolate.pdf>]
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
@@ -1347,15 +1331,26 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/ellipsoid_triaxial_multi.pdf, id=1195, 1136.75864pt x 1000.0616pt>
+<figures/ellipsoid_triaxial_multi.pdf, id=1222, 1134.62248pt x 1004.88338pt>
 File: figures/ellipsoid_triaxial_multi.pdf Graphic file (type pdf)
 
 <use figures/ellipsoid_triaxial_multi.pdf>
 Package pdftex.def Info: figures/ellipsoid_triaxial_multi.pdf used on input lin
 e 262.
-(pdftex.def)             Requested size: 455.23311pt x 455.24237pt.
+(pdftex.def)             Requested size: 455.2433pt x 455.24466pt.
 
-Overfull \hbox (28.44176pt too wide) in paragraph at lines 262--264
+Overfull \hbox (28.45195pt too wide) in paragraph at lines 262--264
+ [][] 
+ []
+
+<figures/mag_fields_0.png, id=1223, 455.45157pt x 557.83406pt>
+File: figures/mag_fields_0.png Graphic file (type png)
+
+<use figures/mag_fields_0.png>
+Package pdftex.def Info: figures/mag_fields_0.png used on input line 270.
+(pdftex.def)             Requested size: 455.25586pt x 569.06833pt.
+
+Overfull \hbox (28.46451pt too wide) in paragraph at lines 270--271
  [][] 
  []
 
@@ -1363,160 +1358,199 @@ Overfull \hbox (28.44176pt too wide) in paragraph at lines 262--264
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 284.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 287.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 287.
-[30 <./figures/ellipsoid_oblate.pdf>]
-
-LaTeX Warning: Text page 31 contains only floats.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 287.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 287.
-[31]
-
-LaTeX Warning: Text page 32 contains only floats.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 287.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 287.
-[32 <./figures/ellipsoid_triaxial_multi.pdf>]
-<figures/test_n_triaxial.pdf, id=1307, 1073.18176pt x 713.00282pt>
+(babel)             in language  on input line 291.
+<figures/test_n_triaxial.pdf, id=1235, 1073.18176pt x 713.00282pt>
 File: figures/test_n_triaxial.pdf Graphic file (type pdf)
 
 <use figures/test_n_triaxial.pdf>
-Package pdftex.def Info: figures/test_n_triaxial.pdf used on input line 292.
+Package pdftex.def Info: figures/test_n_triaxial.pdf used on input line 299.
 (pdftex.def)             Requested size: 426.79242pt x 284.52155pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 301.
+(babel)             in language  on input line 308.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 301.
- [33 <./figures/test_n_triaxial.pdf>]
-<figures/test_n_prolate.pdf, id=1351, 1073.21312pt x 715.175pt>
+(babel)             in language  on input line 308.
+ [28]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 308.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 308.
+ [29]
+<figures/test_n_prolate.pdf, id=1245, 1073.21312pt x 715.175pt>
 File: figures/test_n_prolate.pdf Graphic file (type pdf)
 
 <use figures/test_n_prolate.pdf>
-Package pdftex.def Info: figures/test_n_prolate.pdf used on input line 304.
+Package pdftex.def Info: figures/test_n_prolate.pdf used on input line 311.
 (pdftex.def)             Requested size: 426.7885pt x 284.52625pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 313.
+(babel)             in language  on input line 320.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 313.
- [34 <./figures/test_n_prolate.pdf>]
-<figures/test_n_oblate.pdf, id=1395, 1073.1896pt x 715.01031pt>
+(babel)             in language  on input line 320.
+ [30 <./figures/ellipsoid_prolate.pdf>]
+<figures/test_n_oblate.pdf, id=1301, 1073.1896pt x 715.01031pt>
 File: figures/test_n_oblate.pdf Graphic file (type pdf)
 
 <use figures/test_n_oblate.pdf>
-Package pdftex.def Info: figures/test_n_oblate.pdf used on input line 316.
+Package pdftex.def Info: figures/test_n_oblate.pdf used on input line 323.
 (pdftex.def)             Requested size: 426.79553pt x 284.52618pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 327.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 330.
+(babel)             in language  on input line 337.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 330.
- [35 <./figures/test_n_oblate.pdf>]
-<figures/ellipsoid_triaxial_sphere.pdf, id=1437, 701.12pt x 1003.64334pt>
+(babel)             in language  on input line 337.
+ [31 <./figures/ellipsoid_oblate.pdf>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 337.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 337.
+ [32]
+
+LaTeX Warning: Text page 33 contains only floats.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 337.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 337.
+[33 <./figures/ellipsoid_triaxial_multi.pdf>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 337.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 337.
+ [34 <./figures/mag_fields_0.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ellipsoid_triaxial_sphere.pdf, id=1423, 701.12pt x 1003.64334pt>
 File: figures/ellipsoid_triaxial_sphere.pdf Graphic file (type pdf)
 
 <use figures/ellipsoid_triaxial_sphere.pdf>
 Package pdftex.def Info: figures/ellipsoid_triaxial_sphere.pdf used on input li
-ne 409.
+ne 416.
 (pdftex.def)             Requested size: 412.57669pt x 625.95853pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 416.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 416.
- [36]
 
-LaTeX Warning: Text page 37 contains only floats.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ellipsoid_triaxial_prolate.pdf, id=1437, 683.08386pt x 1003.47867pt>
+File: figures/ellipsoid_triaxial_prolate.pdf Graphic file (type pdf)
+
+<use figures/ellipsoid_triaxial_prolate.pdf>
+Package pdftex.def Info: figures/ellipsoid_triaxial_prolate.pdf used on input l
+ine 495.
+(pdftex.def)             Requested size: 412.57388pt x 625.9783pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 502.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 502.
+ [35 <./figures/test_n_triaxial.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 571.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 571.
+[36 <./figures/test_n_prolate.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ellipsoid_triaxial_oblate.pdf, id=1536, 695.8503pt x 1003.47867pt>
+File: figures/ellipsoid_triaxial_oblate.pdf Graphic file (type pdf)
+
+<use figures/ellipsoid_triaxial_oblate.pdf>
+Package pdftex.def Info: figures/ellipsoid_triaxial_oblate.pdf used on input li
+ne 574.
+(pdftex.def)             Requested size: 412.56549pt x 625.9783pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 580.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 583.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 583.
+ [37 <./figures/test_n_oblate.pdf>]
+
+LaTeX Warning: Text page 38 contains only floats.
 
 
 Overfull \vbox (7.00876pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 583.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 583.
 
-[37 <./figures/ellipsoid_triaxial_sphere.pdf>]
-<figures/ellipsoid_triaxial_prolate.pdf, id=1493, 683.08386pt x 1003.47867pt>
-File: figures/ellipsoid_triaxial_prolate.pdf Graphic file (type pdf)
+[38 <./figures/ellipsoid_triaxial_sphere.pdf>]
+<figures/test_k_triaxial.pdf, id=1627, 1075.72409pt x 715.175pt>
+File: figures/test_k_triaxial.pdf Graphic file (type pdf)
 
-<use figures/ellipsoid_triaxial_prolate.pdf>
-Package pdftex.def Info: figures/ellipsoid_triaxial_prolate.pdf used on input l
-ine 488.
-(pdftex.def)             Requested size: 412.57388pt x 625.9783pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 495.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 495.
- [38]
+<use figures/test_k_triaxial.pdf>
+Package pdftex.def Info: figures/test_k_triaxial.pdf used on input line 585.
+(pdftex.def)             Requested size: 426.78578pt x 284.52625pt.
 
-LaTeX Warning: Text page 39 contains only floats.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 495.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 495.
-[39 <./figures/ellipsoid_triaxial_prolate.pdf>]
-<figures/ellipsoid_triaxial_oblate.pdf, id=1548, 695.8503pt x 1003.47867pt>
-File: figures/ellipsoid_triaxial_oblate.pdf Graphic file (type pdf)
+(babel)             in language  on input line 607.
 
-<use figures/ellipsoid_triaxial_oblate.pdf>
-Package pdftex.def Info: figures/ellipsoid_triaxial_oblate.pdf used on input li
-ne 567.
-(pdftex.def)             Requested size: 412.56549pt x 625.9783pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 573.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 576.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 576.
- [40]
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 609
+.
 
-LaTeX Warning: Text page 41 contains only floats.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 610.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 610.
+[39]
+
+LaTeX Warning: Text page 40 contains only floats.
 
 
 Overfull \vbox (7.02853pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 576.
+(babel)             in language  on input line 610.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 576.
+(babel)             in language  on input line 610.
 
-[41 <./figures/ellipsoid_triaxial_oblate.pdf>]
-<figures/test_k_triaxial.pdf, id=1604, 1075.72409pt x 715.175pt>
-File: figures/test_k_triaxial.pdf Graphic file (type pdf)
-
-<use figures/test_k_triaxial.pdf>
-Package pdftex.def Info: figures/test_k_triaxial.pdf used on input line 578.
-(pdftex.def)             Requested size: 426.78578pt x 284.52625pt.
+[40 <./figures/ellipsoid_triaxial_prolate.pdf>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 600.
+(babel)             in language  on input line 612.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 612.
+ [41]
+
+LaTeX Warning: Text page 42 contains only floats.
 
 
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 602
-.
+Overfull \vbox (7.02853pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 603.
+(babel)             in language  on input line 612.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 603.
-[42 <./figures/test_k_triaxial.pdf>]
-<figures/ellipsoid_shape_iso.pdf, id=1636, 1115.73184pt x 1148.51276pt>
+(babel)             in language  on input line 612.
+
+[42 <./figures/ellipsoid_triaxial_oblate.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/ellipsoid_shape_iso.pdf, id=1743, 1115.73184pt x 1148.51276pt>
 File: figures/ellipsoid_shape_iso.pdf Graphic file (type pdf)
 
 <use figures/ellipsoid_shape_iso.pdf>
-Package pdftex.def Info: figures/ellipsoid_shape_iso.pdf used on input line 661
+Package pdftex.def Info: figures/ellipsoid_shape_iso.pdf used on input line 668
 .
 (pdftex.def)             Requested size: 455.2398pt x 455.24358pt.
 
-Overfull \hbox (28.44846pt too wide) in paragraph at lines 661--662
+Overfull \hbox (28.44846pt too wide) in paragraph at lines 668--669
  [][] 
  []
 
@@ -1524,31 +1558,21 @@ Overfull \hbox (28.44846pt too wide) in paragraph at lines 661--662
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 680
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 687
 .
 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 681.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 681.
-[43]
 
-LaTeX Warning: Text page 44 contains only floats.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 681.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 681.
-[44 <./figures/ellipsoid_shape_iso.pdf>]
-<figures/ellipsoid_shape_iso2.pdf, id=1731, 1121.79514pt x 1148.51276pt>
+<figures/ellipsoid_shape_iso2.pdf, id=1750, 1121.79514pt x 1148.51276pt>
 File: figures/ellipsoid_shape_iso2.pdf Graphic file (type pdf)
 
 <use figures/ellipsoid_shape_iso2.pdf>
-Package pdftex.def Info: figures/ellipsoid_shape_iso2.pdf used on input line 71
-9.
+Package pdftex.def Info: figures/ellipsoid_shape_iso2.pdf used on input line 72
+6.
 (pdftex.def)             Requested size: 455.23175pt x 455.24358pt.
 
-Overfull \hbox (28.4404pt too wide) in paragraph at lines 719--720
+Overfull \hbox (28.4404pt too wide) in paragraph at lines 726--727
  [][] 
  []
 
@@ -1557,12 +1581,27 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 56.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 56.
- [45]
+ [43 <./figures/test_k_triaxial.pdf>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 56.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 56.
- [46 <./figures/ellipsoid_shape_iso2.pdf>]
+ [44]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 56.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 56.
+ [45 <./figures/ellipsoid_shape_iso.pdf>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 56.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 56.
+ [46]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 56.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 56.
+ [47 <./figures/ellipsoid_shape_iso2.pdf>]
 \openout2 = `chap05.aux'.
 
  (chap05.tex
@@ -1573,7 +1612,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 15.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 15.
-[47
+[48
 
 
 
@@ -1582,7 +1621,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 57.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 57.
- [48] (thesis.bbl
+ [49] (thesis.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 
@@ -1602,7 +1641,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 72.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 72.
- [49
+ [50
 
 
 
@@ -1611,22 +1650,22 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 140.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 140.
- [50]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 212.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 212.
  [51]
 Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 212.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 212.
+ [52]
+Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 288.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 288.
- [52])
+ [53])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 65.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 65.
- [53]
+ [54]
 \openout2 = `appenA.aux'.
 
  (appenA.tex
@@ -1650,25 +1689,25 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
 
-LaTeX Warning: Reference `eq:V_oblate' on page 54 undefined on input line 16.
+LaTeX Warning: Reference `eq:V_oblate' on page 55 undefined on input line 16.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 89.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 89.
-[54
+[55
 
 
 ]
 
-LaTeX Warning: Reference `eq:V_oblate' on page 55 undefined on input line 106.
+LaTeX Warning: Reference `eq:V_oblate' on page 56 undefined on input line 106.
 
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 65.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 65.
- [55]
+ [56]
 \openout2 = `appenB.aux'.
 
  (appenB.tex
@@ -1705,7 +1744,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 39.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 39.
-[56
+[57
 
 
 
@@ -1714,7 +1753,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 113.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 113.
- [57]
+ [58]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 115.
 
@@ -1734,7 +1773,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 167.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 167.
-[58]
+[59]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 191.
 
@@ -1755,7 +1794,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 66.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 66.
- [59] 
+ [60] 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 67.
@@ -1774,10 +1813,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 8736 strings out of 493634
- 126628 string characters out of 3133607
- 257348 words of memory out of 3000000
- 11575 multiletter control sequences out of 15000+200000
+ 8744 strings out of 493634
+ 126795 string characters out of 3133607
+ 265649 words of memory out of 3000000
+ 11580 multiletter control sequences out of 15000+200000
  18812 words of font info for 72 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  35i,21n,34p,1945b,548s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1800,9 +1839,9 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/diego_000/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/User
 s/diego_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 tt12.pfb>
-Output written on thesis.pdf (72 pages, 2798415 bytes).
+Output written on thesis.pdf (73 pages, 3144129 bytes).
 PDF statistics:
- 2084 PDF objects out of 2487 (max. 8388607)
- 294 named destinations out of 1000 (max. 500000)
- 309 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2229 PDF objects out of 2487 (max. 8388607)
+ 296 named destinations out of 1000 (max. 500000)
+ 314 words of extra memory for PDF output out of 10000 (max. 10000000)
 

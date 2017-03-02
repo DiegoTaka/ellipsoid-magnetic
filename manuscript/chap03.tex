@@ -8,7 +8,7 @@ A Figura \ref{fig:Cookbook_Triaxial} exemplifica como calcular a anomalia de cam
 
 Como mostrado neste exemplo, é necessário importar outros módulos do \textit{Fatiando a Terra} antes de criar o modelo elipsoidal desejado.
 A parte \textit{``The local-geomagnetic field"} define a intensidade ($nT$), inclinação e declinação $(º)$ do campo geomagnético local.
-A variável \textit{``model"} contém um objeto da classe \textit{``TriaxialEllipsoid"}, que foi desenvolvida neste trabalho como parte do subpacote \textit{``mesher"} do Fatiando a Terra. Esta variável contém os parâmetros que definem o modelo de elipsoide triaxial. Os parâmetros são, respectivamente: posição $x_c$, $y_c$ e $z_c$ ($m$) do centro do corpo, semi-eixos $a$, $b$ e $c$ ($m$), orientações de \textit{strike, dip e rake} $(º)$ e um dicionário denominado \textit{``props"}, que contém a propriedade física do  modelo. O item \textit{``remanence"} contém a intensidade ($A/m$), inclinação e declinação $(º)$ do vetor de magnetização remanente $\mathbf{M}_{R}$ (Eq. \ref{eq:M-p-remanence}). O item \textit{`k'} contém as suscetibilidades principais $k1$, $k2$ e $k3$ (Eq. \ref{eq:K}) e as orientações \textit{strike}, \textit{dip} e \textit{rake} utilizadas para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$ e $\mathbf{u}_{3}$ que formam as colunas da matriz ortogonal $\mathbf{U}$ (Eq. \ref{eq:K}). Os vetores foram calculados utilizando-se as Eqs. \ref{eq:v1_triaxial_prolate},
+A variável \textit{``model"} contém um objeto da classe \textit{``EllipsoidTriaxial"}, que foi desenvolvida neste trabalho como parte do subpacote \textit{``mesher"} do Fatiando a Terra. Esta variável contém os parâmetros que definem o modelo de elipsoide triaxial. Os parâmetros são, respectivamente: posição $x_c$, $y_c$ e $z_c$ ($m$) do centro do corpo, semi-eixos $a$, $b$ e $c$ ($m$), orientações de \textit{strike, dip e rake} $(º)$ e um dicionário denominado \textit{``props"}, que contém a propriedade física do  modelo. O item \textit{``remanence"} contém a intensidade ($A/m$), inclinação e declinação $(º)$ do vetor de magnetização remanente $\mathbf{M}_{R}$ (Eq. \ref{eq:M-p-remanence}). O item \textit{`k'} contém as suscetibilidades principais $k1$, $k2$ e $k3$ (Eq. \ref{eq:K}) e as orientações \textit{strike}, \textit{dip} e \textit{rake} utilizadas para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$ e $\mathbf{u}_{3}$ que formam as colunas da matriz ortogonal $\mathbf{U}$ (Eq. \ref{eq:K}). Os vetores foram calculados utilizando-se as Eqs. \ref{eq:v1_triaxial_prolate},
 \ref{eq:v2_triaxial_prolate}, \ref{eq:v3_triaxial_prolate}.
 As linhas seguintes definem as coordenadas dos pontos $(x, y, z)$ em que será calculada a anomalia de campo total produzida pelo modelo elipsoidal.
 Para tanto, utilizou-se o subpacote \textit{``gridder"} do Fatiando a Terra. Neste exemplos, os pontos estão distribuídos em uma grade regular de 200 x 200 (definida pela variável \textit{``shape"}), sobre um plano horizontal em $z = 0$ m. Os pontos são calculados sobre uma área que varia de -5000 até 5000 metros ao longo das direções $x$ e $y$, tal como definido pela variável \textit{``area"}.
@@ -17,7 +17,7 @@ As coordenadas são armazenadas nos \textit{``numpy arrays"}: \textit{``xp", ``y
 A Fig. \ref{fig:anomaly_exemplo} mostra o resultado produzido pelo código da Fig. \ref{fig:Cookbook_Triaxial}. A Fig. \ref{fig:func_triaxial} mostra o código fonte da rotina \textit{$``tf_c"$} (Fig. \ref{fig:Cookbook_Triaxial}) utilizada para calcular a anomalia de campo total mostrada na Fig. \ref{fig:anomaly_exemplo}.
 
 \begin{figure}[hbt!]
-	\centering \includegraphics[width=16 cm,height=16 cm]{figures/Cookbook_Triaxial}
+	\centering \includegraphics[width=16 cm,height=17 cm]{figures/Cookbook_Triaxial}
 	\caption[Exemplo de \textit{script} para gerar um modelo elipsoidal triaxial e calcular a anomalia de campo total $\Delta T (\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde-approx}).]{Exemplo de \textit{script} para gerar um modelo elipsoidal triaxial e calcular a anomalia de campo total $\Delta T (\mathbf{r})$ (Eq. \ref{eq:delta-T-tilde-approx}).}
 	\label{fig:Cookbook_Triaxial}
 \end{figure}
@@ -29,7 +29,7 @@ A Fig. \ref{fig:anomaly_exemplo} mostra o resultado produzido pelo código da Fi
 \end{figure}
 
 \begin{figure}[hbt!]
-	\centering \includegraphics[width=16 cm,height=16 cm]{figures/func_triaxial}
+	\centering \includegraphics[width=16 cm,height=17 cm]{figures/func_triaxial}
 	\caption[Código fonte da rotina \textit{``tf\underline{ }c"} utilizada para calcular a anomalia de campo total $\Delta T (\mathbf{r})$ (Eq.\ref{eq:delta-T-tilde-approx}) produzida pelo modelo elipsoidal definido na Fig. \ref{fig:Cookbook_Triaxial}. Esta rotina utiliza outra rotinas que também foram desenvolvidas neste trabalho como parte do módulo elipsoide\underline{ }triaxial (Fig. \ref{fig:Cookbook_Triaxial}).]{Código fonte da rotina \textit{``tf\underline{ }c"} utilizada para calcular a anomalia de campo total $\Delta T (\mathbf{r})$ (Eq.\ref{eq:delta-T-tilde-approx}) produzida pelo modelo elipsoidal definido na Fig. \ref{fig:Cookbook_Triaxial}. Esta rotina utiliza outra rotinas que também foram desenvolvidas neste trabalho como parte do módulo elipsoide\underline{ }triaxial (Fig. \ref{fig:Cookbook_Triaxial}).}
 	\label{fig:func_triaxial}
 \end{figure}
