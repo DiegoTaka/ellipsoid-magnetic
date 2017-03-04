@@ -8,12 +8,12 @@ sistema de coordenadas local, por conveniência, reescreveremos a Eq.
 \tilde{r}_{k} = v_{k1} \, r_{1} + v_{k2} \, r_{2} + v_{k3} \, r_{3} + c_{k} \: ,
 \label{eq:r-tilde-k}
 \end{equation}
-onde $\tilde{r}_{k}$, $k = 1, 2, 3$, são os elementos do vetor posição
+em que $\tilde{r}_{k}$, $k = 1, 2, 3$, são os elementos do vetor posição
 transformado $\tilde{\mathbf{r}}$ (Eq. \ref{eq:coord_transformation}),
 $r_{j}$, $j = 1, 2, 3$, são os elementos do vetor posição
 $\mathbf{r}$ (Eq. \ref{eq:ellipsoid_surface}),
 $v_{kj}$, $j = 1, 2, 3$, são os elementos da matriz
-$\mathbf{V}$ (Eq. \ref{eq:V_triaxial_prolate} ou \ref{eq:V_oblate}),
+$\mathbf{V}$ (Eq. \ref{eq:V_triaxial_prolate}),
 e $c_{k}$ é uma constante definida pelas coordenadas
 $x_{c}$, $y_{c}$, e $z_{c}$ do centro do corpo elipsoidal.
 
@@ -87,8 +87,7 @@ v_{i1} \\ v_{i2} \\ v_{i3}
 \end{split} \: ,
 \label{eq:d2f-dridrj}
 \end{equation}
-onde $\tilde{\mathbf{F}}(\tilde{\mathbf{r}})$ é uma $3 \times 3$
-matriz cujo $ij$-ésimo elemento é 
+em que $\tilde{\mathbf{F}}(\tilde{\mathbf{r}})$ é uma matriz $3 \times 3$, cujo $ij$-ésimo elemento é 
 $\frac{\partial^{2} \tilde{f}(\tilde{\mathbf{r}})}
 {\partial \tilde{r}_{i} \, \partial \tilde{r}_{j}}$.
 Da Eq. \ref{eq:d2f-dridrj}, obtemos:
@@ -97,13 +96,11 @@ Da Eq. \ref{eq:d2f-dridrj}, obtemos:
 \tilde{\mathbf{F}}(\tilde{\mathbf{r}}) \, \mathbf{V}^{\top} \: ,
 \label{eq:F-V-F-tilde-VT}
 \end{equation}
-onde $\mathbf{F}(\mathbf{r})$ é uma $3 \times 3$
-matriz cujo $ij$-ésimo elemento é 
+onde $\mathbf{F}(\mathbf{r})$ é uma matriz $3 \times 3$, cujo $ij$-ésimo elemento é 
 $\frac{\partial^{2} f(\mathbf{r})}
 {\partial r_{i} \, \partial r_{j}}$ e
-$\mathbf{V}$ é definido pelas Eqs. 
-\ref{eq:V_triaxial_prolate} ou
-\ref{eq:V_oblate}, dependendo do tipo de
+$\mathbf{V}$ é definido pelas Eq. 
+\ref{eq:V_triaxial_prolate}, dependendo do tipo de
 elipsoide. Como pode ter notada, as matrizes $\mathbf{F}(\mathbf{r})$ e
 $\tilde{\mathbf{F}}(\tilde{\mathbf{r}})$ representam as Hessianas
 das funções $f(\mathbf{r})$ (Eq. \ref{eq:f})

@@ -99,7 +99,7 @@ Finalmente, os vetores unitários $\mathbf{v}_{1}$, $\mathbf{v}_{2}$ e $\mathbf{
 \label{eq:v3_oblate}
 \end{equation}
 
-Dessa forma, a matrix $\mathbf{V}$ fica definida como:
+Dessa forma, a matriz $\mathbf{V}$ fica definida como:
 \begin{equation}
 \mathbf{V} = \left[ \begin{array}{ccc}
 \mathbf{v}_{1} & \mathbf{v}_{2} & \mathbf{v}_{3}
@@ -126,7 +126,7 @@ são definidas na Eq. \ref{eq:ellipsoid_surface} e a matriz $\mathbf{V}$ \ref{eq
 
 \begin{figure}[hbt!]
 	\centering \includegraphics[width=12 cm,height=14.5 cm]{figures/structural_orientation_angles}
-	\caption[Esquema representativo do sistema de coordenadas usado para representar um corpo elipsoidal.]{Esquema representativo do sistema de coordenadas usado para representar um corpo elipsoidal. a) Sistema de coordenadas principal com eixo $x$ apontado para norte, $y$ apontado para leste e $z$ para baixo. O plano cinza escuro contém o centro ($x_c$, $y_c$, $z_c$) (círculo branco) e dois vetores unitários, $u$ e $w$, que definem dois semi-eixos do corpo elipsoidal. Para elipsoides triaxiais e prolatos, $u$ e $w$ definem, respectivamente, os semi-eixos $a$ e $b$. Para elipsoides oblatos, $u$ e $w$ definem os semi-eixos $b$ e $c$, respectivamente. A \textit{direção de strike} é definida pela intersecção do plano cinza escuro e o plano horizontal (representado em cinza claro), que contém os eixos $x$ e $y$. O ângulo $\vartheta$ entre "menos $x$" e a \textit{direção de strike} é chamado de \textit{strike}. O ângulo $\zeta$ entre o plano horizontal e oplano cinza escuro é chamado de \textit{dip}. A linha que contém o vetor unitário $u$ define a \textit{direção de plunge}. O ângulo $\eta$ entre a \textit{direção de strike} e a \textit{direção de plunge} é chamada de \textit{rake}. A projeção da \textit{direção de plunge} no plano horizontal é chamado de \textit{direção azimutal de plunge}. b) Sistema de coordenadas local com origem no centro do elipsoide ($x_c$, $y_c$, $z_c$) (ponto preto) e eixos definidos pelos vetores unitários $v_1$, $v_2$ e $v_3$. Estes vetores unitários definem os semi-eixos $a$, $b$ e $c$ dos elipsoides triaxiais, prolatos e oblatos da mesma forma. Para os  elipsoides triaxiais e prolatos, os vetores unitários $u$ e $w$, mostrados em  (a), coincidem com $v_1$ e $v_2$, respectivamente. Para elipsoides oblatos, os vetores unitários $u$ e $w$, mostrados em (a), coincidem com $v_2$ e $v_3$, respectivamente.}
+	\caption[Esquema representativo do sistema de coordenadas usado para representar um corpo elipsoidal.]{Esquema representativo do sistema de coordenadas usado para representar um corpo elipsoidal. a) Sistema de coordenadas principal com eixo $x$ apontado para norte, $y$ apontado para leste e $z$ para baixo. O plano cinza escuro contém o centro ($x_c$, $y_c$, $z_c$) (círculo branco) e dois vetores unitários, $u$ e $w$, que definem dois semi-eixos do corpo elipsoidal. Para elipsoides triaxiais e prolatos, $u$ e $w$ definem, respectivamente, os semi-eixos $a$ e $b$. Para elipsoides oblatos, $u$ e $w$ definem os semi-eixos $b$ e $a$, respectivamente. A \textit{direção de strike} é definida pela intersecção do plano cinza escuro e o plano horizontal (representado em cinza claro), que contém os eixos $x$ e $y$. O ângulo $\varepsilon$ entre "menos $x$" e a \textit{direção de strike} é chamado de \textit{strike}. O ângulo $\zeta$ entre o plano horizontal e o plano cinza escuro é chamado de \textit{dip}. A linha que contém o vetor unitário $u$ define a \textit{direção de plunge}. O ângulo $\eta$ entre a \textit{direção de strike} e a \textit{direção de plunge} é chamada de \textit{rake}. A projeção da \textit{direção de plunge} no plano horizontal é chamado de \textit{direção azimutal de plunge}. b) Sistema de coordenadas local com origem no centro do elipsoide ($x_c$, $y_c$, $z_c$) (ponto preto) e eixos definidos pelos vetores unitários $v_1$, $v_2$ e $v_3$. Estes vetores unitários definem os semi-eixos $a$, $b$ e $c$ dos elipsoides triaxiais, prolatos e oblatos da mesma forma. Para os  elipsoides triaxiais e prolatos, os vetores unitários $u$ e $w$, mostrados em  (a), coincidem com $v_1$ e $v_2$, respectivamente. Para elipsoides oblatos, os vetores unitários $u$ e $w$, mostrados em (a), coincidem com $v_2$ e $v_3$, respectivamente.}
 	\label{fig:structural_orientation_angles}
 \end{figure}
 
@@ -615,7 +615,7 @@ Pré-multiplicando o campo interno uniforme $\tilde{\mathbf{H}}^{\dagger}$
 \end{equation}
 em que $\mathbf{M}$ representa a magnetização definida no sistema de coordenadas principal (Eqs. \ref{eq:M-KH}). A identidade matricial usada para obter a segunda linha da Eq. \ref{eq:M-tilde} é dada por \citet[p. ~151]{searle1982}.
 
-De forma similar a transformação de coordenadas da Eq. \ ref{eq:Hi-p}, podemos reescrever a equação \ref{eq:M-tilde} no sistema principal:
+De forma similar a transformação de coordenadas da Eq. \ref{eq:Hi-p}, podemos reescrever a equação \ref{eq:M-tilde} no sistema principal:
 \begin{equation}
 {\mathbf{M}} =
 {\Lambda} \,
@@ -623,7 +623,7 @@ De forma similar a transformação de coordenadas da Eq. \ ref{eq:Hi-p}, podemos
 {\mathbf{H}_{0}}
 \label{eq:M-p}
 \end{equation}
-onde
+em que
 \begin{equation}
 {\Lambda} = {\mathbf{V} \left (\mathbf{I} + \tilde{\mathbf{K}} \, \tilde{\mathbf{N}}^{\dagger} \right)^{-1} \mathbf{V}^{\top}} \, .
 \label{eq:Lambda}
@@ -645,8 +645,8 @@ A equação \ref{eq:M-p-remanence} é consistente com aquela apresentada por \ci
 
 Para o caso particular em que a susceptibilidade é isotrópica,
 o tensor de susceptibilidade é definido de acordo com a Eq. \ref{eq:K-isotropic}.
-Neste caso, a magnetização $\mathbf{M}$ (Eqs. \ref{eq:M-KH} e \ref{eq:M-remanence}),
-referida no sistema de coordenada principal (Fig. \ref{fig:orientation-angles}a),
+Neste caso, a magnetização $\mathbf{M}$ (Eqs. \ref{eq:M-KH} e \ref{eq:M-p-remanence}),
+referida no sistema de coordenada principal (Fig. \ref{fig:structural_orientation_angles}a),
 e a matriz $\mathbf{\Lambda}$ (Eq. \ref{eq:Lambda})
 podem ser reescritas como segue:
 \begin{equation}
