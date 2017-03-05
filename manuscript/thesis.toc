@@ -18,12 +18,12 @@
 \contentsline {chapter}{\numberline {4}Simula\IeC {\c c}\IeC {\~o}es Num\IeC {\'e}ricas e Discuss\IeC {\~o}es}{26}{chapter.4}
 \contentsline {section}{\numberline {4.1}Modelos elipsoidais}{26}{section.4.1}
 \contentsline {section}{\numberline {4.2}Fatores de desmagnetiza\IeC {\c c}\IeC {\~a}o}{34}{section.4.2}
-\contentsline {section}{\numberline {4.3}Compara\IeC {\c c}\IeC {\~o}es entre a $\Delta T (\mathbf {r})$ produzida por modelos elipsoidais similares}{36}{section.4.3}
+\contentsline {section}{\numberline {4.3}Compara\IeC {\c c}\IeC {\~o}es entre a $\Delta T (\mathbf {r})$ produzida por modelos elipsoidais similares}{37}{section.4.3}
 \contentsline {section}{\numberline {4.4}Susceptibilidade}{44}{section.4.4}
-\contentsline {chapter}{\numberline {5}Conclus\IeC {\~o}es}{47}{chapter.5}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{49}{chapter*.12}
-\contentsline {chapter}{\numberline {A}Rela\IeC {\c c}\IeC {\~a}o entre as derivadas das fun\IeC {\c c}\IeC {\~o}es $f(\mathbf {r})$ e $\mathaccentV {tilde}07E{f}(\mathaccentV {tilde}07E{\mathbf {r}})$}{54}{appendix.A}
-\contentsline {chapter}{\numberline {B}Par\IeC {\^a}metro $\lambda $ e suas derivadas espaciais}{56}{appendix.B}
-\contentsline {section}{\numberline {B.1}Par\IeC {\^a}metro $\lambda $ definido para os elipsoides triaxiais}{56}{section.B.1}
-\contentsline {section}{\numberline {B.2}Par\IeC {\^a}metro $\lambda $ que define os elipsoides prolatos e oblatos}{58}{section.B.2}
-\contentsline {section}{\numberline {B.3}Derivadas espaciais do par\IeC {\^a}metro $\lambda $}{59}{section.B.3}
+\contentsline {chapter}{\numberline {5}Conclus\IeC {\~o}es}{46}{chapter.5}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{48}{chapter*.12}
+\contentsline {chapter}{\numberline {A}Rela\IeC {\c c}\IeC {\~a}o entre as derivadas das fun\IeC {\c c}\IeC {\~o}es $f(\mathbf {r})$ e $\mathaccentV {tilde}07E{f}(\mathaccentV {tilde}07E{\mathbf {r}})$}{53}{appendix.A}
+\contentsline {chapter}{\numberline {B}Par\IeC {\^a}metro $\lambda $ e suas derivadas espaciais}{55}{appendix.B}
+\contentsline {section}{\numberline {B.1}Par\IeC {\^a}metro $\lambda $ definido para os elipsoides triaxiais}{55}{section.B.1}
+\contentsline {section}{\numberline {B.2}Par\IeC {\^a}metro $\lambda $ que define os elipsoides prolatos e oblatos}{57}{section.B.2}
+\contentsline {section}{\numberline {B.3}Derivadas espaciais do par\IeC {\^a}metro $\lambda $}{58}{section.B.3}
