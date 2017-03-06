@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.28)  5 MAR 2017 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.28)  6 MAR 2017 07:04
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1752,7 +1752,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
 Here is how much of TeX's memory you used:
  8722 strings out of 493634
  126265 string characters out of 3133607
- 276353 words of memory out of 3000000
+ 277353 words of memory out of 3000000
  11565 multiletter control sequences out of 15000+200000
  18812 words of font info for 72 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -1776,7 +1776,7 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/diego_000/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/User
 s/diego_000/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 tt12.pfb>
-Output written on thesis.pdf (72 pages, 3290790 bytes).
+Output written on thesis.pdf (72 pages, 3290791 bytes).
 PDF statistics:
  2195 PDF objects out of 2487 (max. 8388607)
  291 named destinations out of 1000 (max. 500000)
