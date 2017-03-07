@@ -28,7 +28,7 @@ tool (e.g. Potential Methods and rock magnetism) as to applied geophysics
 (e.g. high susceptibility bodies characterization) and are freely available at the link
 https://github.com/DiegoTaka/ellipsoid-magnetic for the geoscientific community.
 
-![Test with two triaxial ellipsoids modeled with the routines](manuscript/figures/ellipsoid_triaxial_multi.pdf)
+![Test with two triaxial ellipsoids modeled with the routines](manuscript/figures/ellipsoid_triaxial_multi.png)
 
 > This paper has been submitted for publication in 
 > [**Geoscientific Model Development (GMD)**]
