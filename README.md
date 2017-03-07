@@ -5,7 +5,7 @@
 *<sup>1</sup>Department of Geophysics, Observatório Nacional, Rio de Janeiro, RJ, Brazil.*
 
 > This paper has been submitted for publication in 
-> [**Geoscientific Model Development (G<sup>3</sup>)**]
+> [**Geoscientific Model Development (GMD)**]
 
 ####Abstract
 
@@ -31,7 +31,7 @@ https://github.com/DiegoTaka/ellipsoid-magnetic for the geoscientific community.
 ![Test with two triaxial ellipsoids modeled with the routines](manuscript/figures/ellipsoid_triaxial_multi.pdf)
 
 > This paper has been submitted for publication in 
-> [**Geoscientific Model Development (G<sup>3</sup>)**]
+> [**Geoscientific Model Development (GMD)**]
 
 #### Reproducing the results
 
@@ -99,5 +99,4 @@ to the authors.  See `LICENSE.md` for the full license text.
 
 The manuscript text is not open source. The authors reserve the rights to the
 article content, which is currently submitted for publication in the
-[**Geochemistry, Geophysics, Geosystems (G<sup>3</sup>)**]
-(http://agupubs.onlinelibrary.wiley.com/agu/journal/10.1002/(ISSN)1525-2027/)
+[**Geoscientific Model Development (GMD)**]
