@@ -166,14 +166,18 @@ def ellipsoid_def (xp,yp,zp,inten,inc,dec,ellipsoid):
     
     k_int = np.array([ellipsoid.props['k'][0],ellipsoid.props['k'][1],\
     ellipsoid.props['k'][2]])
-    #isotropic case
-    if k_int[0] == (k_int[1] and k_int[2]):
-        km = np.diag(k_int)
-    #anisotropic case
-    else:
-        U = ellipsoid.V(angles = [ellipsoid.props['k'][3],\
-        ellipsoid.props['k'][4],ellipsoid.props['k'][5]])
-        km = k_matrix(U,V,np.diag(k_int))
+    ## approximated magnetization isotropic case
+    #if k_int[0] == (k_int[1] and k_int[2]):
+    #    km = np.diag(k_int)
+    ##anisotropic case
+    #else:
+    #    U = ellipsoid.V(angles = [ellipsoid.props['k'][3],\
+    #    ellipsoid.props['k'][4],ellipsoid.props['k'][5]])
+    #    km = k_matrix(U,V,np.diag(k_int))
+    
+    U = ellipsoid.V(angles = [ellipsoid.props['k'][3],\
+    ellipsoid.props['k'][4],ellipsoid.props['k'][5]])
+    km = k_matrix(U,V,np.diag(k_int))
         
     # Ellipsoid cartesian body coordinates
     x1,x2,x3 = x_e(xp,yp,zp,center,V)
