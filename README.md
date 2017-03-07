@@ -5,7 +5,7 @@
 *<sup>1</sup>Department of Geophysics, Observatório Nacional, Rio de Janeiro, RJ, Brazil.*
 
 > This paper has been submitted for publication in 
-> [**Geoscientific MOdel Development (G<sup>3</sup>)**]
+> [**Geoscientific Model Development (G<sup>3</sup>)**]
 
 ####Abstract
 
@@ -31,7 +31,7 @@ https://github.com/DiegoTaka/ellipsoid-magnetic for the geoscientific community.
 ![Test with two triaxial ellipsoids modeled with the routines](manuscript/figures/ellipsoid_triaxial_multi.pdf)
 
 > This paper has been submitted for publication in 
-> [**Geoscientific MOdel Development (G<sup>3</sup>)**]
+> [**Geoscientific Model Development (G<sup>3</sup>)**]
 
 #### Reproducing the results
 
@@ -53,7 +53,7 @@ The calculations and figure generation are all run inside
 You can view a static (non-executable) version of the notebooks in the
 [nbviewer]() webservice:
 
-http://nbviewer.jupyter.org/github/pinga-lab/magnetization-rock-sample
+http://nbviewer.jupyter.org/github.com/DiegoTaka/ellipsoid-magnetic
 
 See sections below for instructions on executing the code.
 
