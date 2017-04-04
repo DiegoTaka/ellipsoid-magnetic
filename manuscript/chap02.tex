@@ -121,7 +121,7 @@ $\tilde{\mathbf{r}} = [\begin{array}{ccc} \tilde{x} &
 \tilde{y} & 
 \tilde{z} \end{array} ]^{\top}$,
 $\mathbf{r}$ e $\mathbf{r}_{c}$
-são definidas na Eq. \ref{eq:ellipsoid_surface} e a matriz $\mathbf{V}$ \ref{eq:V_triaxial_prolate}
+são definidas na Eq. \ref{eq:ellipsoid_surface} e a matriz $\mathbf{V}$  (Eq. \ref{eq:V_triaxial_prolate})
 é definida de acordo com o tipo de elipsoide. Ao longo deste trabalho, as grandezas referidas ao sistema de coordenadas local são representadas utilizando-se símbolo "$\sim$".
 
 \begin{figure}[hbt!]
@@ -143,8 +143,7 @@ Considere um corpo geológico localizado na crosta, que possua volume $\vartheta
 \right] \: ,
 \label{eq:H0}
 \end{equation}
-em que $\| \cdot \|$ é a norma Euclidiana e $D$ e $I$ são respectivamente, a declinação e inclinação do campo no sistema de coordenas principal (Fig. \ref{fig:structural_orientation_angles}a). Este campo uniforme representa a componente principal do campo magnético da Terra, que presume ser gerado na núcleo externo líquido da Terra. Ao longo deste trabalho, este campo uniforme é denominado \textit{campo geomagnético local}. Na ausência de correntes de condução, o campo magnético total $\mathbf{H}(\mathbf{r})$ na posição $\mathbf{r}$ (Eqs. \ref{eq:A} e
-\ref{eq:coord_transformation}) de um ponto no sistema de coordenadas principal é definido como \citep{sharma1966, eskola1980, reitz1992, sttraton2007}:
+em que $\| \cdot \|$ é a norma Euclidiana e $D$ e $I$ são respectivamente, a declinação e inclinação do campo no sistema de coordenas principal (Fig. \ref{fig:structural_orientation_angles}a). Este campo uniforme representa a componente principal do campo magnético da Terra, que presume ser gerado na núcleo externo líquido da Terra. Ao longo deste trabalho, este campo uniforme é denominado \textit{campo geomagnético local}. Na ausência de correntes de condução, o campo magnético total $\mathbf{H}(\mathbf{r})$ (Eq. \ref{eq:A}) na posição $\mathbf{r}$ (Eq. \ref{eq:coord_transformation}) de um ponto no sistema de coordenadas principal é definido como \citep{sharma1966, eskola1980, reitz1992, sttraton2007}:
 \begin{equation}
 \mathbf{H}(\mathbf{r}) = \mathbf{H}_{0} - \nabla V(\mathbf{r}) \: ,
 \label{eq:H}
@@ -193,7 +192,7 @@ e $\mathbf{v}_{3}$ (Eqs. \ref{eq:v1_triaxial_prolate},
 \ref{eq:v2_triaxial_prolate}, \ref{eq:v3_triaxial_prolate},
 \ref{eq:v1_oblate}, \ref{eq:v2_oblate}, e \ref{eq:v3_oblate}),
 por um conjunto de ângulos $\varepsilon$, $\zeta$,
-e $\eta$ (Eqs. \ref{eq:alpha}, \ref{eq:gamma}, e
+e $\eta$ e por conseguinte os ângulos auxiliares $\alpha$, $\gamma$ e $\delta$ (Eqs. \ref{eq:alpha}, \ref{eq:gamma}, e
 \ref{eq:delta}).
 
 Se as susceptibilidades principais são diferentes umas das outras, dizemos que o corpo possui uma anisotropia de susceptibilidade magnética (AMS). A AMS é geralmente associada à anisotropia magnetocristalina, que é causada por uma orientação preferencial dos grãos magnéticos dos minerais que formam a rocha \citep{fuller1963, uyeda1963, janak1972, hrouda1982, thompson1986, macdonald1987, rochette1992, dunlop1997, tauxe2003rudiments}. Para o caso particular em que as direções principais coincidem com os eixos do elipsoide, a matriz $\mathbf{U}$ é igual a matriz $\mathbf{V}$ (Eq. \ref{eq:A}). Outro caso particular importante, é quando a susceptibilidade é isotrópica e, consequentemente, as susceptibilidades principais $k_{1}$, $k_{2}$, e $k_{3}$ (Eq. \ref{eq:K}) são iguais a constante $\chi$. Neste caso, o tensor de susceptibilidades $\mathbf{K}$ (Eq. \ref{eq:K}) assume a forma particular:
@@ -296,7 +295,7 @@ ou \ref{eq:fe-tilde}, dependendo se $\tilde{\mathbf{r}}$ representa um ponto loc
 
 \subsection{Tensor de depolarização $\tilde{\mathbf{N}}^{\dagger}$}
 
-Sendo $\tilde{\mathbf{N}}^{\dagger}$ o tensor de depolarização transformado para o caso em que $\tilde{\mathbf{r}}$ (Eq. \ref{eq:coord_transformation}) representa um ponto fora do corpo elipsoidal. Neste caso, os elementos de $\tilde{\mathbf{N}}^{\dagger}$ são calculados de acordo com a Eq. \ref{eq:nij-tilde}, com $\tilde{f}^(\tilde{\mathbf{r}})$ dada por $\tilde{f}^{\dagger}(\tilde{\mathbf{r}})$ (Eq. \ref{eq:fi-tilde}). 
+Sendo $\tilde{\mathbf{N}}^{\dagger}$ o tensor de depolarização transformado para o caso em que $\tilde{\mathbf{r}}$ (Eq. \ref{eq:coord_transformation}) representa um ponto dentro do corpo elipsoidal. Neste caso, os elementos de $\tilde{\mathbf{N}}^{\dagger}$ são calculados de acordo com a Eq. \ref{eq:nij-tilde}, com $\tilde{f}^(\tilde{\mathbf{r}})$ dada por $\tilde{f}^{\dagger}(\tilde{\mathbf{r}})$ (Eq. \ref{eq:fi-tilde}). 
 Como mencionado anteriormente, $\tilde{f}^{\dagger}(\tilde{\mathbf{r}})$ (Eq. \ref{eq:fi-tilde}) é uma função quadrática das coordenadas espaciais $\tilde{x}$, $\tilde{y}$ and $\tilde{z}$. Consequentemente, os elementos $\tilde{n}^{\dagger}_{ij}$, $i = 1, 2, 3$, $j = 1, 2, 3$, de $\tilde{\mathbf{N}}^{\dagger}$ não dependem do vetor de posição transformado $\tilde{\mathbf{r}}$ (equação \ref{eq:coord_transformation}). Além disso, os elementos fora da diagonal são nulos e os elementos da diagonal são dados por \citep{stoner1945}: 
 \begin{equation}
 \tilde{n}^{\dagger}_{ii} = \frac{abc}{2}
@@ -312,8 +311,7 @@ $e_{1} = a$, $e_{2} = b$, e $e_{3} = c$. Estes elementos são comumente conhecid
 \mathbf{V}^{\top} \: ,
 \label{eq:N-V-N-dagger-VT}
 \end{equation}
-em que $\tilde{\mathbf{N}}^{\dagger}$ (Eqs. \ref{eq:Hi-tilde}, 
-\ref{eq:M-tilde} e \ref{eq:M-p-remanence}) é uma matriz diagonal e $\mathbf{V}$ (Eqs. \ref{eq:V_triaxial_prolate}) é uma matriz ortogonal. Esta equação mostra que, para o caso particular em que $\mathbf{r}$ e consequentemente $\tilde{\mathbf{r}}$ representam um ponto dentro do volume $\vartheta$ do elipsoide, os elementos $\tilde{n}^{\dagger}_{ii}$ (Eq. \ref{eq:n-tilde-dagger-ii})
+em que $\tilde{\mathbf{N}}^{\dagger}$ é uma matriz diagonal e $\mathbf{V}$ (Eqs. \ref{eq:V_triaxial_prolate}) é uma matriz ortogonal. Esta equação mostra que, para o caso particular em que $\mathbf{r}$ e consequentemente $\tilde{\mathbf{r}}$ representam um ponto dentro do volume $\vartheta$ do elipsoide, os elementos $\tilde{n}^{\dagger}_{ii}$ (Eq. \ref{eq:n-tilde-dagger-ii})
 de $\tilde{\mathbf{N}}^{\dagger}$ representam os autovalores, enquanto as colunas de $\mathbf{V}$ representam os autovetores do tensor de depolarização $\mathbf{N}(\mathbf{r})$ definido no sistema de coordenadas principal.
 
 \paragraph*{Elipsoides triaxiais}
@@ -388,13 +386,13 @@ e
 \end{equation}
 em que $\tilde{n}^{\dagger}_{33} = \tilde{n}^{\dagger}_{22}$, 
 e $m = a/b$.
-A dedução detalhadas dos fatores de desmagnetização 
+As deduções detalhadas dos fatores de desmagnetização 
 $\tilde{n}^{\dagger}_{11}$ (Eq. \ref{eq:n-tilde-dagger-11-prolate}) 
 e $\tilde{n}^{\dagger}_{22}$ (Eq. \ref{eq:n-tilde-dagger-22-prolate})
-pode ser encontrada, por exemplo, em \citet{stoner1945}. 
+podem ser encontradas, por exemplo, em \citet{stoner1945}. 
 Essas fórmulas foram posteriormente apresentas por
 \citet{emerson1985}, mas sem nenhuma prova matemática.
-Pode ser mostrado que estes fatores de desmagnetização satisfazem as condições $\tilde{n}^{\dagger}_{11} + 2 \tilde{n}^{\dagger}_{22} = 1$ e $\tilde{n}^{\dagger}_{22} > \tilde{n}^{\dagger}_{11}$
+Pode ser mostrado que estes fatores de desmagnetização satisfazem as condições $\tilde{n}^{\dagger}_{11} + 2 \tilde{n}^{\dagger}_{22} = 1$ e $\tilde{n}^{\dagger}_{22} > \tilde{n}^{\dagger}_{11}$.
 
 \subparagraph*{Elipsoides oblatos}
 
@@ -414,8 +412,8 @@ e
 \label{eq:n-tilde-dagger-22-oblate}
 \end{equation}
 em que $\tilde{n}^{\dagger}_{33}=\tilde{n}^{\dagger}_{22}$ e $m = a/b$.
-A dedução detalhadas dos fatores de desmagnetização 
-pode ser encontrada em \citet{stoner1945}.  Essas fórmulas
+As deduções detalhadas dos fatores de desmagnetização 
+podem ser encontradas em \citet{stoner1945}. Essas fórmulas
 também podem ser encontradas em \citet{emerson1985}, mas sem nenhuma prova matemática.
 A única diferença, entretanto, é que \citet{emerson1985} trocou o termo $\cos^{-1}$
 por um termo $\tan^{-1}$, de acordo com a identidade trigonométrica
@@ -490,8 +488,8 @@ g_{3} = \frac{2}{\left( a^{2} - b^{2} \right) \left( a^{2} - c^{2} \right)^{\fra
 \: ,
 \label{eq:g3-triaxial}
 \end{equation}
-em que $F(\kappa, \phi)$ e $E(\kappa, \phi)$ são definidos pelas
-Eqs. \ref{eq:E-kappa-phi} e \ref{eq:F-kappa-phi},
+em que $F(\kappa, \phi)$ e $E(\kappa, \phi)$ são, respectivamente, definidas pelas
+Eqs. \ref{eq:F-kappa-phi} e \ref{eq:E-kappa-phi},
 mas com
 $\sin \phi = \sqrt{\left( a^{2} - c^{2} \right)/\left( a^{2} + \lambda \right)}$.
 
@@ -561,9 +559,13 @@ apresentadas por \citep{emerson1985}.
 
 Utilizando a Eq. \ref{eq:H-tilde}, é possível definir o campo magnético uniforme resultante $\tilde{\mathbf{H}}^{\dagger}$ dentro do corpo como:
 \begin{equation}
-\tilde{\mathbf{H}}^{\dagger} = 
+\begin{split}
+\tilde{\mathbf{H}}^{\dagger}
+&= \tilde{\mathbf{H}}_{0} + \tilde{\mathbf{N}}^{\dagger} \, \tilde{\mathbf{K}} \, \tilde{\mathbf{H}}^{\dagger} \\
+&= 
 \left( \mathbf{I} + \tilde{\mathbf{N}}^{\dagger} \, \tilde{\mathbf{K}} \right)^{-1}
-\tilde{\mathbf{H}}_{0} \: ,
+\tilde{\mathbf{H}}_{0}
+\end{split} \: ,
 \label{eq:Hi-tilde}
 \end{equation}
 em que $\mathbf{I}$ é a matriz identidade e
@@ -640,7 +642,7 @@ nas Eqs. \ref{eq:Hi-p} e \ref{eq:M-p}, é de fato a soma do campo magnético uni
 em que $\mathbf{{\Lambda}}$ é dado na equação \ref{eq:Lambda}.
 
 A equação \ref{eq:M-p-remanence} é consistente com aquela apresentada por \citet[Eq. ~38]{clark1986} e mostra o efeito combinado da anisotropia de susceptibilidade magnética (AMS) e da anisotropia de forma. A AMS é representada pelo tensor de susceptibilidade $\mathbf{K}$ (Eq. \ref{eq:K}) e reflete a orientação preferencial dos minerais magnéticos que formam o corpo. O tensor de susceptibilidade aparece na Eq. \ref{eq:M-p-remanence}, definido no sistema de coordenadas principal (Fig. \ref{fig:structural_orientation_angles}a), e na Eq. \ref{eq:M-tilde}, definido no sistema de coordenada local
-(Fig. \ref{fig:structural_orientation_angles}b). A anisotropia de forma, na é representada pelo tensor de depolarização $\tilde{\mathbf{N}}^{\dagger}$ e reflete a desmagnetização associada à forma do corpo. Note que a magnetização resultante, $\mathbf{M}$ (Eq. \ref{eq:M-p-remanence}), não necessariamente possui a mesma direção do campo indutor $\mathbf{H}_{0}$
+(Fig. \ref{fig:structural_orientation_angles}b). A anisotropia de forma, é representada pelo tensor de depolarização $\tilde{\mathbf{N}}^{\dagger}$ e reflete a desmagnetização associada à forma do corpo. Note que a magnetização resultante, $\mathbf{M}$ (Eq. \ref{eq:M-p-remanence}), não necessariamente possui a mesma direção do campo indutor $\mathbf{H}_{0}$
 (Eq. \ref{eq:H0}). A diferença angular entre a magnetização resultante e o campo indutor depende do efeito combinado da anisotropia de susceptibilidade magnética e da anisotropia de forma.
 
 Para o caso particular em que a susceptibilidade é isotrópica,
@@ -814,7 +816,7 @@ em que ${\mathbf{N}}^{\ddagger}({\mathbf{r}})$ é dado por:
 \mathbf{V} \, \tilde{{\mathbf{N}}}^{\ddagger}({\mathbf{r}}) \, \mathbf{V}^{\top}
 \label{eq:n-p} \: ,
 \end{equation}
-sendo V definida na Eq. \ref{eq:V_triaxial_prolate} e $\mathbf{N^{\ddagger}}$ definida a partir dos elementos dados nas Eqs. \ref{eq:n-tilde-ddagger-ii} e \ref{eq:n-tilde-dagger-ij}. A equação \ref{eq:delta-H} fornece o campo magnético (em \unit{A \, m^{-1}}). Entretanto, na geofísica, é mais usual utilizar a indução magnética, que é definida em \unit{nT}. Esta conversão pode ser facilmente feita multiplicando a Eq. \ref{eq:delta-H} por $k_{m}~=~10^{9}~\mu_{0}$, em que $\mu_{0}$ representa a constante magnética (em \unit{H \, m^{-1}}).
+sendo $\mathbf{V}$ definida na Eq. \ref{eq:V_triaxial_prolate} e $\mathbf{N^{\ddagger}}$ definida a partir dos elementos dados nas Eqs. \ref{eq:n-tilde-ddagger-ii} e \ref{eq:n-tilde-dagger-ij}. A equação \ref{eq:delta-H} fornece o campo magnético (em \unit{A \, m^{-1}}). Entretanto, na geofísica, é mais usual utilizar a indução magnética, que é definida em \unit{nT}. Esta conversão pode ser facilmente feita multiplicando a Eq. \ref{eq:delta-H} por $k_{m}~=~10^{9}~\mu_{0}$, em que $\mu_{0}$ representa a constante magnética (em \unit{H \, m^{-1}}).
 
 Para aplicações geofísicas, é preferível calcular a anomalia de campo total produzida por fontes magnéticas. Esta quantidade escalar é definida como \citep{blakely1996}:
 \begin{equation}
