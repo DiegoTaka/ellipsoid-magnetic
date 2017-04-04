@@ -6,8 +6,7 @@ from __future__ import division
 import numpy as np
 from scipy import linalg
 
-from ..constants import SI2MGAL, G, CM, T2NT, SI2EOTVOS, PERM_FREE_SPACE
-from .. import utils
+from fatiando import utils
 
 import scipy.special
 
@@ -179,7 +178,6 @@ def ellipsoid_def (xp,yp,zp,inten,inc,dec,ellipsoid):
     U = ellipsoid.V(angles = [ellipsoid.props['k'][3],\
     ellipsoid.props['k'][4],ellipsoid.props['k'][5]])
     km = k_matrix(U,V,np.diag(k_int))
-    print km
 	# Ellipsoid cartesian body coordinates
     x1,x2,x3 = x_e(xp,yp,zp,center,V)
     
