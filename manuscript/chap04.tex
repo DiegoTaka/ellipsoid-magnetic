@@ -281,7 +281,7 @@ A Figura \ref{fig:mag_fields_0} contém os \textit{scripts} com os parâmetros u
 \section{Fatores de desmagnetização}
 
 Os fatores de desmagnetização são importantíssimos para a modelagem de corpos com alta susceptibilidade e dependem apenas da sua forma geométrica. 
-Nesta seção, apresento simulações numéricas que visam ilustrar o comportamento dos fatores de desmagnetização em função do tamanho dos semi-eixos de elipsoides triaxiais, prolatos e oblatos. A partir de um elipsoide triaxial com semi-eixos $a_0=500$ m, $b_0=100$ m e $c_0=50$ m, gerei 200 outros elipsoides triaxiais com semi-eixos destes dados por $a=a_0+u$, $b=b_0+u$ e $c=c_0+u$, em que $500 \le u \le 30000$. Note que, quando a variável $u$ assume valores pequenos, os elipsoides têm formato mais próximo ao elipsoide original. Por outro lado, quanto maior essa variável, mais esféricos serão os elipsoides obtidos. A Figura \ref{fig:n_triaxial} mostra os fatores de desmagnetização $\tilde{n}^{\dagger}_{11}$ (em azul), $\tilde{n}^{\dagger}_{22}$ (em verde) e $\tilde{n}^{\dagger}_{33}$ (em vermelho) calculados pelas Eqs. \ref{eq:n-tilde-dagger-11-triaxial}, \ref{eq:n-tilde-dagger-22-triaxial} e \ref{eq:n-tilde-dagger-33-triaxial}, respectivamente, para este conjunto de 200 elipsoides em função da variável $u$. Os resultados mostram que, para altos valores de $u$, todos os fatores de desmagnetização tendem ao valor de 1/3, que é típico de uma esfera. Por outro lado, quando a variável $u$ assume valores pequenos, os fatores de desmagnetização são muito diferentes uns dos outros.
+Nesta seção, apresento simulações numéricas que visam ilustrar o comportamento dos fatores de desmagnetização em função do tamanho dos semi-eixos de elipsoides triaxiais, prolatos e oblatos. A partir de um elipsoide triaxial com semi-eixos $a_0=500$ m, $b_0=100$ m e $c_0=50$ m, gerei 200 outros elipsoides triaxiais com os semi-eixos destes dados por $a=a_0+u$, $b=b_0+u$ e $c=c_0+u$, em que $500 \le u \le 30000$. Note que, quando a variável $u$ assume valores pequenos, os elipsoides têm formato mais próximo ao elipsoide original. Por outro lado, quanto maior essa variável, mais esféricos serão os elipsoides obtidos. A Figura \ref{fig:n_triaxial} mostra os fatores de desmagnetização $\tilde{n}^{\dagger}_{11}$ (em azul), $\tilde{n}^{\dagger}_{22}$ (em verde) e $\tilde{n}^{\dagger}_{33}$ (em vermelho) calculados pelas Eqs. \ref{eq:n-tilde-dagger-11-triaxial}, \ref{eq:n-tilde-dagger-22-triaxial} e \ref{eq:n-tilde-dagger-33-triaxial}, respectivamente, para este conjunto de 200 elipsoides em função da variável $u$. Os resultados mostram que, para altos valores de $u$, todos os fatores de desmagnetização tendem ao valor de 1/3, que é típico de uma esfera. Por outro lado, quando a variável $u$ assume valores pequenos, os fatores de desmagnetização são muito diferentes uns dos outros.
 
 \begin{figure}[hbt!]
 	\centering \includegraphics[width=15cm,height=10cm]{figures/test_n_triaxial}
@@ -509,7 +509,7 @@ As Figuras \ref{fig:triaxial_prolate}A e \ref{fig:triaxial_prolate}B mostram as 
 			Orientação das colunas da matriz $\mathbf{U}$**  & $0$, $90$, $90$ & $^{\circ}$, $^{\circ}$, $^{\circ}$ \\
 			\hline
 		\end{tabular}
-		\caption{Parâmetros do elipsoide triaxial que produz o campo magnético mostrado na Figura \ref{fig:triaxial_oblate}A. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulos de \textit{strike}, \textit{dip}  e \textit{rake}, respectivamente, utilizados para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$, $\mathbf{u}_{3}$ por meio das Eqs. \ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate} e \ref{eq:v3_triaxial_prolate}.}
+		\caption{Parâmetros do elipsoide triaxial que produz o campo magnético mostrado na Figura \ref{fig:triaxial_oblate}A. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulos de \textit{strike}, \textit{dip} e \textit{rake}, respectivamente, utilizados para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$, $\mathbf{u}_{3}$ por meio das Eqs. \ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate} e \ref{eq:v3_triaxial_prolate}.}
 	\end{center}
 	\label{tab:triaxial_oblate1}
 \end{table}
@@ -575,6 +575,8 @@ Sabe-se que, na modelagem magnética de corpos geológicos com alta susceptibili
 
 Para analisar o efeito da suscetibilidade na modelagem magnética, calculamos a magnetização resultante $\mathbf{M}$ (Eq. \ref{eq:M-K-isotropic}) do elipsoide triaxial definido na Tabela 4.10 para diferentes valores de suscetibilidade isotrópica $0,0001 \le \chi \le 0,05$. A Figura \ref{fig:test_k_triaxial} mostra a inclinação (linha azul) e a declinação (linha verde) da magnetização resultante $\mathbf{M}$ (Eq. \ref{eq:M-K-isotropic}) em função da suscetibilidade $\chi$. A inclinação e a declinação do campo geomagnético local estão representadas, respectivamente, pelas linhas horizontais preta e vermelha. Nota-se que, para valores de suscetibilidade $\chi$ menores que 0,1 SI (linha preta vertical na Figura \ref{fig:test_k_triaxial}), a diferença entre a inclinação da magnetização resultante do elipsoide e do campo geomagnético local é menor que $-0,58$ graus. Já para a declinação, a diferença é menor que $0,85$ graus. Por outro lado, as diferenças na inclinação e declinação para valores de suscetibilidade $\chi = 0,5$ SI são próximos a $-2,71$ e $3,4$ graus, respectivamente. A linha vertical amarela na Figura \ref{fig:test_k_triaxial} mostra a suscetibilidade $\chi_{max}$ (Eq. \ref{eq:max-chi}) predita para que o erro relativo na magnetização resultante deste elipsoide seja menor ou igual a $\epsilon = 5\%$. Neste caso, a suscetibilidade $\chi_{max}$ ($0,077$ SI) é menor que aquela comumente utilizada na literatura (0,1 SI), as diferenças na inclinação e declinação são iguais a $-0,46$ e $0,68$ graus, respectivamente, e o erro relativo da magnetização é igual a $1,593\%$. Este resultado mostra que o valor de suscetibilidade isotrópica a partir do qual a desmagnetização deve ser considerada na modelagem pode ser escolhido de acordo com dois critérios: i) o conhecimento prévio do intérprete sobre a forma do corpo e ii) o máximo erro relativo $\epsilon$ permitido para a magnetização resultante.
 
+\newpage
+
 \begin{table}[h!]
 	\begin{center}
 		\begin{tabular}{|l|c|c|}
@@ -608,8 +610,134 @@ Para analisar o efeito da suscetibilidade na modelagem magnética, calculamos a 
 \end{table}
 
 \begin{figure}[hbt!]
-	\centering \includegraphics[width=15 cm,height=10 cm]{figures/test_k_triaxial}
+	\centering \includegraphics[width=13.5 cm,height=9 cm]{figures/test_k_triaxial}
 	\caption[Efeito da susceptibilidade isotrópica $\chi$ na modelagem do elipsoide triaxial definido na Tabela 4.10. As linhas azul e verde representam, respectivamente, a inclinação $I$ e a declinação $D$ da magnetização resultante $\mathbf{M}$ (Eq. \ref{eq:M-K-isotropic}) deste elipsoide em função da suscetibilidade isotrópica $\chi$. As linhas pontilhadas horizontais preta e vermelha representam, respectivamente, a inclinação $I_{0}$ e a declinação $D_{0}$ do campo geomagnético local (Tabela 4.10). A linha vertical preta representa o valor de suscetibilidade isotrópica $\chi = 0,1$ SI, que é comumente aceito como o limite a partir do qual a desmagnetização deve ser considerada na modelagem. A linha vertical amarela representa a suscetibilidade isotrópica $\chi_{max}$ calculado com a Eq. \ref{eq:max-chi} para que o erro relativo na magnetização seja menor ou igual a $\epsilon = 5 \%$.]
 	{Efeito da susceptibilidade isotrópica $\chi$ na modelagem do elipsoide triaxial definido na Tabela 4.10. As linhas azul e verde representam, respectivamente, a inclinação $I$ e a declinação $D$ da magnetização resultante $\mathbf{M}$ (Eq. \ref{eq:M-K-isotropic}) deste elipsoide em função da suscetibilidade isotrópica $\chi$. As linhas pontilhadas horizontais preta e vermelha representam, respectivamente, a inclinação $I_{0}$ e a declinação $D_{0}$ do campo geomagnético local (Tabela 4.10). A linha vertical preta representa o valor de suscetibilidade isotrópica $\chi = 0,1$ SI, que é comumente aceito como o limite a partir do qual a desmagnetização deve ser considerada na modelagem. A linha vertical amarela representa a suscetibilidade isotrópica $\chi_{max}$ calculado com a Eq. \ref{eq:max-chi} para que o erro relativo na magnetização seja menor ou igual a $\epsilon = 5 \%$.}
 	\label{fig:test_k_triaxial}
+\end{figure}
+
+\section{Anisotropia de forma}
+
+Conforme mostrado na seção 4.2 existe uma relação entre os fatores de desmagnetização e os semi-eixos. Na Figura \ref{fig:ellipsoid_shape_iso10} mostramos como o aumento do semi-eixo maior afeta o vetor de magnetização resultante (Eq. \ref{eq:M-KH}). A princípio, os três semi-eixos estão muito próximos, simulando uma esfera. Quando postos sob um campo externo, o vetor de magnetização resultante se direciona para a direção deste campo. Porém a medida que aumenta-se o semi-eixo maior, ocorre a desmagnetização nas direções dos semi-eixos menores e o vetor de magnetização resultante tende a se alinhar na direção do semi-eixo maior (neste caso o elipsoide triaxial possui um azimute de 10$^{\circ}$).
+
+\vspace{2cm}
+
+\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{|l|c|c|}
+			\hline
+			\textbf{Parâmetro}  & \textbf{Valor}  & \textbf{Unidade }\\
+			\hline 
+			$a$, $b$, $c$  & 50,1-1000, 50, 49,9 & m, m, m\\
+			\hline
+			\textit{strike}   & $0$ & $^{\circ}$\\
+			\hline
+			\textit{dip}    & $0$ & $^{\circ}$\\
+			\hline
+			\textit{rake}   & $0$  & $^{\circ}$\\
+			\hline
+			$x_c$   & 0  & m\\
+			\hline          
+			$y_c$   & 0  & m\\
+			\hline                
+			$z_c$   & 1000  & m\\
+			\hline
+			$\mathbf{M}_{R}$*  & 100, $0$, $0$ & $A/m$, $^{\circ}$, $^{\circ}$ \\
+			\hline
+			$\mathbf{B}_{0}$*   & 60000, $90$, $20$ & $nT$, $^{\circ}$, $^{\circ}$\\
+			\hline
+			$k_{1}$, $k_{2}$, $k_{3}$   & 50, 50, 50  & SI, SI, SI\\
+			\hline
+			Orientação das colunas da matriz $\mathbf{U}$**   & $0$, $90$, $90$  & $^{\circ}$,  $^{\circ}$,  $^{\circ}$\\
+			\hline
+		\end{tabular}
+		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulos de \textit{strike}, \textit{dip}  e \textit{rake}, respectivamente, utilizados para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$, $\mathbf{u}_{3}$ por meio das Eqs. \ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate} e \ref{eq:v3_triaxial_prolate}.}
+	\end{center}
+	\label{tab:ellipsoid_shape_iso10}
+\end{table}
+
+\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{lc}
+			
+			&  \\
+			& \\
+			& \\
+			&  \\
+			& \\
+			& \\
+			& \\
+			& \\
+			& \\
+			& \\
+			
+			
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\begin{figure}[hbt!]
+	\centering \includegraphics[width=16 cm,height=16 cm]{figures/ellipsoid_shape_iso}
+	\caption[Simulação, da mudança do vetor de magnetização resultante (Eq. \ref{eq:M-KH}), de um elipsoide triaxial com o aumento do semi-eixo maior. O elipsoide está imerso em um campo externo constante de declinação $90^{\circ}$, possui susceptibilidade constante e direcionado com um azimute de $10^{\circ}$. Ao longo da sequência das figuras, seu semi-eixo maior aumenta de proporção em relação aos demais (variando entre 50 e 3000 m.). Nota-se a tendência do vetor de magnetização resultante (seta em vermelho) em se alinhar com o semi-eixo maior. Diferente da figura anterior, houve pouca mudança na declinação devido ao alinhamento do elipsoide com a campo externo.]
+	{Simulação, da mudança do vetor de magnetização resultante (Eq. \ref{eq:M-KH}), de um elipsoide triaxial com o aumento do semi-eixo maior. O elipsoide está imerso em um campo externo constante de declinação $90^{\circ}$, possui susceptibilidade constante e direcionado com um azimute de $10^{\circ}$. Ao longo da sequência das figuras, seu semi-eixo maior aumenta de proporção em relação aos demais (variando entre 50 e 3000 m.). Nota-se a tendência do vetor de magnetização resultante (seta em vermelho) em se alinhar com o semi-eixo maior. Diferente da figura anterior, houve pouca mudança na declinação devido ao alinhamento do elipsoide com a campo externo.}
+	\label{fig:ellipsoid_shape_iso10}
+\end{figure}
+
+\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{lc}
+			
+			& \\
+			& \\
+			& \\
+			& \\
+			& \\
+			
+		\end{tabular}
+	\end{center}
+\end{table}
+
+Para efeito de comparação realizamos o mesmo teste, porém com um azimute de 80$^{\circ}$ para o elipsoide. A variação é bem menor, mas também se confirma a tendência do alinhamento do vetor de magnetização resultante para a direção do semi-eixo maior.
+
+\vspace{2cm}
+
+\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{|l|c|c|}
+			\hline
+			\textbf{Parâmetro}  & \textbf{Valor}  & \textbf{Unidade }\\
+			\hline 
+			$a$, $b$, $c$  & 50,1-1000, 50, 49,9 & m, m, m\\
+			\hline
+			\textit{strike}   & $80$ & $^{\circ}$\\
+			\hline
+			\textit{dip}    & $0$ & $^{\circ}$\\
+			\hline
+			\textit{rake}   & $0$  & $^{\circ}$\\
+			\hline
+			$x_c$   & 0  & m\\
+			\hline          
+			$y_c$   & 0  & m\\
+			\hline                
+			$z_c$   & 1000  & m\\
+			\hline
+			$\mathbf{M}_{R}$*  & 100, $0$, $0$ & $A/m$, $^{\circ}$, $^{\circ}$ \\
+			\hline
+			$\mathbf{B}_{0}$*   & 60000, $90$, $20$ & $nT$, $^{\circ}$, $^{\circ}$\\
+			\hline
+			$k_{1}$, $k_{2}$, $k_{3}$   & 50, 50, 50  & SI, SI, SI\\
+			\hline
+			Orientação das colunas da matriz $\mathbf{U}$**   & $0$, $90$, $90$  & $^{\circ}$,  $^{\circ}$,  $^{\circ}$\\
+			\hline
+		\end{tabular}
+		\caption{Parâmetros do elipsoide triaxial modelado. *Valores de intensidade, inclinação e declinação respectivamente. **Ângulos de \textit{strike}, \textit{dip}  e \textit{rake}, respectivamente, utilizados para calcular os vetores unitários $\mathbf{u}_{1}$, $\mathbf{u}_{2}$, $\mathbf{u}_{3}$ por meio das Eqs. \ref{eq:v1_triaxial_prolate}, \ref{eq:v2_triaxial_prolate} e \ref{eq:v3_triaxial_prolate}.}
+	\end{center}
+	\label{tab:ellipsoid_shape_iso80}
+\end{table}
+
+\begin{figure}[hbt!]
+	\centering \includegraphics[width=16 cm,height=16 cm]{figures/ellipsoid_shape_iso2}
+	\caption[Simulação, da mudança do vetor de magnetização resultante (Eq. \ref{eq:M-KH}), de um elipsoide triaxial com o aumento do semi-eixo maior. O elipsoide está imerso em um campo externo constante de declinação $90^{\circ}$, possui susceptibilidade constante e direcionado com um azimute de $80^{\circ}$. Ao longo da sequência das figuras, seu semi-eixo maior aumenta de proporção em relação aos demais (variando entre 50 e 3000 m.). Nota-se a tendência do vetor de magnetização resultante (seta em vermelho) em se alinhar com o semi-eixo maior. Diferente da figura anterior, houve pouca mudança na declinação devido ao alinhamento do elipsoide com a campo externo.]
+	{Simulação, da mudança do vetor de magnetização resultante (Eq. \ref{eq:M-KH}), de um elipsoide triaxial com o aumento do semi-eixo maior. O elipsoide está imerso em um campo externo constante de declinação $90^{\circ}$, possui susceptibilidade constante e direcionado com um azimute de $80^{\circ}$. Ao longo da sequência das figuras, seu semi-eixo maior aumenta de proporção em relação aos demais (variando entre 50 e 3000 m.). Nota-se a tendência do vetor de magnetização resultante (seta em vermelho) em se alinhar com o semi-eixo maior. Diferente da figura anterior, houve pouca mudança na declinação devido ao alinhamento do elipsoide com a campo externo.}
+	\label{fig:ellipsoid_shape_iso80}
 \end{figure}
