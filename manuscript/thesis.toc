@@ -21,10 +21,11 @@
 \contentsline {section}{\numberline {4.3}Compara\IeC {\c c}\IeC {\~o}es entre a $\Delta T (\mathbf {r})$ produzida por modelos elipsoidais similares}{37}{section.4.3}
 \contentsline {section}{\numberline {4.4}Susceptibilidade}{44}{section.4.4}
 \contentsline {section}{\numberline {4.5}Anisotropia de forma}{46}{section.4.5}
-\contentsline {chapter}{\numberline {5}Conclus\IeC {\~o}es}{50}{chapter.5}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{52}{chapter*.12}
-\contentsline {chapter}{\numberline {A}Rela\IeC {\c c}\IeC {\~a}o entre as derivadas das fun\IeC {\c c}\IeC {\~o}es $f(\mathbf {r})$ e $\mathaccentV {tilde}07E{f}(\mathaccentV {tilde}07E{\mathbf {r}})$}{57}{appendix.A}
-\contentsline {chapter}{\numberline {B}Par\IeC {\^a}metro $\lambda $ e suas derivadas espaciais}{59}{appendix.B}
-\contentsline {section}{\numberline {B.1}Par\IeC {\^a}metro $\lambda $ definido para os elipsoides triaxiais}{59}{section.B.1}
-\contentsline {section}{\numberline {B.2}Par\IeC {\^a}metro $\lambda $ que define os elipsoides prolatos e oblatos}{61}{section.B.2}
-\contentsline {section}{\numberline {B.3}Derivadas espaciais do par\IeC {\^a}metro $\lambda $}{62}{section.B.3}
+\contentsline {chapter}{\numberline {5}Conclus\IeC {\~o}es}{48}{chapter.5}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{50}{chapter*.12}
+\contentsline {chapter}{\numberline {A}Rela\IeC {\c c}\IeC {\~a}o entre as derivadas das fun\IeC {\c c}\IeC {\~o}es $f(\mathbf {r})$ e $\mathaccentV {tilde}07E{f}(\mathaccentV {tilde}07E{\mathbf {r}})$}{55}{appendix.A}
+\contentsline {chapter}{\numberline {B}Par\IeC {\^a}metro $\lambda $ e suas derivadas espaciais}{57}{appendix.B}
+\contentsline {section}{\numberline {B.1}Par\IeC {\^a}metro $\lambda $ definido para os elipsoides triaxiais}{57}{section.B.1}
+\contentsline {section}{\numberline {B.2}Par\IeC {\^a}metro $\lambda $ que define os elipsoides prolatos e oblatos}{59}{section.B.2}
+\contentsline {section}{\numberline {B.3}Derivadas espaciais do par\IeC {\^a}metro $\lambda $}{60}{section.B.3}
+\contentsline {chapter}{\numberline {C}Lista de s\IeC {\'\i }mbolos}{61}{appendix.C}
