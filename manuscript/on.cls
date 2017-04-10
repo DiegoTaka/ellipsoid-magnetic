@@ -169,7 +169,7 @@ T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX\spacefactor1000}
   \pagenumbering{roman}
   \thispagestyle{empty}
   \setcounter{page}{2}
-  \makefrontpage
+  %\makefrontpage
   \clearpage
   \pagestyle{plain}
   \ifthenelse{\boolean{maledoc}}{}{\makecatalog}%
